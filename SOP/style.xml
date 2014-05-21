@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data_set type="StyleSet">
+  <attribute name="name">
+    <value>Styles</value>
+  </attribute>
+  <data_model type="Style">
+    <attribute name="name">
+      <value>Default</value>
+    </attribute>
+    <attribute name="Precision">
+      <value>0</value>
+    </attribute>
+    <attribute name="Separator">
+      <value>true</value>
+    </attribute>
+    <attribute name="Time_Format">
+      <value> </value>
+    </attribute>
+    <data_model type="Style">
+      <attribute name="name">
+        <value>Percent</value>
+      </attribute>
+      <attribute name="Suffix">
+        <value>%</value>
+      </attribute>
+      <attribute name="ScaleFactor">
+        <value>0.01</value>
+      </attribute>
+    </data_model>
+    <data_model type="Style">
+      <attribute name="name">
+        <value>Roubles</value>
+      </attribute>
+    </data_model>
+    <data_model type="Style">
+      <attribute name="name">
+        <value>Units</value>
+      </attribute>
+    </data_model>
+    <data_model type="Style">
+      <attribute name="name">
+        <value>Blank</value>
+      </attribute>
+      <attribute name="TextStyle">
+        <value> </value>
+      </attribute>
+      <attribute name="TextSize">
+        <value> </value>
+      </attribute>
+      <attribute name="TextColor">
+        <value>51,51,51</value>
+      </attribute>
+      <attribute name="BackgroundColor">
+        <value>0,0,0</value>
+      </attribute>
+      <attribute name="Alignment">
+        <value> </value>
+      </attribute>
+    </data_model>
+    <data_model type="Style">
+      <attribute name="name">
+        <value>Real</value>
+      </attribute>
+      <attribute name="Precision">
+        <value>2</value>
+      </attribute>
+    </data_model>
+    <data_model type="Style">
+      <attribute name="name">
+        <value>Date</value>
+      </attribute>
+      <attribute name="TextFont">
+        <value> </value>
+      </attribute>
+      <attribute name="TextStyle">
+        <value> </value>
+      </attribute>
+      <attribute name="Alignment">
+        <value>Left</value>
+      </attribute>
+      <attribute name="Time_Format">
+        <value>No Time</value>
+      </attribute>
+    </data_model>
+  </data_model>
+</data_set>

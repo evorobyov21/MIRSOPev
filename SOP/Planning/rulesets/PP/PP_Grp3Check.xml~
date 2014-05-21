@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data_set type="com.retek.ride.rule.newmodel.RuleGroup">
+  <attribute name="name">
+    <value>PP_Grp3Check</value>
+  </attribute>
+  <attribute name="description">
+    <value>a rule group</value>
+  </attribute>
+  <attribute name="role">
+    <value>user</value>
+  </attribute>
+  <data_model type="com.retek.ride.rule.newmodel.Rule">
+    <attribute name="name">
+      <value>PPCheck_PPWpCheckT</value>
+    </attribute>
+    <attribute name="description">
+      <value>a rule</value>
+    </attribute>
+    <attribute name="creator">
+      <value>user</value>
+    </attribute>
+    <data_model type="java.lang.String">
+      <attribute name="name">
+        <value>E0</value>
+      </attribute>
+      <attribute name="formula">
+        <value>PPWpCheckT=if(PPWpCheckNegB.or==true,"Результаты проверки: ошибка! Есть отрицательные значения в мере Продажи РП. Группы с отрицательными планами можно найти с помощью меры РОПП Отрицательный РП, да/нет. ",if(PPWpCheckAssortB.or==true,"Результаты проверки: ошибка! Есть планы по группам 3, не представленным в ассортиментной матрице СК. Ошибочные группы можно найти с помощью меры Проверка ассортиментной матрицы, да/нет.", if(PPWpGrp3CheckB.or==true,"Результаты проверки: ошибка! Есть планы по группам 3, не имеющих активных позиций. Ошибочные группы 3 можно найти с помощью меры Проверка групп 3.","Результаты проверки: ошибок нет.")))</value>
+      </attribute>
+    </data_model>
+  </data_model>
+</data_set>

@@ -1,0 +1,463 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data_set type="Workbook">
+  <attribute name="name">
+    <value>Workbook0</value>
+  </attribute>
+  <attribute name="Label">
+    <value>Внешние данные</value>
+  </attribute>
+  <attribute name="WorkbookGroup">
+    <value>PlanningAdm</value>
+  </attribute>
+  <attribute name="WorkbookGroupLabel">
+    <value>Planning Administration</value>
+  </attribute>
+  <attribute name="WorkbookLib">
+    <value>Templates</value>
+  </attribute>
+  <attribute name="WorkbookType">
+    <value>DynamicTemplate</value>
+  </attribute>
+  <attribute name="IsWizardOnly">
+    <value>false</value>
+  </attribute>
+  <attribute name="IsImageEnabled">
+    <value>false</value>
+  </attribute>
+  <attribute name="RuleSet">
+    <value>LD</value>
+  </attribute>
+  <attribute name="LoadRules">
+    <value>LD_load</value>
+  </attribute>
+  <attribute name="CommitRules">
+    <value>LD_commit</value>
+  </attribute>
+  <attribute name="CalcRules">
+    <value>LD_calc</value>
+  </attribute>
+  <attribute name="RefreshRules">
+    <value>LD_refresh</value>
+  </attribute>
+  <attribute name="IsUseDefaults">
+    <value>true</value>
+  </attribute>
+  <attribute name="DpmDimensions">
+    <value></value>
+  </attribute>
+  <attribute name="IsCustomWizard">
+    <value>false</value>
+  </attribute>
+  <data_model type="AxisInfo">
+    <attribute name="name">
+      <value>AxisInfo</value>
+    </attribute>
+    <attribute name="CLNDAxis">
+      <value>XAxis</value>
+    </attribute>
+    <attribute name="CLNDOrder">
+      <value>0</value>
+    </attribute>
+    <attribute name="PRODAxis">
+      <value>YAxis</value>
+    </attribute>
+    <attribute name="PRODOrder">
+      <value>0</value>
+    </attribute>
+    <attribute name="MEASAxis">
+      <value>ZAxis</value>
+    </attribute>
+    <attribute name="MEASOrder">
+      <value>0</value>
+    </attribute>
+    <attribute name="LOCAxis">
+      <value>ZAxis</value>
+    </attribute>
+    <attribute name="LOCOrder">
+      <value>1</value>
+    </attribute>
+  </data_model>
+  <data_model type="Wizards">
+    <attribute name="name">
+      <value>Wizards</value>
+    </attribute>
+    <data_model type="Wizard">
+      <attribute name="name">
+        <value>CLNDWizard</value>
+      </attribute>
+      <attribute name="CLNDOrder">
+        <value>0</value>
+      </attribute>
+      <attribute name="CLNDDim">
+        <value>mnth</value>
+      </attribute>
+      <attribute name="CLNDLLabel">
+        <value>Выберите период</value>
+      </attribute>
+      <attribute name="CLNDRLabel">
+        <value>Выбранный период</value>
+      </attribute>
+      <attribute name="CLNDMaxPos">
+        <value>-1</value>
+      </attribute>
+      <attribute name="CLNDWizardLabel">
+        <value></value>
+      </attribute>
+    </data_model>
+    <data_model type="Wizard">
+      <attribute name="name">
+        <value>PRODWizard</value>
+      </attribute>
+      <attribute name="PRODOrder">
+        <value>1</value>
+      </attribute>
+      <attribute name="PRODDim">
+        <value>skup</value>
+      </attribute>
+      <attribute name="PRODLLabel">
+        <value>Выберите товары</value>
+      </attribute>
+      <attribute name="PRODRLabel">
+        <value>Выбранные товары</value>
+      </attribute>
+      <attribute name="PRODMaxPos">
+        <value>-1</value>
+      </attribute>
+      <attribute name="PRODWizardLabel">
+        <value></value>
+      </attribute>
+    </data_model>
+    <data_model type="Wizard">
+      <attribute name="name">
+        <value>LOCWizard</value>
+      </attribute>
+      <attribute name="LOCOrder">
+        <value>2</value>
+      </attribute>
+      <attribute name="LOCDim">
+        <value>str</value>
+      </attribute>
+      <attribute name="LOCLLabel">
+        <value>Выберите СК</value>
+      </attribute>
+      <attribute name="LOCRLabel">
+        <value>Выбранные СК</value>
+      </attribute>
+      <attribute name="LOCMaxPos">
+        <value>-1</value>
+      </attribute>
+      <attribute name="LOCWizardLabel">
+        <value></value>
+      </attribute>
+    </data_model>
+  </data_model>
+  <data_model type="WorkbookTabs">
+    <attribute name="name">
+      <value>WorkbookTabs</value>
+    </attribute>
+    <data_model type="WorkbookTab">
+      <attribute name="name">
+        <value>WorkbookTab3</value>
+      </attribute>
+      <attribute name="Label">
+        <value>Внешние данные</value>
+      </attribute>
+      <data_model type="Worksheets">
+        <attribute name="name">
+          <value>Worksheets</value>
+        </attribute>
+        <data_model type="Worksheet">
+          <attribute name="name">
+            <value>Worksheet31</value>
+          </attribute>
+          <attribute name="Label">
+            <value>Внешние данные</value>
+          </attribute>
+          <attribute name="WorksheetIntersection">
+            <value>mnth_tsku_str</value>
+          </attribute>
+          <attribute name="IsUseDefaultAxis">
+            <value>true</value>
+          </attribute>
+          <data_model type="Profiles">
+            <attribute name="name">
+              <value>Profiles</value>
+            </attribute>
+            <data_model type="Profile">
+              <attribute name="name">
+                <value>Viewable</value>
+              </attribute>
+              <attribute name="Label">
+                <value>Viewable</value>
+              </attribute>
+              <attribute name="Measures">
+                <value>LDCuERcptRCRl0</value>
+                <value>LDCuERcptRCUl0</value>
+                <value>LDCuERcptRl0</value>
+                <value>LDCuERcptUl0</value>
+                <value>LDCuMkdP</value>
+                <value>LDCuOSRCUDb</value>
+                <value>LDCuOSUDb</value>
+                <value>LDCuPriceR</value>
+                <value>LDL2DaysGdUDb</value>
+                <value>LDL2DaysPerUDb</value>
+                <value>LDL2SlsRDb</value>
+                <value>LDL2SlsRLDb</value>
+                <value>LDL2SlsUDb</value>
+                <value>LDL2StCostRDb</value>
+                <value>LDL3DaysGdUDb</value>
+                <value>LDL3DaysPerUDb</value>
+                <value>LDL3SlsRDb</value>
+                <value>LDL3SlsRLDb</value>
+                <value>LDL3SlsUDb</value>
+                <value>LDL3StCostRDb</value>
+                <value>LDLyDaysGdUDb</value>
+                <value>LDLyDaysPerUDb</value>
+                <value>LDLySlsRDb</value>
+                <value>LDLySlsRLDb</value>
+                <value>LDLySlsUDb</value>
+                <value>LDLyStCostRDb</value>
+                <value>LDTyDaysGdUDb</value>
+                <value>LDTyDaysPerUDb</value>
+                <value>LDTySlsRDb</value>
+                <value>LDTySlsRLDb</value>
+                <value>LDTySlsUDb</value>
+                <value>LDTyStCostRDb</value>
+                <value>DRCuOSU</value>
+                <value>LDCuSupplyU</value>
+                <value>LDCuCurSuppRCKU</value>
+                <value>LDCuCurSuppRCMU</value>
+                <value>DRCuOSRCU</value>
+                <value>LDCuCurSuppRCU</value>
+                <value>LDCuCurSuppRCMCKU</value>
+                <value>LDCuCurSuppGKU</value>
+                <value>LDCuSupplyRL</value>
+                <value>LDCuCurSuppGKRL</value>
+                <value>LDCuCurSuppRCKRL</value>
+                <value>LDCuCurSuppRCMCKRL</value>
+                <value>LDCuCurSuppRCMRL</value>
+                <value>LDCuCurSuppRCRL</value>
+              </attribute>
+              <attribute name="MeasureName">
+                <value>LDCuERcptRCRl0</value>
+                <value>LDCuERcptRCUl0</value>
+                <value>LDCuERcptRl0</value>
+                <value>LDCuERcptUl0</value>
+                <value>LDCuMkdP</value>
+                <value>LDCuOSRCUDb</value>
+                <value>LDCuOSUDb</value>
+                <value>LDCuPriceR</value>
+                <value>LDL2DaysGdUDb</value>
+                <value>LDL2DaysPerUDb</value>
+                <value>LDL2SlsRDb</value>
+                <value>LDL2SlsRLDb</value>
+                <value>LDL2SlsUDb</value>
+                <value>LDL2StCostRDb</value>
+                <value>LDL3DaysGdUDb</value>
+                <value>LDL3DaysPerUDb</value>
+                <value>LDL3SlsRDb</value>
+                <value>LDL3SlsRLDb</value>
+                <value>LDL3SlsUDb</value>
+                <value>LDL3StCostRDb</value>
+                <value>LDLyDaysGdUDb</value>
+                <value>LDLyDaysPerUDb</value>
+                <value>LDLySlsRDb</value>
+                <value>LDLySlsRLDb</value>
+                <value>LDLySlsUDb</value>
+                <value>LDLyStCostRDb</value>
+                <value>LDTyDaysGdUDb</value>
+                <value>LDTyDaysPerUDb</value>
+                <value>LDTySlsRDb</value>
+                <value>LDTySlsRLDb</value>
+                <value>LDTySlsUDb</value>
+                <value>LDTyStCostRDb</value>
+                <value>DRCuOSU</value>
+                <value>LDCuSupplyU</value>
+                <value>LDCuCurSuppRCKU</value>
+                <value>LDCuCurSuppRCMU</value>
+                <value>DRCuOSRCU</value>
+                <value>LDCuCurSuppRCU</value>
+                <value>LDCuCurSuppRCMCKU</value>
+                <value>LDCuCurSuppGKU</value>
+                <value>LDCuSupplyRL</value>
+                <value>LDCuCurSuppGKRL</value>
+                <value>LDCuCurSuppRCKRL</value>
+                <value>LDCuCurSuppRCMCKRL</value>
+                <value>LDCuCurSuppRCMRL</value>
+                <value>LDCuCurSuppRCRL</value>
+              </attribute>
+            </data_model>
+            <data_model type="Profile">
+              <attribute name="name">
+                <value>Default</value>
+              </attribute>
+              <attribute name="Label">
+                <value>Default</value>
+              </attribute>
+              <attribute name="Measures">
+                <value>LDCuERcptRCRl0</value>
+                <value>LDCuERcptRCUl0</value>
+                <value>LDCuERcptRl0</value>
+                <value>LDCuERcptUl0</value>
+                <value>LDCuMkdP</value>
+                <value>LDCuOSRCUDb</value>
+                <value>LDCuOSUDb</value>
+                <value>LDCuPriceR</value>
+                <value>LDL2DaysGdUDb</value>
+                <value>LDL2DaysPerUDb</value>
+                <value>LDL2SlsRDb</value>
+                <value>LDL2SlsRLDb</value>
+                <value>LDL2SlsUDb</value>
+                <value>LDL2StCostRDb</value>
+                <value>LDL3DaysGdUDb</value>
+                <value>LDL3DaysPerUDb</value>
+                <value>LDL3SlsRDb</value>
+                <value>LDL3SlsRLDb</value>
+                <value>LDL3SlsUDb</value>
+                <value>LDL3StCostRDb</value>
+                <value>LDLyDaysGdUDb</value>
+                <value>LDLyDaysPerUDb</value>
+                <value>LDLySlsRDb</value>
+                <value>LDLySlsRLDb</value>
+                <value>LDLySlsUDb</value>
+                <value>LDLyStCostRDb</value>
+                <value>LDTyDaysGdUDb</value>
+                <value>LDTyDaysPerUDb</value>
+                <value>LDTySlsRDb</value>
+                <value>LDTySlsRLDb</value>
+                <value>LDTySlsUDb</value>
+                <value>LDTyStCostRDb</value>
+              </attribute>
+              <attribute name="MeasureName">
+                <value>LDCuERcptRCRl0</value>
+                <value>LDCuERcptRCUl0</value>
+                <value>LDCuERcptRl0</value>
+                <value>LDCuERcptUl0</value>
+                <value>LDCuMkdP</value>
+                <value>LDCuOSRCUDb</value>
+                <value>LDCuOSUDb</value>
+                <value>LDCuPriceR</value>
+                <value>LDL2DaysGdUDb</value>
+                <value>LDL2DaysPerUDb</value>
+                <value>LDL2SlsRDb</value>
+                <value>LDL2SlsRLDb</value>
+                <value>LDL2SlsUDb</value>
+                <value>LDL2StCostRDb</value>
+                <value>LDL3DaysGdUDb</value>
+                <value>LDL3DaysPerUDb</value>
+                <value>LDL3SlsRDb</value>
+                <value>LDL3SlsRLDb</value>
+                <value>LDL3SlsUDb</value>
+                <value>LDL3StCostRDb</value>
+                <value>LDLyDaysGdUDb</value>
+                <value>LDLyDaysPerUDb</value>
+                <value>LDLySlsRDb</value>
+                <value>LDLySlsRLDb</value>
+                <value>LDLySlsUDb</value>
+                <value>LDLyStCostRDb</value>
+                <value>LDTyDaysGdUDb</value>
+                <value>LDTyDaysPerUDb</value>
+                <value>LDTySlsRDb</value>
+                <value>LDTySlsRLDb</value>
+                <value>LDTySlsUDb</value>
+                <value>LDTyStCostRDb</value>
+              </attribute>
+            </data_model>
+            <data_model type="Profile">
+              <attribute name="name">
+                <value>Profile0</value>
+              </attribute>
+              <attribute name="Label">
+                <value>Test Supplies</value>
+              </attribute>
+              <attribute name="Measures">
+                <value>LDCuPriceR</value>
+                <value>LDCuSupplyU</value>
+                <value>LDCuSupplyRL</value>
+                <value>LDCuCurSuppRCMU</value>
+                <value>LDCuCurSuppRCMRL</value>
+                <value>LDCuCurSuppRCMCKU</value>
+                <value>LDCuCurSuppRCMCKRL</value>
+                <value>LDCuCurSuppRCKU</value>
+                <value>LDCuCurSuppRCKRL</value>
+                <value>LDCuCurSuppRCU</value>
+                <value>LDCuCurSuppRCRL</value>
+                <value>LDCuCurSuppGKU</value>
+                <value>LDCuCurSuppGKRL</value>
+              </attribute>
+              <attribute name="MeasureName">
+                <value>LDCuPriceR</value>
+                <value>LDCuSupplyU</value>
+                <value>LDCuSupplyRL</value>
+                <value>LDCuCurSuppRCMU</value>
+                <value>LDCuCurSuppRCMRL</value>
+                <value>LDCuCurSuppRCMCKU</value>
+                <value>LDCuCurSuppRCMCKRL</value>
+                <value>LDCuCurSuppRCKU</value>
+                <value>LDCuCurSuppRCKRL</value>
+                <value>LDCuCurSuppRCU</value>
+                <value>LDCuCurSuppRCRL</value>
+                <value>LDCuCurSuppGKU</value>
+                <value>LDCuCurSuppGKRL</value>
+              </attribute>
+            </data_model>
+          </data_model>
+          <data_model type="AxisInfo">
+            <attribute name="name">
+              <value>AxisInfo</value>
+            </attribute>
+            <attribute name="CLNDAxis">
+              <value>XAxis</value>
+            </attribute>
+            <attribute name="CLNDOrder">
+              <value>0</value>
+            </attribute>
+            <attribute name="PRODAxis">
+              <value>YAxis</value>
+            </attribute>
+            <attribute name="PRODOrder">
+              <value>0</value>
+            </attribute>
+            <attribute name="MEASAxis">
+              <value>ZAxis</value>
+            </attribute>
+            <attribute name="MEASOrder">
+              <value>0</value>
+            </attribute>
+            <attribute name="LOCAxis">
+              <value>ZAxis</value>
+            </attribute>
+            <attribute name="LOCOrder">
+              <value>1</value>
+            </attribute>
+          </data_model>
+          <data_model type="PositionQueries">
+            <attribute name="name">
+              <value>PositionQueries</value>
+            </attribute>
+          </data_model>
+          <data_model type="StyleORs">
+            <attribute name="name">
+              <value>StyleORs</value>
+            </attribute>
+          </data_model>
+        </data_model>
+      </data_model>
+    </data_model>
+  </data_model>
+  <data_model type="DynHiers">
+    <attribute name="name">
+      <value>DynHiers</value>
+    </attribute>
+  </data_model>
+  <data_model type="EditedMeasures">
+    <attribute name="name">
+      <value>EditedMeasures</value>
+    </attribute>
+  </data_model>
+  <data_model type="PercentToParents">
+    <attribute name="name">
+      <value>PercentToParents</value>
+    </attribute>
+  </data_model>
+</data_set>

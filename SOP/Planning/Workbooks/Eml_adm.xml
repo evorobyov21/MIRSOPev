@@ -1,0 +1,810 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data_set type="Workbook">
+  <attribute name="name">
+    <value>Eml_adm</value>
+  </attribute>
+  <attribute name="Label">
+    <value>Email administration</value>
+  </attribute>
+  <attribute name="WorkbookGroup">
+    <value>PlanningAdm</value>
+  </attribute>
+  <attribute name="WorkbookGroupLabel">
+    <value>Planning Administration</value>
+  </attribute>
+  <attribute name="WorkbookLib">
+    <value>Templates</value>
+  </attribute>
+  <attribute name="WorkbookType">
+    <value>DynamicTemplate</value>
+  </attribute>
+  <attribute name="IsWizardOnly">
+    <value>false</value>
+  </attribute>
+  <attribute name="IsImageEnabled">
+    <value>false</value>
+  </attribute>
+  <attribute name="RuleSet">
+    <value>Eml_adm</value>
+  </attribute>
+  <attribute name="LoadRules">
+    <value>Eml_adm_load</value>
+  </attribute>
+  <attribute name="CommitRules">
+    <value>Eml_adm_commit</value>
+  </attribute>
+  <attribute name="CalcRules">
+    <value>Eml_adm_calc</value>
+  </attribute>
+  <attribute name="RefreshRules">
+    <value>Eml_adm_refresh</value>
+  </attribute>
+  <attribute name="IsUseDefaults">
+    <value>true</value>
+  </attribute>
+  <attribute name="DpmDimensions">
+    <value></value>
+  </attribute>
+  <attribute name="IsCustomWizard">
+    <value>false</value>
+  </attribute>
+  <data_model type="AxisInfo">
+    <attribute name="name">
+      <value>AxisInfo</value>
+    </attribute>
+    <attribute name="ADMUAxis">
+      <value>XAxis</value>
+    </attribute>
+    <attribute name="ADMUOrder">
+      <value>0</value>
+    </attribute>
+    <attribute name="MEASAxis">
+      <value>YAxis</value>
+    </attribute>
+    <attribute name="MEASOrder">
+      <value>0</value>
+    </attribute>
+    <attribute name="LOCAxis">
+      <value>ZAxis</value>
+    </attribute>
+    <attribute name="LOCOrder">
+      <value>0</value>
+    </attribute>
+    <attribute name="PRODAxis">
+      <value>ZAxis</value>
+    </attribute>
+    <attribute name="PRODOrder">
+      <value>1</value>
+    </attribute>
+  </data_model>
+  <data_model type="Wizards">
+    <attribute name="name">
+      <value>Wizards</value>
+    </attribute>
+  </data_model>
+  <data_model type="WorkbookTabs">
+    <attribute name="name">
+      <value>WorkbookTabs</value>
+    </attribute>
+    <data_model type="WorkbookTab">
+      <attribute name="name">
+        <value>WorkbookTab0</value>
+      </attribute>
+      <attribute name="Label">
+        <value>Email addresses</value>
+      </attribute>
+      <data_model type="Worksheets">
+        <attribute name="name">
+          <value>Worksheets</value>
+        </attribute>
+        <data_model type="Worksheet">
+          <attribute name="name">
+            <value>Worksheet0</value>
+          </attribute>
+          <attribute name="Label">
+            <value>Worksheet0</value>
+          </attribute>
+          <attribute name="WorksheetIntersection">
+            <value>user</value>
+          </attribute>
+          <attribute name="IsUseDefaultAxis">
+            <value>false</value>
+          </attribute>
+          <data_model type="Profiles">
+            <attribute name="name">
+              <value>Profiles</value>
+            </attribute>
+            <data_model type="Profile">
+              <attribute name="name">
+                <value>Viewable</value>
+              </attribute>
+              <attribute name="Label">
+                <value>Viewable</value>
+              </attribute>
+              <attribute name="Measures">
+                <value>EmailAddress</value>
+              </attribute>
+              <attribute name="MeasureName">
+                <value>EmailAddress</value>
+              </attribute>
+            </data_model>
+            <data_model type="Profile">
+              <attribute name="name">
+                <value>Default</value>
+              </attribute>
+              <attribute name="Label">
+                <value>Default</value>
+              </attribute>
+              <attribute name="Measures">
+                <value>EmailAddress</value>
+              </attribute>
+              <attribute name="MeasureName">
+                <value>EmailAddress</value>
+              </attribute>
+            </data_model>
+          </data_model>
+          <data_model type="AxisInfo">
+            <attribute name="name">
+              <value>AxisInfo</value>
+            </attribute>
+            <attribute name="MEASAxis">
+              <value>XAxis</value>
+            </attribute>
+            <attribute name="MEASOrder">
+              <value>0</value>
+            </attribute>
+            <attribute name="ADMUAxis">
+              <value>YAxis</value>
+            </attribute>
+            <attribute name="ADMUOrder">
+              <value>0</value>
+            </attribute>
+          </data_model>
+          <data_model type="PositionQueries">
+            <attribute name="name">
+              <value>PositionQueries</value>
+            </attribute>
+          </data_model>
+          <data_model type="StyleORs">
+            <attribute name="name">
+              <value>StyleORs</value>
+            </attribute>
+          </data_model>
+        </data_model>
+      </data_model>
+    </data_model>
+    <data_model type="WorkbookTab">
+      <attribute name="name">
+        <value>Tab_str</value>
+      </attribute>
+      <attribute name="Label">
+        <value>Str</value>
+      </attribute>
+      <data_model type="Worksheets">
+        <attribute name="name">
+          <value>Worksheets</value>
+        </attribute>
+        <data_model type="Worksheet">
+          <attribute name="name">
+            <value>EmlStr1Sheet</value>
+          </attribute>
+          <attribute name="Label">
+            <value>Str1</value>
+          </attribute>
+          <attribute name="WorksheetIntersection">
+            <value>str_user</value>
+          </attribute>
+          <attribute name="IsUseDefaultAxis">
+            <value>false</value>
+          </attribute>
+          <data_model type="Profiles">
+            <attribute name="name">
+              <value>Profiles</value>
+            </attribute>
+            <data_model type="Profile">
+              <attribute name="name">
+                <value>Viewable</value>
+              </attribute>
+              <attribute name="Label">
+                <value>Viewable</value>
+              </attribute>
+              <attribute name="Measures">
+                <value>KDOpEmailB</value>
+                <value>KDOpEmailMsgT</value>
+                <value>KDOpEmailSubjT</value>
+                <value>UPApEmailB</value>
+                <value>UPApEmailMsgT</value>
+                <value>UPApEmailSubjT</value>
+                <value>UPOpEmailB</value>
+                <value>UPOpEmailMsgT</value>
+                <value>UPOpEmailSubjT</value>
+              </attribute>
+              <attribute name="MeasureName">
+                <value>KDOpEmailB</value>
+                <value>KDOpEmailMsgT</value>
+                <value>KDOpEmailSubjT</value>
+                <value>UPApEmailB</value>
+                <value>UPApEmailMsgT</value>
+                <value>UPApEmailSubjT</value>
+                <value>UPOpEmailB</value>
+                <value>UPOpEmailMsgT</value>
+                <value>UPOpEmailSubjT</value>
+              </attribute>
+            </data_model>
+            <data_model type="Profile">
+              <attribute name="name">
+                <value>Default</value>
+              </attribute>
+              <attribute name="Label">
+                <value>Default</value>
+              </attribute>
+              <attribute name="Measures">
+                <value>KDOpEmailB</value>
+                <value>UPApEmailB</value>
+                <value>UPOpEmailB</value>
+              </attribute>
+              <attribute name="MeasureName">
+                <value>KDOpEmailB</value>
+                <value>UPApEmailB</value>
+                <value>UPOpEmailB</value>
+              </attribute>
+            </data_model>
+          </data_model>
+          <data_model type="AxisInfo">
+            <attribute name="name">
+              <value>AxisInfo</value>
+            </attribute>
+            <attribute name="ADMUAxis">
+              <value>XAxis</value>
+            </attribute>
+            <attribute name="ADMUOrder">
+              <value>0</value>
+            </attribute>
+            <attribute name="MEASAxis">
+              <value>YAxis</value>
+            </attribute>
+            <attribute name="MEASOrder">
+              <value>0</value>
+            </attribute>
+            <attribute name="LOCAxis">
+              <value>ZAxis</value>
+            </attribute>
+            <attribute name="LOCOrder">
+              <value>0</value>
+            </attribute>
+          </data_model>
+          <data_model type="PositionQueries">
+            <attribute name="name">
+              <value>PositionQueries</value>
+            </attribute>
+          </data_model>
+          <data_model type="StyleORs">
+            <attribute name="name">
+              <value>StyleORs</value>
+            </attribute>
+          </data_model>
+        </data_model>
+      </data_model>
+    </data_model>
+    <data_model type="WorkbookTab">
+      <attribute name="name">
+        <value>Tab_Grp3_str</value>
+      </attribute>
+      <attribute name="Label">
+        <value>Grp3 Str</value>
+      </attribute>
+      <data_model type="Worksheets">
+        <attribute name="name">
+          <value>Worksheets</value>
+        </attribute>
+        <data_model type="Worksheet">
+          <attribute name="name">
+            <value>EmlGrp3StrSheet</value>
+          </attribute>
+          <attribute name="Label">
+            <value>Grp3 Str</value>
+          </attribute>
+          <attribute name="WorksheetIntersection">
+            <value>grp3_str_user</value>
+          </attribute>
+          <attribute name="IsUseDefaultAxis">
+            <value>false</value>
+          </attribute>
+          <data_model type="Profiles">
+            <attribute name="name">
+              <value>Profiles</value>
+            </attribute>
+            <data_model type="Profile">
+              <attribute name="name">
+                <value>Viewable</value>
+              </attribute>
+              <attribute name="Label">
+                <value>Viewable</value>
+              </attribute>
+              <attribute name="Measures">
+                <value>PPApEmailB</value>
+                <value>PPApEmailMsgT</value>
+                <value>PPApEmailSubjT</value>
+                <value>PPOpEmailB</value>
+                <value>PPOpEmailMsgT</value>
+                <value>PPOpEmailSubjT</value>
+              </attribute>
+              <attribute name="MeasureName">
+                <value>PPApEmailB</value>
+                <value>PPApEmailMsgT</value>
+                <value>PPApEmailSubjT</value>
+                <value>PPOpEmailB</value>
+                <value>PPOpEmailMsgT</value>
+                <value>PPOpEmailSubjT</value>
+              </attribute>
+            </data_model>
+            <data_model type="Profile">
+              <attribute name="name">
+                <value>Default</value>
+              </attribute>
+              <attribute name="Label">
+                <value>Default</value>
+              </attribute>
+              <attribute name="Measures">
+                <value>PPApEmailB</value>
+                <value>PPOpEmailB</value>
+              </attribute>
+              <attribute name="MeasureName">
+                <value>PPApEmailB</value>
+                <value>PPOpEmailB</value>
+              </attribute>
+            </data_model>
+          </data_model>
+          <data_model type="AxisInfo">
+            <attribute name="name">
+              <value>AxisInfo</value>
+            </attribute>
+            <attribute name="ADMUAxis">
+              <value>XAxis</value>
+            </attribute>
+            <attribute name="ADMUOrder">
+              <value>0</value>
+            </attribute>
+            <attribute name="MEASAxis">
+              <value>YAxis</value>
+            </attribute>
+            <attribute name="MEASOrder">
+              <value>0</value>
+            </attribute>
+            <attribute name="PRODAxis">
+              <value>ZAxis</value>
+            </attribute>
+            <attribute name="PRODOrder">
+              <value>0</value>
+            </attribute>
+            <attribute name="LOCAxis">
+              <value>ZAxis</value>
+            </attribute>
+            <attribute name="LOCOrder">
+              <value>1</value>
+            </attribute>
+          </data_model>
+          <data_model type="PositionQueries">
+            <attribute name="name">
+              <value>PositionQueries</value>
+            </attribute>
+          </data_model>
+          <data_model type="StyleORs">
+            <attribute name="name">
+              <value>StyleORs</value>
+            </attribute>
+          </data_model>
+        </data_model>
+      </data_model>
+    </data_model>
+    <data_model type="WorkbookTab">
+      <attribute name="name">
+        <value>Tab_SKU</value>
+      </attribute>
+      <attribute name="Label">
+        <value>SKU</value>
+      </attribute>
+      <data_model type="Worksheets">
+        <attribute name="name">
+          <value>Worksheets</value>
+        </attribute>
+        <data_model type="Worksheet">
+          <attribute name="name">
+            <value>EmlSkupSheet</value>
+          </attribute>
+          <attribute name="Label">
+            <value>PM</value>
+          </attribute>
+          <attribute name="WorksheetIntersection">
+            <value>skup_user</value>
+          </attribute>
+          <attribute name="IsUseDefaultAxis">
+            <value>false</value>
+          </attribute>
+          <data_model type="Profiles">
+            <attribute name="name">
+              <value>Profiles</value>
+            </attribute>
+            <data_model type="Profile">
+              <attribute name="name">
+                <value>Viewable</value>
+              </attribute>
+              <attribute name="Label">
+                <value>Viewable</value>
+              </attribute>
+              <attribute name="Measures">
+                <value>KMApEmailB</value>
+                <value>KMApEmailMsgT</value>
+                <value>KMApEmailSubjT</value>
+                <value>PMApEmailB</value>
+                <value>PMApEmailMsgT</value>
+                <value>PMApEmailSubjT</value>
+                <value>PMOpEmailB</value>
+                <value>PMOpEmailMsgT</value>
+                <value>PMOpEmailSubjT</value>
+              </attribute>
+              <attribute name="MeasureName">
+                <value>KMApEmailB</value>
+                <value>KMApEmailMsgT</value>
+                <value>KMApEmailSubjT</value>
+                <value>PMApEmailB</value>
+                <value>PMApEmailMsgT</value>
+                <value>PMApEmailSubjT</value>
+                <value>PMOpEmailB</value>
+                <value>PMOpEmailMsgT</value>
+                <value>PMOpEmailSubjT</value>
+              </attribute>
+            </data_model>
+            <data_model type="Profile">
+              <attribute name="name">
+                <value>Default</value>
+              </attribute>
+              <attribute name="Label">
+                <value>Default</value>
+              </attribute>
+              <attribute name="Measures">
+                <value>KMApEmailB</value>
+                <value>PMApEmailB</value>
+                <value>PMOpEmailB</value>
+              </attribute>
+              <attribute name="MeasureName">
+                <value>KMApEmailB</value>
+                <value>PMApEmailB</value>
+                <value>PMOpEmailB</value>
+              </attribute>
+            </data_model>
+          </data_model>
+          <data_model type="AxisInfo">
+            <attribute name="name">
+              <value>AxisInfo</value>
+            </attribute>
+            <attribute name="ADMUAxis">
+              <value>XAxis</value>
+            </attribute>
+            <attribute name="ADMUOrder">
+              <value>0</value>
+            </attribute>
+            <attribute name="MEASAxis">
+              <value>YAxis</value>
+            </attribute>
+            <attribute name="MEASOrder">
+              <value>0</value>
+            </attribute>
+            <attribute name="PRODAxis">
+              <value>ZAxis</value>
+            </attribute>
+            <attribute name="PRODOrder">
+              <value>0</value>
+            </attribute>
+          </data_model>
+          <data_model type="PositionQueries">
+            <attribute name="name">
+              <value>PositionQueries</value>
+            </attribute>
+          </data_model>
+          <data_model type="StyleORs">
+            <attribute name="name">
+              <value>StyleORs</value>
+            </attribute>
+          </data_model>
+        </data_model>
+      </data_model>
+    </data_model>
+    <data_model type="WorkbookTab">
+      <attribute name="name">
+        <value>Tab_Skup_str</value>
+      </attribute>
+      <attribute name="Label">
+        <value>SKU Str</value>
+      </attribute>
+      <data_model type="Worksheets">
+        <attribute name="name">
+          <value>Worksheets</value>
+        </attribute>
+        <data_model type="Worksheet">
+          <attribute name="name">
+            <value>EmlSkupStrSheet</value>
+          </attribute>
+          <attribute name="Label">
+            <value>SKU Str</value>
+          </attribute>
+          <attribute name="WorksheetIntersection">
+            <value>skup_str_user</value>
+          </attribute>
+          <attribute name="IsUseDefaultAxis">
+            <value>false</value>
+          </attribute>
+          <data_model type="Profiles">
+            <attribute name="name">
+              <value>Profiles</value>
+            </attribute>
+            <data_model type="Profile">
+              <attribute name="name">
+                <value>Viewable</value>
+              </attribute>
+              <attribute name="Label">
+                <value>Viewable</value>
+              </attribute>
+              <attribute name="Measures">
+                <value>AAApEmailB</value>
+                <value>AAApEmailMsgT</value>
+                <value>AAApEmailSubjT</value>
+                <value>ASOpEmailB</value>
+                <value>ASOpEmailMsgT</value>
+                <value>ASOpEmailSubjT</value>
+                <value>GLCpEmailB</value>
+                <value>GLCpEmailMsgT</value>
+                <value>GLCpEmailSubjT</value>
+              </attribute>
+              <attribute name="MeasureName">
+                <value>AAApEmailB</value>
+                <value>AAApEmailMsgT</value>
+                <value>AAApEmailSubjT</value>
+                <value>ASOpEmailB</value>
+                <value>ASOpEmailMsgT</value>
+                <value>ASOpEmailSubjT</value>
+                <value>GLCpEmailB</value>
+                <value>GLCpEmailMsgT</value>
+                <value>GLCpEmailSubjT</value>
+              </attribute>
+            </data_model>
+            <data_model type="Profile">
+              <attribute name="name">
+                <value>Default</value>
+              </attribute>
+              <attribute name="Label">
+                <value>Default</value>
+              </attribute>
+              <attribute name="Measures">
+                <value>AAApEmailB</value>
+                <value>ASOpEmailB</value>
+                <value>GLCpEmailB</value>
+              </attribute>
+              <attribute name="MeasureName">
+                <value>AAApEmailB</value>
+                <value>ASOpEmailB</value>
+                <value>GLCpEmailB</value>
+              </attribute>
+            </data_model>
+          </data_model>
+          <data_model type="AxisInfo">
+            <attribute name="name">
+              <value>AxisInfo</value>
+            </attribute>
+            <attribute name="ADMUAxis">
+              <value>XAxis</value>
+            </attribute>
+            <attribute name="ADMUOrder">
+              <value>0</value>
+            </attribute>
+            <attribute name="MEASAxis">
+              <value>YAxis</value>
+            </attribute>
+            <attribute name="MEASOrder">
+              <value>0</value>
+            </attribute>
+            <attribute name="LOCAxis">
+              <value>ZAxis</value>
+            </attribute>
+            <attribute name="LOCOrder">
+              <value>0</value>
+            </attribute>
+            <attribute name="PRODAxis">
+              <value>ZAxis</value>
+            </attribute>
+            <attribute name="PRODOrder">
+              <value>1</value>
+            </attribute>
+          </data_model>
+          <data_model type="PositionQueries">
+            <attribute name="name">
+              <value>PositionQueries</value>
+            </attribute>
+          </data_model>
+          <data_model type="StyleORs">
+            <attribute name="name">
+              <value>StyleORs</value>
+            </attribute>
+          </data_model>
+        </data_model>
+      </data_model>
+    </data_model>
+    <data_model type="WorkbookTab">
+      <attribute name="name">
+        <value>EMailMsgTab</value>
+      </attribute>
+      <attribute name="Label">
+        <value>Messages</value>
+      </attribute>
+      <data_model type="Worksheets">
+        <attribute name="name">
+          <value>Worksheets</value>
+        </attribute>
+        <data_model type="Worksheet">
+          <attribute name="name">
+            <value>EmlStr2Sheet</value>
+          </attribute>
+          <attribute name="Label">
+            <value>Str2</value>
+          </attribute>
+          <attribute name="IsUseDefaultAxis">
+            <value>false</value>
+          </attribute>
+          <data_model type="Profiles">
+            <attribute name="name">
+              <value>Profiles</value>
+            </attribute>
+            <data_model type="Profile">
+              <attribute name="name">
+                <value>Viewable</value>
+              </attribute>
+              <attribute name="Label">
+                <value>Viewable</value>
+              </attribute>
+              <attribute name="Measures">
+                <value>AAApEmailMsgT</value>
+                <value>AAApEmailSubjT</value>
+                <value>ASOpEmailMsgT</value>
+                <value>ASOpEmailSubjT</value>
+                <value>KDOpEmailMsgT</value>
+                <value>KDOpEmailSubjT</value>
+                <value>KMApEmailMsgT</value>
+                <value>KMApEmailSubjT</value>
+                <value>PMApEmailMsgT</value>
+                <value>PMApEmailSubjT</value>
+                <value>PMOpEmailMsgT</value>
+                <value>PMOpEmailSubjT</value>
+                <value>PPApEmailMsgT</value>
+                <value>PPApEmailSubjT</value>
+                <value>PPOpEmailMsgT</value>
+                <value>PPOpEmailSubjT</value>
+                <value>UPApEmailMsgT</value>
+                <value>UPApEmailSubjT</value>
+                <value>UPOpEmailMsgT</value>
+                <value>UPOpEmailSubjT</value>
+                <value>GLCpEmailMsgT</value>
+                <value>GLCpEmailSubjT</value>
+              </attribute>
+              <attribute name="MeasureName">
+                <value>AAApEmailMsgT</value>
+                <value>AAApEmailSubjT</value>
+                <value>ASOpEmailMsgT</value>
+                <value>ASOpEmailSubjT</value>
+                <value>KDOpEmailMsgT</value>
+                <value>KDOpEmailSubjT</value>
+                <value>KMApEmailMsgT</value>
+                <value>KMApEmailSubjT</value>
+                <value>PMApEmailMsgT</value>
+                <value>PMApEmailSubjT</value>
+                <value>PMOpEmailMsgT</value>
+                <value>PMOpEmailSubjT</value>
+                <value>PPApEmailMsgT</value>
+                <value>PPApEmailSubjT</value>
+                <value>PPOpEmailMsgT</value>
+                <value>PPOpEmailSubjT</value>
+                <value>UPApEmailMsgT</value>
+                <value>UPApEmailSubjT</value>
+                <value>UPOpEmailMsgT</value>
+                <value>UPOpEmailSubjT</value>
+                <value>GLCpEmailMsgT</value>
+                <value>GLCpEmailSubjT</value>
+              </attribute>
+            </data_model>
+            <data_model type="Profile">
+              <attribute name="name">
+                <value>Default</value>
+              </attribute>
+              <attribute name="Label">
+                <value>Default</value>
+              </attribute>
+              <attribute name="Measures">
+                <value>AAApEmailMsgT</value>
+                <value>AAApEmailSubjT</value>
+                <value>ASOpEmailMsgT</value>
+                <value>ASOpEmailSubjT</value>
+                <value>KDOpEmailMsgT</value>
+                <value>KDOpEmailSubjT</value>
+                <value>KMApEmailMsgT</value>
+                <value>KMApEmailSubjT</value>
+                <value>PMApEmailMsgT</value>
+                <value>PMApEmailSubjT</value>
+                <value>PMOpEmailMsgT</value>
+                <value>PMOpEmailSubjT</value>
+                <value>PPApEmailMsgT</value>
+                <value>PPApEmailSubjT</value>
+                <value>PPOpEmailMsgT</value>
+                <value>PPOpEmailSubjT</value>
+                <value>UPApEmailMsgT</value>
+                <value>UPApEmailSubjT</value>
+                <value>UPOpEmailMsgT</value>
+                <value>UPOpEmailSubjT</value>
+                <value>GLCpEmailMsgT</value>
+                <value>GLCpEmailSubjT</value>
+              </attribute>
+              <attribute name="MeasureName">
+                <value>AAApEmailMsgT</value>
+                <value>AAApEmailSubjT</value>
+                <value>ASOpEmailMsgT</value>
+                <value>ASOpEmailSubjT</value>
+                <value>KDOpEmailMsgT</value>
+                <value>KDOpEmailSubjT</value>
+                <value>KMApEmailMsgT</value>
+                <value>KMApEmailSubjT</value>
+                <value>PMApEmailMsgT</value>
+                <value>PMApEmailSubjT</value>
+                <value>PMOpEmailMsgT</value>
+                <value>PMOpEmailSubjT</value>
+                <value>PPApEmailMsgT</value>
+                <value>PPApEmailSubjT</value>
+                <value>PPOpEmailMsgT</value>
+                <value>PPOpEmailSubjT</value>
+                <value>UPApEmailMsgT</value>
+                <value>UPApEmailSubjT</value>
+                <value>UPOpEmailMsgT</value>
+                <value>UPOpEmailSubjT</value>
+                <value>GLCpEmailMsgT</value>
+                <value>GLCpEmailSubjT</value>
+              </attribute>
+            </data_model>
+          </data_model>
+          <data_model type="AxisInfo">
+            <attribute name="name">
+              <value>AxisInfo</value>
+            </attribute>
+            <attribute name="MEASAxis">
+              <value>YAxis</value>
+            </attribute>
+            <attribute name="MEASOrder">
+              <value>0</value>
+            </attribute>
+          </data_model>
+          <data_model type="PositionQueries">
+            <attribute name="name">
+              <value>PositionQueries</value>
+            </attribute>
+          </data_model>
+          <data_model type="StyleORs">
+            <attribute name="name">
+              <value>StyleORs</value>
+            </attribute>
+          </data_model>
+        </data_model>
+      </data_model>
+    </data_model>
+  </data_model>
+  <data_model type="DynHiers">
+    <attribute name="name">
+      <value>DynHiers</value>
+    </attribute>
+  </data_model>
+  <data_model type="EditedMeasures">
+    <attribute name="name">
+      <value>EditedMeasures</value>
+    </attribute>
+  </data_model>
+  <data_model type="PercentToParents">
+    <attribute name="name">
+      <value>PercentToParents</value>
+    </attribute>
+  </data_model>
+</data_set>

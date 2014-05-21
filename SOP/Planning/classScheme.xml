@@ -1,0 +1,4470 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data_set type="ClassScheme">
+  <attribute name="name">
+    <value>scheme</value>
+  </attribute>
+  <data_model type="MeasureClass">
+    <attribute name="name">
+      <value>Role</value>
+    </attribute>
+    <attribute name="label">
+      <value>Role</value>
+    </attribute>
+    <attribute name="type">
+      <value>#UNSPECIFIED#</value>
+    </attribute>
+    <attribute name="baseint">
+      <value>#DAY_SKUP_STR#</value>
+    </attribute>
+    <attribute name="insertable">
+      <value>false</value>
+    </attribute>
+    <data_model type="MeasureClass">
+      <attribute name="name">
+        <value>SD</value>
+      </attribute>
+      <attribute name="label">
+        <value>SD</value>
+      </attribute>
+    </data_model>
+    <data_model type="MeasureClass">
+      <attribute name="name">
+        <value>FD</value>
+      </attribute>
+      <attribute name="label">
+        <value>FD</value>
+      </attribute>
+    </data_model>
+    <data_model type="MeasureClass">
+      <attribute name="name">
+        <value>CS</value>
+      </attribute>
+      <attribute name="label">
+        <value>CS</value>
+      </attribute>
+      <attribute name="db">
+        <value>data/CS</value>
+      </attribute>
+    </data_model>
+    <data_model type="MeasureClass">
+      <attribute name="name">
+        <value>UA</value>
+      </attribute>
+      <attribute name="label">
+        <value>UA</value>
+      </attribute>
+    </data_model>
+    <data_model type="MeasureClass">
+      <attribute name="name">
+        <value>UP</value>
+      </attribute>
+      <attribute name="label">
+        <value>DUPr</value>
+      </attribute>
+      <attribute name="baseint">
+        <value>mnth_str</value>
+      </attribute>
+      <attribute name="db">
+        <value>data/UP</value>
+      </attribute>
+    </data_model>
+    <data_model type="MeasureClass">
+      <attribute name="name">
+        <value>KD</value>
+      </attribute>
+      <attribute name="label">
+        <value>KDSK</value>
+      </attribute>
+      <attribute name="baseint">
+        <value>mnth_str</value>
+      </attribute>
+      <attribute name="db">
+        <value>data/KD</value>
+      </attribute>
+    </data_model>
+    <data_model type="MeasureClass">
+      <attribute name="name">
+        <value>PP</value>
+      </attribute>
+      <attribute name="label">
+        <value>ROPP</value>
+      </attribute>
+      <attribute name="baseint">
+        <value>mnth_skup_str</value>
+      </attribute>
+      <attribute name="db">
+        <value>data/PP</value>
+      </attribute>
+    </data_model>
+    <data_model type="MeasureClass">
+      <attribute name="name">
+        <value>LD</value>
+      </attribute>
+      <attribute name="label">
+        <value>Loaded data</value>
+      </attribute>
+      <attribute name="baseint">
+        <value>mnth_tsku_str</value>
+      </attribute>
+      <attribute name="db">
+        <value>data/LD</value>
+      </attribute>
+    </data_model>
+    <data_model type="MeasureClass">
+      <attribute name="name">
+        <value>PM</value>
+      </attribute>
+      <attribute name="label">
+        <value>PM</value>
+      </attribute>
+      <attribute name="baseint">
+        <value>mnth_skup_top</value>
+      </attribute>
+      <attribute name="db">
+        <value>data/PM</value>
+      </attribute>
+    </data_model>
+    <data_model type="MeasureClass">
+      <attribute name="name">
+        <value>PD</value>
+      </attribute>
+      <attribute name="label">
+        <value>PD</value>
+      </attribute>
+      <attribute name="baseint">
+        <value>mnth_skup_str</value>
+      </attribute>
+      <attribute name="db">
+        <value>data/PD</value>
+      </attribute>
+    </data_model>
+    <data_model type="MeasureClass">
+      <attribute name="name">
+        <value>AS</value>
+      </attribute>
+      <attribute name="label">
+        <value>AS</value>
+      </attribute>
+      <attribute name="baseint">
+        <value>mnth_skup_str</value>
+      </attribute>
+      <attribute name="db">
+        <value>data/AS</value>
+      </attribute>
+    </data_model>
+    <data_model type="MeasureClass">
+      <attribute name="name">
+        <value>AA</value>
+      </attribute>
+      <attribute name="label">
+        <value>AA</value>
+      </attribute>
+      <attribute name="baseint">
+        <value>mnth_skup_str</value>
+      </attribute>
+      <attribute name="db">
+        <value>data/AA</value>
+      </attribute>
+    </data_model>
+    <data_model type="MeasureClass">
+      <attribute name="name">
+        <value>GL</value>
+      </attribute>
+      <attribute name="label">
+        <value>General</value>
+      </attribute>
+      <attribute name="baseint">
+        <value>mnth_skup_str</value>
+      </attribute>
+      <attribute name="db">
+        <value>data/GL</value>
+      </attribute>
+    </data_model>
+    <data_model type="MeasureClass">
+      <attribute name="name">
+        <value>RM</value>
+      </attribute>
+      <attribute name="label">
+        <value>RM</value>
+      </attribute>
+      <attribute name="description">
+        <value>Rukovoditel PM</value>
+      </attribute>
+      <attribute name="baseint">
+        <value>mnth_skup_top</value>
+      </attribute>
+      <attribute name="db">
+        <value>data/RM</value>
+      </attribute>
+    </data_model>
+    <data_model type="MeasureClass">
+      <attribute name="name">
+        <value>KM</value>
+      </attribute>
+      <attribute name="label">
+        <value>KM</value>
+      </attribute>
+      <attribute name="description">
+        <value>Korrektor PM</value>
+      </attribute>
+      <attribute name="type">
+        <value>#UNSPECIFIED#</value>
+      </attribute>
+      <attribute name="baseint">
+        <value>mnth_skup_top</value>
+      </attribute>
+      <attribute name="db">
+        <value>data/KM</value>
+      </attribute>
+    </data_model>
+    <data_model type="MeasureClass">
+      <attribute name="name">
+        <value>IN</value>
+      </attribute>
+      <attribute name="label">
+        <value>Internal</value>
+      </attribute>
+    </data_model>
+    <data_model type="MeasureClass">
+      <attribute name="name">
+        <value>SR</value>
+      </attribute>
+      <attribute name="label">
+        <value>Security Role</value>
+      </attribute>
+      <attribute name="baseint">
+        <value>#UNSPECIFIED#</value>
+      </attribute>
+      <attribute name="basestate">
+        <value>#UNSPECIFIED#</value>
+      </attribute>
+      <attribute name="db">
+        <value>data/sec</value>
+      </attribute>
+    </data_model>
+    <data_model type="MeasureClass">
+      <attribute name="name">
+        <value>SU</value>
+      </attribute>
+      <attribute name="label">
+        <value>Security User</value>
+      </attribute>
+      <attribute name="baseint">
+        <value>user</value>
+      </attribute>
+      <attribute name="db">
+        <value>data/sec</value>
+      </attribute>
+    </data_model>
+    <data_model type="MeasureClass">
+      <attribute name="name">
+        <value>AP</value>
+      </attribute>
+      <attribute name="label">
+        <value>Analitik OPP</value>
+      </attribute>
+      <attribute name="baseint">
+        <value>mnth_skup_str</value>
+      </attribute>
+      <attribute name="db">
+        <value>data/AP</value>
+      </attribute>
+    </data_model>
+    <data_model type="MeasureClass">
+      <attribute name="name">
+        <value>DR</value>
+      </attribute>
+      <attribute name="label">
+        <value>Draft</value>
+      </attribute>
+      <attribute name="baseint">
+        <value>#UNSPECIFIED#</value>
+      </attribute>
+      <attribute name="db">
+        <value>data/DR</value>
+      </attribute>
+    </data_model>
+    <data_model type="MeasureClass">
+      <attribute name="name">
+        <value>Id</value>
+      </attribute>
+      <attribute name="label">
+        <value>Id</value>
+      </attribute>
+    </data_model>
+  </data_model>
+  <data_model type="MeasureClass">
+    <attribute name="name">
+      <value>Version</value>
+    </attribute>
+    <attribute name="label">
+      <value>Version</value>
+    </attribute>
+    <attribute name="basestate">
+      <value>write</value>
+    </attribute>
+    <attribute name="aggstate">
+      <value>#UNSPECIFIED#</value>
+    </attribute>
+    <data_model type="MeasureClass">
+      <attribute name="name">
+        <value>Wp</value>
+      </attribute>
+      <attribute name="label">
+        <value>Working plan</value>
+      </attribute>
+    </data_model>
+    <data_model type="MeasureClass">
+      <attribute name="name">
+        <value>Op</value>
+      </attribute>
+      <attribute name="label">
+        <value>Published plan</value>
+      </attribute>
+      <attribute name="basestate">
+        <value>read</value>
+      </attribute>
+      <attribute name="aggstate">
+        <value>read</value>
+      </attribute>
+    </data_model>
+    <data_model type="MeasureClass">
+      <attribute name="name">
+        <value>Cp</value>
+      </attribute>
+      <attribute name="label">
+        <value>Current plan</value>
+      </attribute>
+      <attribute name="basestate">
+        <value>read</value>
+      </attribute>
+      <attribute name="aggstate">
+        <value>read</value>
+      </attribute>
+    </data_model>
+    <data_model type="MeasureClass">
+      <attribute name="name">
+        <value>Wa</value>
+      </attribute>
+      <attribute name="label">
+        <value>Waiting approval</value>
+      </attribute>
+      <attribute name="basestate">
+        <value>read</value>
+      </attribute>
+      <attribute name="aggstate">
+        <value>read</value>
+      </attribute>
+    </data_model>
+    <data_model type="MeasureClass">
+      <attribute name="name">
+        <value>Fc</value>
+      </attribute>
+      <attribute name="label">
+        <value>Fc</value>
+      </attribute>
+      <attribute name="basestate">
+        <value>read</value>
+      </attribute>
+      <attribute name="aggstate">
+        <value>read</value>
+      </attribute>
+    </data_model>
+    <data_model type="MeasureClass">
+      <attribute name="name">
+        <value>TC</value>
+      </attribute>
+      <attribute name="label">
+        <value>This year/Current plan</value>
+      </attribute>
+    </data_model>
+    <data_model type="MeasureClass">
+      <attribute name="name">
+        <value>Bg</value>
+      </attribute>
+      <attribute name="label">
+        <value>Budget</value>
+      </attribute>
+      <attribute name="basestate">
+        <value>read</value>
+      </attribute>
+      <attribute name="aggstate">
+        <value>read</value>
+      </attribute>
+    </data_model>
+    <data_model type="MeasureClass">
+      <attribute name="name">
+        <value>Cu</value>
+      </attribute>
+      <attribute name="label">
+        <value>Current</value>
+      </attribute>
+      <attribute name="basestate">
+        <value>read</value>
+      </attribute>
+      <attribute name="aggstate">
+        <value>read</value>
+      </attribute>
+    </data_model>
+    <data_model type="MeasureClass">
+      <attribute name="name">
+        <value>Ad</value>
+      </attribute>
+      <attribute name="label">
+        <value>Adjusted plan</value>
+      </attribute>
+    </data_model>
+    <data_model type="MeasureClass">
+      <attribute name="name">
+        <value>WL</value>
+      </attribute>
+      <attribute name="label">
+        <value>Working plan over year</value>
+      </attribute>
+    </data_model>
+    <data_model type="MeasureClass">
+      <attribute name="name">
+        <value>LM</value>
+      </attribute>
+      <attribute name="label">
+        <value>Last month</value>
+      </attribute>
+      <attribute name="basestate">
+        <value>read</value>
+      </attribute>
+      <attribute name="aggstate">
+        <value>read</value>
+      </attribute>
+    </data_model>
+    <data_model type="MeasureClass">
+      <attribute name="name">
+        <value>Ap</value>
+      </attribute>
+      <attribute name="label">
+        <value>Approved</value>
+      </attribute>
+      <attribute name="basestate">
+        <value>read</value>
+      </attribute>
+      <attribute name="aggstate">
+        <value>read</value>
+      </attribute>
+    </data_model>
+    <data_model type="MeasureClass">
+      <attribute name="name">
+        <value>Years</value>
+      </attribute>
+      <attribute name="label">
+        <value>Years</value>
+      </attribute>
+      <data_model type="MeasureClass">
+        <attribute name="name">
+          <value>Ty</value>
+        </attribute>
+        <attribute name="label">
+          <value>This year</value>
+        </attribute>
+        <attribute name="basestate">
+          <value>read</value>
+        </attribute>
+        <attribute name="aggstate">
+          <value>read</value>
+        </attribute>
+      </data_model>
+      <data_model type="MeasureClass">
+        <attribute name="name">
+          <value>Ly</value>
+        </attribute>
+        <attribute name="label">
+          <value>Last year</value>
+        </attribute>
+        <attribute name="basestate">
+          <value>read</value>
+        </attribute>
+        <attribute name="aggstate">
+          <value>read</value>
+        </attribute>
+      </data_model>
+      <data_model type="MeasureClass">
+        <attribute name="name">
+          <value>L2</value>
+        </attribute>
+        <attribute name="label">
+          <value>2 Years ago</value>
+        </attribute>
+        <attribute name="basestate">
+          <value>read</value>
+        </attribute>
+        <attribute name="aggstate">
+          <value>read</value>
+        </attribute>
+      </data_model>
+      <data_model type="MeasureClass">
+        <attribute name="name">
+          <value>L3</value>
+        </attribute>
+        <attribute name="label">
+          <value>3 Years ago</value>
+        </attribute>
+        <attribute name="basestate">
+          <value>read</value>
+        </attribute>
+        <attribute name="aggstate">
+          <value>read</value>
+        </attribute>
+      </data_model>
+      <data_model type="MeasureClass">
+        <attribute name="name">
+          <value>LT</value>
+        </attribute>
+        <attribute name="label">
+          <value>LY transfered</value>
+        </attribute>
+      </data_model>
+    </data_model>
+    <data_model type="MeasureClass">
+      <attribute name="name">
+        <value>Temp</value>
+      </attribute>
+      <attribute name="label">
+        <value>Temp versions</value>
+      </attribute>
+      <data_model type="MeasureClass">
+        <attribute name="name">
+          <value>T1</value>
+        </attribute>
+        <attribute name="label">
+          <value>Temp 1</value>
+        </attribute>
+      </data_model>
+      <data_model type="MeasureClass">
+        <attribute name="name">
+          <value>T2</value>
+        </attribute>
+        <attribute name="label">
+          <value>Temp 2</value>
+        </attribute>
+      </data_model>
+      <data_model type="MeasureClass">
+        <attribute name="name">
+          <value>T3</value>
+        </attribute>
+        <attribute name="label">
+          <value>Temp 3</value>
+        </attribute>
+      </data_model>
+      <data_model type="MeasureClass">
+        <attribute name="name">
+          <value>T4</value>
+        </attribute>
+        <attribute name="label">
+          <value>Temp 4</value>
+        </attribute>
+      </data_model>
+    </data_model>
+    <data_model type="MeasureClass">
+      <attribute name="name">
+        <value>AutoSpread</value>
+      </attribute>
+      <attribute name="label">
+        <value>Autospread</value>
+      </attribute>
+      <data_model type="MeasureClass">
+        <attribute name="name">
+          <value>A1</value>
+        </attribute>
+        <attribute name="label">
+          <value>A1</value>
+        </attribute>
+      </data_model>
+      <data_model type="MeasureClass">
+        <attribute name="name">
+          <value>A2</value>
+        </attribute>
+        <attribute name="label">
+          <value>A2</value>
+        </attribute>
+      </data_model>
+      <data_model type="MeasureClass">
+        <attribute name="name">
+          <value>A3</value>
+        </attribute>
+        <attribute name="label">
+          <value>A3</value>
+        </attribute>
+      </data_model>
+      <data_model type="MeasureClass">
+        <attribute name="name">
+          <value>A4</value>
+        </attribute>
+        <attribute name="label">
+          <value>A4</value>
+        </attribute>
+      </data_model>
+    </data_model>
+    <data_model type="MeasureClass">
+      <attribute name="name">
+        <value>Tm</value>
+      </attribute>
+      <attribute name="label">
+        <value>Temporary</value>
+      </attribute>
+    </data_model>
+    <data_model type="MeasureClass">
+      <attribute name="name">
+        <value>Or</value>
+      </attribute>
+      <attribute name="label">
+        <value>Original</value>
+      </attribute>
+    </data_model>
+  </data_model>
+  <data_model type="MeasureClass">
+    <attribute name="name">
+      <value>Facts</value>
+    </attribute>
+    <attribute name="label">
+      <value>Facts</value>
+    </attribute>
+    <attribute name="insertable">
+      <value>#UNSPECIFIED#</value>
+    </attribute>
+    <data_model type="MeasureClass">
+      <attribute name="name">
+        <value>Sales</value>
+      </attribute>
+      <attribute name="label">
+        <value>Sales</value>
+      </attribute>
+      <data_model type="MeasureClass">
+        <attribute name="name">
+          <value>Sls</value>
+        </attribute>
+        <attribute name="label">
+          <value>Sales</value>
+        </attribute>
+      </data_model>
+      <data_model type="MeasureClass">
+        <attribute name="name">
+          <value>SlsAR</value>
+        </attribute>
+        <attribute name="label">
+          <value>Sales auto spread</value>
+        </attribute>
+        <attribute name="basestate">
+          <value>read</value>
+        </attribute>
+      </data_model>
+      <data_model type="MeasureClass">
+        <attribute name="name">
+          <value>SlsLag</value>
+        </attribute>
+        <attribute name="label">
+          <value>Sales Lag</value>
+        </attribute>
+      </data_model>
+      <data_model type="MeasureClass">
+        <attribute name="name">
+          <value>SlsF</value>
+        </attribute>
+        <attribute name="label">
+          <value>Sales Filtered</value>
+        </attribute>
+      </data_model>
+      <data_model type="MeasureClass">
+        <attribute name="name">
+          <value>SlsForbid</value>
+        </attribute>
+        <attribute name="label">
+          <value>SlsForbid</value>
+        </attribute>
+      </data_model>
+      <data_model type="MeasureClass">
+        <attribute name="name">
+          <value>SlsActive</value>
+        </attribute>
+        <attribute name="label">
+          <value>SlsActive</value>
+        </attribute>
+      </data_model>
+      <data_model type="MeasureClass">
+        <attribute name="name">
+          <value>SlsForPub</value>
+        </attribute>
+        <attribute name="label">
+          <value>Sales for Pub/App</value>
+        </attribute>
+      </data_model>
+      <data_model type="MeasureClass">
+        <attribute name="name">
+          <value>SlsAssort</value>
+        </attribute>
+        <attribute name="label">
+          <value>Sales Assort</value>
+        </attribute>
+      </data_model>
+    </data_model>
+    <data_model type="MeasureClass">
+      <attribute name="name">
+        <value>Margin</value>
+      </attribute>
+      <attribute name="label">
+        <value>Margin</value>
+      </attribute>
+      <data_model type="MeasureClass">
+        <attribute name="name">
+          <value>GM</value>
+        </attribute>
+        <attribute name="label">
+          <value>GM</value>
+        </attribute>
+      </data_model>
+      <data_model type="MeasureClass">
+        <attribute name="name">
+          <value>GMAR</value>
+        </attribute>
+        <attribute name="label">
+          <value>GM auto spread</value>
+        </attribute>
+      </data_model>
+      <data_model type="MeasureClass">
+        <attribute name="name">
+          <value>GMVAR</value>
+        </attribute>
+        <attribute name="label">
+          <value>Margin var AR</value>
+        </attribute>
+      </data_model>
+      <data_model type="MeasureClass">
+        <attribute name="name">
+          <value>GMVTy</value>
+        </attribute>
+        <attribute name="label">
+          <value>Margin var Ty</value>
+        </attribute>
+      </data_model>
+      <data_model type="MeasureClass">
+        <attribute name="name">
+          <value>GMVTyInc</value>
+        </attribute>
+        <attribute name="label">
+          <value>Margin var Ty Inc</value>
+        </attribute>
+      </data_model>
+    </data_model>
+    <data_model type="MeasureClass">
+      <attribute name="name">
+        <value>Static</value>
+      </attribute>
+      <attribute name="label">
+        <value>Static</value>
+      </attribute>
+      <data_model type="MeasureClass">
+        <attribute name="name">
+          <value>Price</value>
+        </attribute>
+        <attribute name="label">
+          <value>Price</value>
+        </attribute>
+      </data_model>
+      <data_model type="MeasureClass">
+        <attribute name="name">
+          <value>Cost</value>
+        </attribute>
+        <attribute name="label">
+          <value>Cost</value>
+        </attribute>
+      </data_model>
+      <data_model type="MeasureClass">
+        <attribute name="name">
+          <value>MDPrice</value>
+        </attribute>
+        <attribute name="label">
+          <value>Markdown price</value>
+        </attribute>
+      </data_model>
+      <data_model type="MeasureClass">
+        <attribute name="name">
+          <value>StCost</value>
+        </attribute>
+        <attribute name="label">
+          <value>Cost on Stock</value>
+        </attribute>
+      </data_model>
+    </data_model>
+    <data_model type="MeasureClass">
+      <attribute name="name">
+        <value>Markdowns</value>
+      </attribute>
+      <attribute name="label">
+        <value>Markdowns</value>
+      </attribute>
+      <data_model type="MeasureClass">
+        <attribute name="name">
+          <value>Mkd</value>
+        </attribute>
+        <attribute name="label">
+          <value>Markdown</value>
+        </attribute>
+      </data_model>
+      <data_model type="MeasureClass">
+        <attribute name="name">
+          <value>MkdAv</value>
+        </attribute>
+        <attribute name="label">
+          <value>Markdown Average</value>
+        </attribute>
+      </data_model>
+      <data_model type="MeasureClass">
+        <attribute name="name">
+          <value>MkdSku</value>
+        </attribute>
+        <attribute name="label">
+          <value>Markdown at SKU</value>
+        </attribute>
+      </data_model>
+    </data_model>
+    <data_model type="MeasureClass">
+      <attribute name="name">
+        <value>Presence</value>
+      </attribute>
+      <attribute name="label">
+        <value>Presence</value>
+      </attribute>
+      <data_model type="MeasureClass">
+        <attribute name="name">
+          <value>Present</value>
+        </attribute>
+        <attribute name="label">
+          <value>Present</value>
+        </attribute>
+      </data_model>
+      <data_model type="MeasureClass">
+        <attribute name="name">
+          <value>DaysPer</value>
+        </attribute>
+        <attribute name="label">
+          <value>Days in period</value>
+        </attribute>
+      </data_model>
+      <data_model type="MeasureClass">
+        <attribute name="name">
+          <value>DaysGd</value>
+        </attribute>
+        <attribute name="label">
+          <value>Days good</value>
+        </attribute>
+      </data_model>
+    </data_model>
+    <data_model type="MeasureClass">
+      <attribute name="name">
+        <value>Demand</value>
+      </attribute>
+      <attribute name="label">
+        <value>Demand</value>
+      </attribute>
+      <data_model type="MeasureClass">
+        <attribute name="name">
+          <value>Dmd</value>
+        </attribute>
+        <attribute name="label">
+          <value>Demand</value>
+        </attribute>
+      </data_model>
+      <data_model type="MeasureClass">
+        <attribute name="name">
+          <value>DmdMape</value>
+        </attribute>
+        <attribute name="label">
+          <value>Demand MAPE</value>
+        </attribute>
+      </data_model>
+      <data_model type="MeasureClass">
+        <attribute name="name">
+          <value>DmdGM</value>
+        </attribute>
+        <attribute name="label">
+          <value>Demand GM</value>
+        </attribute>
+      </data_model>
+      <data_model type="MeasureClass">
+        <attribute name="name">
+          <value>DmdVLy</value>
+        </attribute>
+        <attribute name="label">
+          <value>Demand var Ly</value>
+        </attribute>
+      </data_model>
+      <data_model type="MeasureClass">
+        <attribute name="name">
+          <value>DmdGMVLy</value>
+        </attribute>
+        <attribute name="label">
+          <value>Demand GM var Ly</value>
+        </attribute>
+      </data_model>
+      <data_model type="MeasureClass">
+        <attribute name="name">
+          <value>DmdGMVFc</value>
+        </attribute>
+        <attribute name="label">
+          <value>Demand GM var Ly</value>
+        </attribute>
+      </data_model>
+      <data_model type="MeasureClass">
+        <attribute name="name">
+          <value>DmdMVTy</value>
+        </attribute>
+        <attribute name="label">
+          <value>Demand M var Ty</value>
+        </attribute>
+      </data_model>
+      <data_model type="MeasureClass">
+        <attribute name="name">
+          <value>DmdMVTyInc</value>
+        </attribute>
+        <attribute name="label">
+          <value>Demand M var Ty Inc</value>
+        </attribute>
+      </data_model>
+    </data_model>
+    <data_model type="MeasureClass">
+      <attribute name="name">
+        <value>Misc</value>
+      </attribute>
+      <attribute name="label">
+        <value>Miscellaneous</value>
+      </attribute>
+      <data_model type="MeasureClass">
+        <attribute name="name">
+          <value>Message</value>
+        </attribute>
+        <attribute name="label">
+          <value>Message</value>
+        </attribute>
+      </data_model>
+      <data_model type="MeasureClass">
+        <attribute name="name">
+          <value>MsgPub</value>
+        </attribute>
+        <attribute name="label">
+          <value>Pub message</value>
+        </attribute>
+        <attribute name="baseint">
+          <value>Scalar</value>
+        </attribute>
+      </data_model>
+      <data_model type="MeasureClass">
+        <attribute name="name">
+          <value>MsgApp</value>
+        </attribute>
+        <attribute name="label">
+          <value>App message</value>
+        </attribute>
+        <attribute name="baseint">
+          <value>Scalar</value>
+        </attribute>
+      </data_model>
+      <data_model type="MeasureClass">
+        <attribute name="name">
+          <value>elapsed</value>
+        </attribute>
+        <attribute name="label">
+          <value>elapsed</value>
+        </attribute>
+        <attribute name="baseint">
+          <value>day</value>
+        </attribute>
+      </data_model>
+      <data_model type="MeasureClass">
+        <attribute name="name">
+          <value>PlanPeriod</value>
+        </attribute>
+        <attribute name="label">
+          <value>Период планирования</value>
+        </attribute>
+      </data_model>
+      <data_model type="MeasureClass">
+        <attribute name="name">
+          <value>Email</value>
+        </attribute>
+        <attribute name="label">
+          <value>E-mail</value>
+        </attribute>
+        <attribute name="type">
+          <value>#UNSPECIFIED#</value>
+        </attribute>
+      </data_model>
+      <data_model type="MeasureClass">
+        <attribute name="name">
+          <value>EmailMsg</value>
+        </attribute>
+        <attribute name="label">
+          <value>E-mail message</value>
+        </attribute>
+      </data_model>
+      <data_model type="MeasureClass">
+        <attribute name="name">
+          <value>WbType</value>
+        </attribute>
+        <attribute name="label">
+          <value>WbType</value>
+        </attribute>
+        <attribute name="type">
+          <value>string</value>
+        </attribute>
+        <attribute name="baseint">
+          <value>Scalar</value>
+        </attribute>
+      </data_model>
+      <data_model type="MeasureClass">
+        <attribute name="name">
+          <value>EmailSubj</value>
+        </attribute>
+        <attribute name="label">
+          <value>E-mail Subject</value>
+        </attribute>
+      </data_model>
+      <data_model type="MeasureClass">
+        <attribute name="name">
+          <value>Assort</value>
+        </attribute>
+        <attribute name="label">
+          <value>Assortment</value>
+        </attribute>
+        <attribute name="baseint">
+          <value>skup_str</value>
+        </attribute>
+      </data_model>
+      <data_model type="MeasureClass">
+        <attribute name="name">
+          <value>PlanStart</value>
+        </attribute>
+        <attribute name="label">
+          <value>Start of planning period</value>
+        </attribute>
+      </data_model>
+      <data_model type="MeasureClass">
+        <attribute name="name">
+          <value>StatusProd</value>
+        </attribute>
+        <attribute name="label">
+          <value>Status Prod</value>
+        </attribute>
+        <attribute name="type">
+          <value>string</value>
+        </attribute>
+        <attribute name="baseint">
+          <value>stap</value>
+        </attribute>
+      </data_model>
+      <data_model type="MeasureClass">
+        <attribute name="name">
+          <value>SkupNew</value>
+        </attribute>
+        <attribute name="label">
+          <value>Skup with status New</value>
+        </attribute>
+      </data_model>
+      <data_model type="MeasureClass">
+        <attribute name="name">
+          <value>SkupNewSls</value>
+        </attribute>
+        <attribute name="label">
+          <value>Skup with status New in sale</value>
+        </attribute>
+      </data_model>
+      <data_model type="MeasureClass">
+        <attribute name="name">
+          <value>SkupAll</value>
+        </attribute>
+        <attribute name="label">
+          <value>Skup All</value>
+        </attribute>
+      </data_model>
+      <data_model type="MeasureClass">
+        <attribute name="name">
+          <value>SkupCancel</value>
+        </attribute>
+        <attribute name="label">
+          <value>Skup with status Cancel</value>
+        </attribute>
+      </data_model>
+      <data_model type="MeasureClass">
+        <attribute name="name">
+          <value>SkupDenied</value>
+        </attribute>
+        <attribute name="label">
+          <value>Skup with status Denied</value>
+        </attribute>
+      </data_model>
+      <data_model type="MeasureClass">
+        <attribute name="name">
+          <value>NonDelivery</value>
+        </attribute>
+        <attribute name="label">
+          <value>Non-delivery</value>
+        </attribute>
+      </data_model>
+      <data_model type="MeasureClass">
+        <attribute name="name">
+          <value>DlvrTime</value>
+        </attribute>
+        <attribute name="label">
+          <value>Delivery Time</value>
+        </attribute>
+      </data_model>
+      <data_model type="MeasureClass">
+        <attribute name="name">
+          <value>DlvrType</value>
+        </attribute>
+        <attribute name="label">
+          <value>Delivery Type</value>
+        </attribute>
+      </data_model>
+      <data_model type="MeasureClass">
+        <attribute name="name">
+          <value>Supplier</value>
+        </attribute>
+        <attribute name="label">
+          <value>Supplier</value>
+        </attribute>
+      </data_model>
+      <data_model type="MeasureClass">
+        <attribute name="name">
+          <value>MsgReturn</value>
+        </attribute>
+        <attribute name="label">
+          <value>Return message</value>
+        </attribute>
+        <attribute name="baseint">
+          <value>Scalar</value>
+        </attribute>
+      </data_model>
+      <data_model type="MeasureClass">
+        <attribute name="name">
+          <value>Multiplier</value>
+        </attribute>
+        <attribute name="label">
+          <value>Multiplier</value>
+        </attribute>
+      </data_model>
+      <data_model type="MeasureClass">
+        <attribute name="name">
+          <value>Msg</value>
+        </attribute>
+        <attribute name="label">
+          <value>Message</value>
+        </attribute>
+      </data_model>
+      <data_model type="MeasureClass">
+        <attribute name="name">
+          <value>NewMonth</value>
+        </attribute>
+        <attribute name="label">
+          <value>New Month</value>
+        </attribute>
+      </data_model>
+      <data_model type="MeasureClass">
+        <attribute name="name">
+          <value>AssortOne</value>
+        </attribute>
+        <attribute name="label">
+          <value>AssortOne</value>
+        </attribute>
+      </data_model>
+      <data_model type="MeasureClass">
+        <attribute name="name">
+          <value>ThisYear</value>
+        </attribute>
+        <attribute name="label">
+          <value>This Year</value>
+        </attribute>
+      </data_model>
+      <data_model type="MeasureClass">
+        <attribute name="name">
+          <value>AssortTSKU</value>
+        </attribute>
+        <attribute name="label">
+          <value>Assortment TSKU</value>
+        </attribute>
+      </data_model>
+      <data_model type="MeasureClass">
+        <attribute name="name">
+          <value>Summand</value>
+        </attribute>
+        <attribute name="label">
+          <value>Summand</value>
+        </attribute>
+      </data_model>
+      <data_model type="MeasureClass">
+        <attribute name="name">
+          <value>Profile</value>
+        </attribute>
+        <attribute name="label">
+          <value>Profile</value>
+        </attribute>
+      </data_model>
+      <data_model type="MeasureClass">
+        <attribute name="name">
+          <value>workday</value>
+        </attribute>
+        <attribute name="label">
+          <value>workday</value>
+        </attribute>
+      </data_model>
+      <data_model type="MeasureClass">
+        <attribute name="name">
+          <value>Changed</value>
+        </attribute>
+        <attribute name="label">
+          <value>Changed</value>
+        </attribute>
+      </data_model>
+      <data_model type="MeasureClass">
+        <attribute name="name">
+          <value>PreRangePM</value>
+        </attribute>
+        <attribute name="label">
+          <value>Pre-range PM</value>
+        </attribute>
+      </data_model>
+      <data_model type="MeasureClass">
+        <attribute name="name">
+          <value>OldMonth</value>
+        </attribute>
+        <attribute name="label">
+          <value>Old Month</value>
+        </attribute>
+      </data_model>
+      <data_model type="MeasureClass">
+        <attribute name="name">
+          <value>PartOfSK</value>
+        </attribute>
+        <attribute name="label">
+          <value>Part of SK</value>
+        </attribute>
+      </data_model>
+      <data_model type="MeasureClass">
+        <attribute name="name">
+          <value>LocIndex</value>
+        </attribute>
+        <attribute name="label">
+          <value>Component0000</value>
+        </attribute>
+      </data_model>
+      <data_model type="MeasureClass">
+        <attribute name="name">
+          <value>RCK</value>
+        </attribute>
+        <attribute name="label">
+          <value>Component0003</value>
+        </attribute>
+      </data_model>
+      <data_model type="MeasureClass">
+        <attribute name="name">
+          <value>Fcst</value>
+        </attribute>
+        <attribute name="label">
+          <value>Forecast</value>
+        </attribute>
+      </data_model>
+    </data_model>
+    <data_model type="MeasureClass">
+      <attribute name="name">
+        <value>Approval</value>
+      </attribute>
+      <attribute name="label">
+        <value>Approval</value>
+      </attribute>
+      <data_model type="MeasureClass">
+        <attribute name="name">
+          <value>App</value>
+        </attribute>
+        <attribute name="label">
+          <value>Approve</value>
+        </attribute>
+      </data_model>
+      <data_model type="MeasureClass">
+        <attribute name="name">
+          <value>Pub</value>
+        </attribute>
+        <attribute name="label">
+          <value>Publish</value>
+        </attribute>
+      </data_model>
+      <data_model type="MeasureClass">
+        <attribute name="name">
+          <value>AppBy</value>
+        </attribute>
+        <attribute name="label">
+          <value>Approved by</value>
+        </attribute>
+      </data_model>
+      <data_model type="MeasureClass">
+        <attribute name="name">
+          <value>PubBy</value>
+        </attribute>
+        <attribute name="label">
+          <value>Published by</value>
+        </attribute>
+      </data_model>
+      <data_model type="MeasureClass">
+        <attribute name="name">
+          <value>Status</value>
+        </attribute>
+        <attribute name="label">
+          <value>Status</value>
+        </attribute>
+      </data_model>
+      <data_model type="MeasureClass">
+        <attribute name="name">
+          <value>AppOld</value>
+        </attribute>
+        <attribute name="label">
+          <value>AppOld</value>
+        </attribute>
+      </data_model>
+      <data_model type="MeasureClass">
+        <attribute name="name">
+          <value>PubOld</value>
+        </attribute>
+        <attribute name="label">
+          <value>PubOld</value>
+        </attribute>
+      </data_model>
+      <data_model type="MeasureClass">
+        <attribute name="name">
+          <value>AppEnb</value>
+        </attribute>
+        <attribute name="label">
+          <value>Approve enabled</value>
+        </attribute>
+      </data_model>
+      <data_model type="MeasureClass">
+        <attribute name="name">
+          <value>PubEnb</value>
+        </attribute>
+        <attribute name="label">
+          <value>Publish enabled</value>
+        </attribute>
+      </data_model>
+      <data_model type="MeasureClass">
+        <attribute name="name">
+          <value>AppKD</value>
+        </attribute>
+        <attribute name="label">
+          <value>App KD</value>
+        </attribute>
+      </data_model>
+      <data_model type="MeasureClass">
+        <attribute name="name">
+          <value>AppPP</value>
+        </attribute>
+        <attribute name="label">
+          <value>App PP</value>
+        </attribute>
+      </data_model>
+      <data_model type="MeasureClass">
+        <attribute name="name">
+          <value>Approve</value>
+        </attribute>
+        <attribute name="label">
+          <value>Approve</value>
+        </attribute>
+      </data_model>
+      <data_model type="MeasureClass">
+        <attribute name="name">
+          <value>Publish</value>
+        </attribute>
+        <attribute name="label">
+          <value>Publish</value>
+        </attribute>
+      </data_model>
+      <data_model type="MeasureClass">
+        <attribute name="name">
+          <value>Cancel</value>
+        </attribute>
+        <attribute name="label">
+          <value>Cancel approve</value>
+        </attribute>
+      </data_model>
+      <data_model type="MeasureClass">
+        <attribute name="name">
+          <value>CanPub</value>
+        </attribute>
+        <attribute name="label">
+          <value>Can Approve</value>
+        </attribute>
+      </data_model>
+      <data_model type="MeasureClass">
+        <attribute name="name">
+          <value>CanApp</value>
+        </attribute>
+        <attribute name="label">
+          <value>Can Publish</value>
+        </attribute>
+      </data_model>
+      <data_model type="MeasureClass">
+        <attribute name="name">
+          <value>PubNegative</value>
+        </attribute>
+        <attribute name="label">
+          <value>Publishing Negative</value>
+        </attribute>
+      </data_model>
+      <data_model type="MeasureClass">
+        <attribute name="name">
+          <value>AppNegative</value>
+        </attribute>
+        <attribute name="label">
+          <value>Approving Negative</value>
+        </attribute>
+      </data_model>
+      <data_model type="MeasureClass">
+        <attribute name="name">
+          <value>Publishing</value>
+        </attribute>
+        <attribute name="label">
+          <value>Publishing</value>
+        </attribute>
+      </data_model>
+      <data_model type="MeasureClass">
+        <attribute name="name">
+          <value>Approving</value>
+        </attribute>
+        <attribute name="label">
+          <value>Approving</value>
+        </attribute>
+      </data_model>
+      <data_model type="MeasureClass">
+        <attribute name="name">
+          <value>Return</value>
+        </attribute>
+        <attribute name="label">
+          <value>Return</value>
+        </attribute>
+      </data_model>
+      <data_model type="MeasureClass">
+        <attribute name="name">
+          <value>Returned</value>
+        </attribute>
+        <attribute name="label">
+          <value>Returned</value>
+        </attribute>
+      </data_model>
+      <data_model type="MeasureClass">
+        <attribute name="name">
+          <value>ReturnedBy</value>
+        </attribute>
+        <attribute name="label">
+          <value>Returned By</value>
+        </attribute>
+      </data_model>
+      <data_model type="MeasureClass">
+        <attribute name="name">
+          <value>AppAssort</value>
+        </attribute>
+        <attribute name="label">
+          <value>App Assortment</value>
+        </attribute>
+      </data_model>
+      <data_model type="MeasureClass">
+        <attribute name="name">
+          <value>PubAssort</value>
+        </attribute>
+        <attribute name="label">
+          <value>Pub Assortment</value>
+        </attribute>
+      </data_model>
+      <data_model type="MeasureClass">
+        <attribute name="name">
+          <value>PubS</value>
+        </attribute>
+        <attribute name="label">
+          <value>Published scalar</value>
+        </attribute>
+      </data_model>
+      <data_model type="MeasureClass">
+        <attribute name="name">
+          <value>AppS</value>
+        </attribute>
+        <attribute name="label">
+          <value>Approved scalar</value>
+        </attribute>
+      </data_model>
+    </data_model>
+    <data_model type="MeasureClass">
+      <attribute name="name">
+        <value>Bdgt</value>
+      </attribute>
+      <attribute name="label">
+        <value>Budgets</value>
+      </attribute>
+      <data_model type="MeasureClass">
+        <attribute name="name">
+          <value>Budget</value>
+        </attribute>
+        <attribute name="label">
+          <value>Budget</value>
+        </attribute>
+        <attribute name="basestate">
+          <value>read</value>
+        </attribute>
+        <attribute name="aggstate">
+          <value>read</value>
+        </attribute>
+      </data_model>
+      <data_model type="MeasureClass">
+        <attribute name="name">
+          <value>BudgVWp</value>
+        </attribute>
+        <attribute name="label">
+          <value>Component0007</value>
+        </attribute>
+      </data_model>
+    </data_model>
+    <data_model type="MeasureClass">
+      <attribute name="name">
+        <value>Inventory</value>
+      </attribute>
+      <attribute name="label">
+        <value>Inventory</value>
+      </attribute>
+      <data_model type="MeasureClass">
+        <attribute name="name">
+          <value>ERcpt</value>
+        </attribute>
+        <attribute name="label">
+          <value>Expected Receipts</value>
+        </attribute>
+      </data_model>
+      <data_model type="MeasureClass">
+        <attribute name="name">
+          <value>Stock</value>
+        </attribute>
+        <attribute name="label">
+          <value>Stock</value>
+        </attribute>
+      </data_model>
+      <data_model type="MeasureClass">
+        <attribute name="name">
+          <value>Supply</value>
+        </attribute>
+        <attribute name="label">
+          <value>SupplyCK</value>
+        </attribute>
+      </data_model>
+      <data_model type="MeasureClass">
+        <attribute name="name">
+          <value>Bop</value>
+        </attribute>
+        <attribute name="label">
+          <value>Begin of Period</value>
+        </attribute>
+      </data_model>
+      <data_model type="MeasureClass">
+        <attribute name="name">
+          <value>Eop</value>
+        </attribute>
+        <attribute name="label">
+          <value>End of Period</value>
+        </attribute>
+      </data_model>
+      <data_model type="MeasureClass">
+        <attribute name="name">
+          <value>OS</value>
+        </attribute>
+        <attribute name="label">
+          <value>Opening Stock</value>
+        </attribute>
+      </data_model>
+      <data_model type="MeasureClass">
+        <attribute name="name">
+          <value>ERcptPrice</value>
+        </attribute>
+        <attribute name="label">
+          <value>Expected receipt price</value>
+        </attribute>
+      </data_model>
+      <data_model type="MeasureClass">
+        <attribute name="name">
+          <value>BOPRcpt</value>
+        </attribute>
+        <attribute name="label">
+          <value>BOPRcpt(System)</value>
+        </attribute>
+      </data_model>
+      <data_model type="MeasureClass">
+        <attribute name="name">
+          <value>OSRC</value>
+        </attribute>
+        <attribute name="label">
+          <value>Opening Stock RC</value>
+        </attribute>
+      </data_model>
+      <data_model type="MeasureClass">
+        <attribute name="name">
+          <value>ERcptRC</value>
+        </attribute>
+        <attribute name="label">
+          <value>Receipts RC</value>
+        </attribute>
+      </data_model>
+      <data_model type="MeasureClass">
+        <attribute name="name">
+          <value>SupplyGK</value>
+        </attribute>
+        <attribute name="label">
+          <value>SupplyGK</value>
+        </attribute>
+      </data_model>
+      <data_model type="MeasureClass">
+        <attribute name="name">
+          <value>OSGK</value>
+        </attribute>
+        <attribute name="label">
+          <value>Opening stock Group Company</value>
+        </attribute>
+      </data_model>
+      <data_model type="MeasureClass">
+        <attribute name="name">
+          <value>ERcptGK</value>
+        </attribute>
+        <attribute name="label">
+          <value>Expected Receipts Group Company</value>
+        </attribute>
+      </data_model>
+      <data_model type="MeasureClass">
+        <attribute name="name">
+          <value>BopGK</value>
+        </attribute>
+        <attribute name="label">
+          <value>Begin of Period GK</value>
+        </attribute>
+      </data_model>
+      <data_model type="MeasureClass">
+        <attribute name="name">
+          <value>EopGK</value>
+        </attribute>
+        <attribute name="label">
+          <value>End of Period GK</value>
+        </attribute>
+      </data_model>
+      <data_model type="MeasureClass">
+        <attribute name="name">
+          <value>ArmSupp</value>
+        </attribute>
+        <attribute name="label">
+          <value>Arm Supplier</value>
+        </attribute>
+      </data_model>
+      <data_model type="MeasureClass">
+        <attribute name="name">
+          <value>ArmRC</value>
+        </attribute>
+        <attribute name="label">
+          <value>Arm RC</value>
+        </attribute>
+      </data_model>
+      <data_model type="MeasureClass">
+        <attribute name="name">
+          <value>LastMSup</value>
+        </attribute>
+        <attribute name="label">
+          <value>Last month in workbook</value>
+        </attribute>
+      </data_model>
+      <data_model type="MeasureClass">
+        <attribute name="name">
+          <value>NextMSup</value>
+        </attribute>
+        <attribute name="label">
+          <value>Next Month supply</value>
+        </attribute>
+      </data_model>
+      <data_model type="MeasureClass">
+        <attribute name="name">
+          <value>MnthOne</value>
+        </attribute>
+        <attribute name="label">
+          <value>Month ones</value>
+        </attribute>
+      </data_model>
+      <data_model type="MeasureClass">
+        <attribute name="name">
+          <value>NextMSupGK</value>
+        </attribute>
+        <attribute name="label">
+          <value>Next Month supply</value>
+        </attribute>
+      </data_model>
+      <data_model type="MeasureClass">
+        <attribute name="name">
+          <value>EOPIsNeg</value>
+        </attribute>
+        <attribute name="label">
+          <value>EOP is Negative</value>
+        </attribute>
+      </data_model>
+      <data_model type="MeasureClass">
+        <attribute name="name">
+          <value>EOPGKIsNeg</value>
+        </attribute>
+        <attribute name="label">
+          <value>EOP GK is Negative</value>
+        </attribute>
+      </data_model>
+      <data_model type="MeasureClass">
+        <attribute name="name">
+          <value>FirstNeg</value>
+        </attribute>
+        <attribute name="label">
+          <value>index of first negative eop</value>
+        </attribute>
+      </data_model>
+      <data_model type="MeasureClass">
+        <attribute name="name">
+          <value>FirstNegGK</value>
+        </attribute>
+        <attribute name="label">
+          <value>index of first negative eop GK</value>
+        </attribute>
+      </data_model>
+      <data_model type="MeasureClass">
+        <attribute name="name">
+          <value>BopRC</value>
+        </attribute>
+        <attribute name="label">
+          <value>BOP RC</value>
+        </attribute>
+      </data_model>
+      <data_model type="MeasureClass">
+        <attribute name="name">
+          <value>EopRC</value>
+        </attribute>
+        <attribute name="label">
+          <value>EOP RC</value>
+        </attribute>
+      </data_model>
+      <data_model type="MeasureClass">
+        <attribute name="name">
+          <value>DemandFromRC</value>
+        </attribute>
+        <attribute name="label">
+          <value>Demand from RC</value>
+        </attribute>
+      </data_model>
+      <data_model type="MeasureClass">
+        <attribute name="name">
+          <value>SupplyM</value>
+        </attribute>
+        <attribute name="label">
+          <value>Time Supply (Neg)</value>
+        </attribute>
+      </data_model>
+      <data_model type="MeasureClass">
+        <attribute name="name">
+          <value>SupplyMGK</value>
+        </attribute>
+        <attribute name="label">
+          <value>Time Supply GK (Neg)</value>
+        </attribute>
+      </data_model>
+      <data_model type="MeasureClass">
+        <attribute name="name">
+          <value>BopN</value>
+        </attribute>
+        <attribute name="label">
+          <value>Begin of Period (-)</value>
+        </attribute>
+      </data_model>
+      <data_model type="MeasureClass">
+        <attribute name="name">
+          <value>EopN</value>
+        </attribute>
+        <attribute name="label">
+          <value>End of Period (-)</value>
+        </attribute>
+      </data_model>
+      <data_model type="MeasureClass">
+        <attribute name="name">
+          <value>BopGKN</value>
+        </attribute>
+        <attribute name="label">
+          <value>Begin of Period GK (-)</value>
+        </attribute>
+      </data_model>
+      <data_model type="MeasureClass">
+        <attribute name="name">
+          <value>EopGKN</value>
+        </attribute>
+        <attribute name="label">
+          <value>End of Period GK (-)</value>
+        </attribute>
+      </data_model>
+      <data_model type="MeasureClass">
+        <attribute name="name">
+          <value>BopRCN</value>
+        </attribute>
+        <attribute name="label">
+          <value>Begin of Period RC (-)</value>
+        </attribute>
+      </data_model>
+      <data_model type="MeasureClass">
+        <attribute name="name">
+          <value>EopRCN</value>
+        </attribute>
+        <attribute name="label">
+          <value>End of Period RC (-)</value>
+        </attribute>
+      </data_model>
+      <data_model type="MeasureClass">
+        <attribute name="name">
+          <value>Receipt</value>
+        </attribute>
+        <attribute name="label">
+          <value>Receipt SK</value>
+        </attribute>
+      </data_model>
+      <data_model type="MeasureClass">
+        <attribute name="name">
+          <value>ReceiptRCM</value>
+        </attribute>
+        <attribute name="label">
+          <value>Receipt RCM</value>
+        </attribute>
+      </data_model>
+      <data_model type="MeasureClass">
+        <attribute name="name">
+          <value>ReceiptRCK</value>
+        </attribute>
+        <attribute name="label">
+          <value>Receipt RCK</value>
+        </attribute>
+      </data_model>
+      <data_model type="MeasureClass">
+        <attribute name="name">
+          <value>ReceiptAll</value>
+        </attribute>
+        <attribute name="label">
+          <value>Receipt All</value>
+        </attribute>
+      </data_model>
+      <data_model type="MeasureClass">
+        <attribute name="name">
+          <value>IndexlastOS</value>
+        </attribute>
+        <attribute name="label">
+          <value>Indexlast OS</value>
+        </attribute>
+      </data_model>
+      <data_model type="MeasureClass">
+        <attribute name="name">
+          <value>OSNeg</value>
+        </attribute>
+        <attribute name="label">
+          <value>OS with Negative values</value>
+        </attribute>
+      </data_model>
+      <data_model type="MeasureClass">
+        <attribute name="name">
+          <value>OSRCK</value>
+        </attribute>
+        <attribute name="label">
+          <value>OS RCK</value>
+        </attribute>
+      </data_model>
+      <data_model type="MeasureClass">
+        <attribute name="name">
+          <value>OSRCMSK</value>
+        </attribute>
+        <attribute name="label">
+          <value>OS RCM+SK</value>
+        </attribute>
+      </data_model>
+      <data_model type="MeasureClass">
+        <attribute name="name">
+          <value>ERcptRCK</value>
+        </attribute>
+        <attribute name="label">
+          <value>Receipts RCK</value>
+        </attribute>
+      </data_model>
+      <data_model type="MeasureClass">
+        <attribute name="name">
+          <value>ERcptRCMSK</value>
+        </attribute>
+        <attribute name="label">
+          <value>Expected receipts RCM+SK</value>
+        </attribute>
+      </data_model>
+      <data_model type="MeasureClass">
+        <attribute name="name">
+          <value>OSRCM</value>
+        </attribute>
+        <attribute name="label">
+          <value>Component0000</value>
+        </attribute>
+      </data_model>
+      <data_model type="MeasureClass">
+        <attribute name="name">
+          <value>EopRCKN</value>
+        </attribute>
+        <attribute name="label">
+          <value>End of Period RCK (-)</value>
+        </attribute>
+      </data_model>
+      <data_model type="MeasureClass">
+        <attribute name="name">
+          <value>EopRCMN</value>
+        </attribute>
+        <attribute name="label">
+          <value>End of Period RCM (-)</value>
+        </attribute>
+      </data_model>
+      <data_model type="MeasureClass">
+        <attribute name="name">
+          <value>ERcptRCM</value>
+        </attribute>
+        <attribute name="label">
+          <value>Receipts RCM</value>
+        </attribute>
+      </data_model>
+      <data_model type="MeasureClass">
+        <attribute name="name">
+          <value>BopRCKN</value>
+        </attribute>
+        <attribute name="label">
+          <value>Begin of Period RCK (-)</value>
+        </attribute>
+      </data_model>
+      <data_model type="MeasureClass">
+        <attribute name="name">
+          <value>BopRCMN</value>
+        </attribute>
+        <attribute name="label">
+          <value>Begin of Period RCM (-)</value>
+        </attribute>
+      </data_model>
+      <data_model type="MeasureClass">
+        <attribute name="name">
+          <value>SupplyRCM</value>
+        </attribute>
+        <attribute name="label">
+          <value>SupplyRCM</value>
+        </attribute>
+      </data_model>
+      <data_model type="MeasureClass">
+        <attribute name="name">
+          <value>SupplyRCMCK</value>
+        </attribute>
+        <attribute name="label">
+          <value>SupplyRCMCK</value>
+        </attribute>
+      </data_model>
+      <data_model type="MeasureClass">
+        <attribute name="name">
+          <value>SupplyRCK</value>
+        </attribute>
+        <attribute name="label">
+          <value>SupplyRCK</value>
+        </attribute>
+      </data_model>
+      <data_model type="MeasureClass">
+        <attribute name="name">
+          <value>SupplyRC</value>
+        </attribute>
+        <attribute name="label">
+          <value>SupplyRC</value>
+        </attribute>
+      </data_model>
+      <data_model type="MeasureClass">
+        <attribute name="name">
+          <value>SupplyAllCK</value>
+        </attribute>
+        <attribute name="label">
+          <value>Component0000</value>
+        </attribute>
+      </data_model>
+      <data_model type="MeasureClass">
+        <attribute name="name">
+          <value>OScntr</value>
+        </attribute>
+        <attribute name="label">
+          <value>Component0001</value>
+        </attribute>
+      </data_model>
+      <data_model type="MeasureClass">
+        <attribute name="name">
+          <value>CurSuppRCM</value>
+        </attribute>
+        <attribute name="label">
+          <value>Component0001</value>
+        </attribute>
+      </data_model>
+      <data_model type="MeasureClass">
+        <attribute name="name">
+          <value>CurSuppRCK</value>
+        </attribute>
+        <attribute name="label">
+          <value>Component0002</value>
+        </attribute>
+      </data_model>
+      <data_model type="MeasureClass">
+        <attribute name="name">
+          <value>CurSuppRC</value>
+        </attribute>
+        <attribute name="label">
+          <value>Component0000</value>
+        </attribute>
+      </data_model>
+      <data_model type="MeasureClass">
+        <attribute name="name">
+          <value>CurSuppRCMCK</value>
+        </attribute>
+        <attribute name="label">
+          <value>CurSuppRCMCK</value>
+        </attribute>
+      </data_model>
+      <data_model type="MeasureClass">
+        <attribute name="name">
+          <value>CurSuppGK</value>
+        </attribute>
+        <attribute name="label">
+          <value>Component0002</value>
+        </attribute>
+      </data_model>
+      <data_model type="MeasureClass">
+        <attribute name="name">
+          <value>CurSuppCK</value>
+        </attribute>
+        <attribute name="label">
+          <value>Component0001</value>
+        </attribute>
+      </data_model>
+      <data_model type="MeasureClass">
+        <attribute name="name">
+          <value>ERecCK</value>
+        </attribute>
+        <attribute name="label">
+          <value>Component0000</value>
+        </attribute>
+      </data_model>
+      <data_model type="MeasureClass">
+        <attribute name="name">
+          <value>ERecRCM</value>
+        </attribute>
+        <attribute name="label">
+          <value>Component0001</value>
+        </attribute>
+      </data_model>
+      <data_model type="MeasureClass">
+        <attribute name="name">
+          <value>ERecRCMCK</value>
+        </attribute>
+        <attribute name="label">
+          <value>Component0002</value>
+        </attribute>
+      </data_model>
+      <data_model type="MeasureClass">
+        <attribute name="name">
+          <value>ERecRCK</value>
+        </attribute>
+        <attribute name="label">
+          <value>Component0003</value>
+        </attribute>
+      </data_model>
+      <data_model type="MeasureClass">
+        <attribute name="name">
+          <value>ERecRC</value>
+        </attribute>
+        <attribute name="label">
+          <value>Component0004</value>
+        </attribute>
+      </data_model>
+      <data_model type="MeasureClass">
+        <attribute name="name">
+          <value>ERecGK</value>
+        </attribute>
+        <attribute name="label">
+          <value>Component0005</value>
+        </attribute>
+      </data_model>
+      <data_model type="MeasureClass">
+        <attribute name="name">
+          <value>ERcptRCKA</value>
+        </attribute>
+        <attribute name="label">
+          <value>Component0000</value>
+        </attribute>
+      </data_model>
+      <data_model type="MeasureClass">
+        <attribute name="name">
+          <value>ERecRCKA</value>
+        </attribute>
+        <attribute name="label">
+          <value>Component0006</value>
+        </attribute>
+      </data_model>
+    </data_model>
+    <data_model type="MeasureClass">
+      <attribute name="name">
+        <value>Mapping</value>
+      </attribute>
+      <attribute name="label">
+        <value>Mapping</value>
+      </attribute>
+      <data_model type="MeasureClass">
+        <attribute name="name">
+          <value>WeekMap</value>
+        </attribute>
+        <attribute name="label">
+          <value>Week Map</value>
+        </attribute>
+      </data_model>
+      <data_model type="MeasureClass">
+        <attribute name="name">
+          <value>MonthMap</value>
+        </attribute>
+        <attribute name="label">
+          <value>Month Map</value>
+        </attribute>
+        <attribute name="type">
+          <value>string</value>
+        </attribute>
+        <attribute name="baseint">
+          <value>mnth</value>
+        </attribute>
+        <attribute name="defagg">
+          <value>#UNSPECIFIED#</value>
+        </attribute>
+        <attribute name="singlehierselect">
+          <value>mnth</value>
+        </attribute>
+      </data_model>
+      <data_model type="MeasureClass">
+        <attribute name="name">
+          <value>MonthMapReturn</value>
+        </attribute>
+        <attribute name="label">
+          <value>Month map return</value>
+        </attribute>
+        <attribute name="type">
+          <value>string</value>
+        </attribute>
+        <attribute name="baseint">
+          <value>mnth</value>
+        </attribute>
+        <attribute name="defagg">
+          <value>#UNSPECIFIED#</value>
+        </attribute>
+        <attribute name="singlehierselect">
+          <value>mnth</value>
+        </attribute>
+      </data_model>
+    </data_model>
+    <data_model type="MeasureClass">
+      <attribute name="name">
+        <value>Blanks</value>
+      </attribute>
+      <attribute name="label">
+        <value>Blanks</value>
+      </attribute>
+      <attribute name="type">
+        <value>string</value>
+      </attribute>
+      <attribute name="baseint">
+        <value>#DAY_SKUP_STR#</value>
+      </attribute>
+      <attribute name="defagg">
+        <value>ambig</value>
+      </attribute>
+      <attribute name="defspread">
+        <value>repl</value>
+      </attribute>
+      <attribute name="basestate">
+        <value>read</value>
+      </attribute>
+      <attribute name="aggstate">
+        <value>read</value>
+      </attribute>
+      <attribute name="db">
+        <value>data/blanks</value>
+      </attribute>
+      <attribute name="insertable">
+        <value>true</value>
+      </attribute>
+      <attribute name="style">
+        <value>Blank</value>
+      </attribute>
+      <data_model type="MeasureClass">
+        <attribute name="name">
+          <value>Blank1</value>
+        </attribute>
+        <attribute name="label">
+          <value>#UNSPECIFIED#</value>
+        </attribute>
+        <attribute name="db">
+          <value>#UNSPECIFIED#</value>
+        </attribute>
+      </data_model>
+      <data_model type="MeasureClass">
+        <attribute name="name">
+          <value>Blank2</value>
+        </attribute>
+        <attribute name="label">
+          <value>#UNSPECIFIED#</value>
+        </attribute>
+        <attribute name="db">
+          <value>#UNSPECIFIED#</value>
+        </attribute>
+      </data_model>
+      <data_model type="MeasureClass">
+        <attribute name="name">
+          <value>Blank3</value>
+        </attribute>
+        <attribute name="label">
+          <value>#UNSPECIFIED#</value>
+        </attribute>
+        <attribute name="db">
+          <value>#UNSPECIFIED#</value>
+        </attribute>
+      </data_model>
+      <data_model type="MeasureClass">
+        <attribute name="name">
+          <value>Blank4</value>
+        </attribute>
+        <attribute name="label">
+          <value>#UNSPECIFIED#</value>
+        </attribute>
+        <attribute name="db">
+          <value>#UNSPECIFIED#</value>
+        </attribute>
+      </data_model>
+      <data_model type="MeasureClass">
+        <attribute name="name">
+          <value>Blank5</value>
+        </attribute>
+        <attribute name="label">
+          <value>#UNSPECIFIED#</value>
+        </attribute>
+        <attribute name="db">
+          <value>#UNSPECIFIED#</value>
+        </attribute>
+      </data_model>
+      <data_model type="MeasureClass">
+        <attribute name="name">
+          <value>Blank6</value>
+        </attribute>
+        <attribute name="label">
+          <value>#UNSPECIFIED#</value>
+        </attribute>
+        <attribute name="db">
+          <value>#UNSPECIFIED#</value>
+        </attribute>
+      </data_model>
+      <data_model type="MeasureClass">
+        <attribute name="name">
+          <value>Blank7</value>
+        </attribute>
+        <attribute name="label">
+          <value>#UNSPECIFIED#</value>
+        </attribute>
+        <attribute name="db">
+          <value>#UNSPECIFIED#</value>
+        </attribute>
+      </data_model>
+      <data_model type="MeasureClass">
+        <attribute name="name">
+          <value>Blank8</value>
+        </attribute>
+        <attribute name="label">
+          <value>#UNSPECIFIED#</value>
+        </attribute>
+        <attribute name="db">
+          <value>#UNSPECIFIED#</value>
+        </attribute>
+      </data_model>
+      <data_model type="MeasureClass">
+        <attribute name="name">
+          <value>Blank9</value>
+        </attribute>
+        <attribute name="label">
+          <value>#UNSPECIFIED#</value>
+        </attribute>
+        <attribute name="db">
+          <value>#UNSPECIFIED#</value>
+        </attribute>
+      </data_model>
+      <data_model type="MeasureClass">
+        <attribute name="name">
+          <value>Blank10</value>
+        </attribute>
+        <attribute name="label">
+          <value>#UNSPECIFIED#</value>
+        </attribute>
+        <attribute name="db">
+          <value>#UNSPECIFIED#</value>
+        </attribute>
+      </data_model>
+      <data_model type="MeasureClass">
+        <attribute name="name">
+          <value>Blank11</value>
+        </attribute>
+        <attribute name="label">
+          <value>#UNSPECIFIED#</value>
+        </attribute>
+        <attribute name="db">
+          <value>#UNSPECIFIED#</value>
+        </attribute>
+      </data_model>
+      <data_model type="MeasureClass">
+        <attribute name="name">
+          <value>Blank12</value>
+        </attribute>
+        <attribute name="label">
+          <value>#UNSPECIFIED#</value>
+        </attribute>
+        <attribute name="db">
+          <value>#UNSPECIFIED#</value>
+        </attribute>
+      </data_model>
+      <data_model type="MeasureClass">
+        <attribute name="name">
+          <value>Blank13</value>
+        </attribute>
+        <attribute name="label">
+          <value>#UNSPECIFIED#</value>
+        </attribute>
+        <attribute name="db">
+          <value>#UNSPECIFIED#</value>
+        </attribute>
+      </data_model>
+    </data_model>
+    <data_model type="MeasureClass">
+      <attribute name="name">
+        <value>Filters</value>
+      </attribute>
+      <attribute name="label">
+        <value>Filters</value>
+      </attribute>
+      <attribute name="type">
+        <value>boolean</value>
+      </attribute>
+      <attribute name="defagg">
+        <value>ambig</value>
+      </attribute>
+      <attribute name="defspread">
+        <value>repl</value>
+      </attribute>
+      <attribute name="basestate">
+        <value>write</value>
+      </attribute>
+      <attribute name="aggstate">
+        <value>write</value>
+      </attribute>
+      <data_model type="MeasureClass">
+        <attribute name="name">
+          <value>ProdFilters</value>
+        </attribute>
+        <attribute name="label">
+          <value>Prod filters</value>
+        </attribute>
+        <attribute name="naval">
+          <value>true</value>
+        </attribute>
+        <data_model type="MeasureClass">
+          <attribute name="name">
+            <value>FilterProd</value>
+          </attribute>
+          <attribute name="label">
+            <value>FilterProd</value>
+          </attribute>
+          <attribute name="baseint">
+            <value>tsku</value>
+          </attribute>
+          <attribute name="defspread">
+            <value>#UNSPECIFIED#</value>
+          </attribute>
+          <attribute name="basestate">
+            <value>read</value>
+          </attribute>
+          <attribute name="aggstate">
+            <value>read</value>
+          </attribute>
+        </data_model>
+        <data_model type="MeasureClass">
+          <attribute name="name">
+            <value>FilterGrp3</value>
+          </attribute>
+          <attribute name="label">
+            <value>Filter Grp3</value>
+          </attribute>
+          <attribute name="baseint">
+            <value>grp3</value>
+          </attribute>
+        </data_model>
+        <data_model type="MeasureClass">
+          <attribute name="name">
+            <value>FilterStap</value>
+          </attribute>
+          <attribute name="label">
+            <value>Filter Stap</value>
+          </attribute>
+          <attribute name="baseint">
+            <value>stap</value>
+          </attribute>
+        </data_model>
+        <data_model type="MeasureClass">
+          <attribute name="name">
+            <value>FilterCmpp</value>
+          </attribute>
+          <attribute name="label">
+            <value>Filter Cmpp</value>
+          </attribute>
+          <attribute name="baseint">
+            <value>cmpp</value>
+          </attribute>
+        </data_model>
+        <data_model type="MeasureClass">
+          <attribute name="name">
+            <value>FilterVend</value>
+          </attribute>
+          <attribute name="label">
+            <value>Filter Vendor</value>
+          </attribute>
+          <attribute name="baseint">
+            <value>vend</value>
+          </attribute>
+        </data_model>
+        <data_model type="MeasureClass">
+          <attribute name="name">
+            <value>ASFilter</value>
+          </attribute>
+          <attribute name="label">
+            <value>ASFilter</value>
+          </attribute>
+        </data_model>
+        <data_model type="MeasureClass">
+          <attribute name="name">
+            <value>FiltEn</value>
+          </attribute>
+          <attribute name="label">
+            <value>FiltEn</value>
+          </attribute>
+          <attribute name="baseint">
+            <value>Scalar</value>
+          </attribute>
+        </data_model>
+        <data_model type="MeasureClass">
+          <attribute name="name">
+            <value>FilterQty</value>
+          </attribute>
+          <attribute name="label">
+            <value>Количество выбранных позиций</value>
+          </attribute>
+          <attribute name="type">
+            <value>int</value>
+          </attribute>
+          <attribute name="naval">
+            <value>#UNSPECIFIED#</value>
+          </attribute>
+          <attribute name="baseint">
+            <value>skup</value>
+          </attribute>
+          <attribute name="defagg">
+            <value>total</value>
+          </attribute>
+        </data_model>
+        <data_model type="MeasureClass">
+          <attribute name="name">
+            <value>FilterKoeff</value>
+          </attribute>
+          <attribute name="label">
+            <value>FilterKoeff</value>
+          </attribute>
+          <attribute name="type">
+            <value>real</value>
+          </attribute>
+          <attribute name="naval">
+            <value>#UNSPECIFIED#</value>
+          </attribute>
+        </data_model>
+        <data_model type="MeasureClass">
+          <attribute name="name">
+            <value>FilterSkup</value>
+          </attribute>
+          <attribute name="label">
+            <value>Filter Sku</value>
+          </attribute>
+          <attribute name="baseint">
+            <value>skup</value>
+          </attribute>
+        </data_model>
+        <data_model type="MeasureClass">
+          <attribute name="name">
+            <value>Old</value>
+          </attribute>
+          <attribute name="label">
+            <value>Old</value>
+          </attribute>
+          <data_model type="MeasureClass">
+            <attribute name="name">
+              <value>FilterGrp3Old</value>
+            </attribute>
+            <attribute name="label">
+              <value>FilterGrp3Old</value>
+            </attribute>
+          </data_model>
+          <data_model type="MeasureClass">
+            <attribute name="name">
+              <value>FilterStapOld</value>
+            </attribute>
+            <attribute name="label">
+              <value>FilterStapOld</value>
+            </attribute>
+          </data_model>
+          <data_model type="MeasureClass">
+            <attribute name="name">
+              <value>FilterCmppOld</value>
+            </attribute>
+            <attribute name="label">
+              <value>FilterCmppOld</value>
+            </attribute>
+          </data_model>
+          <data_model type="MeasureClass">
+            <attribute name="name">
+              <value>FilterVendOld</value>
+            </attribute>
+            <attribute name="label">
+              <value>FilterVendOld</value>
+            </attribute>
+          </data_model>
+          <data_model type="MeasureClass">
+            <attribute name="name">
+              <value>FiltEnOld</value>
+            </attribute>
+            <attribute name="label">
+              <value>FiltEnOld</value>
+            </attribute>
+          </data_model>
+          <data_model type="MeasureClass">
+            <attribute name="name">
+              <value>FilterSkupOld</value>
+            </attribute>
+            <attribute name="label">
+              <value>FilterSkupOld</value>
+            </attribute>
+          </data_model>
+          <data_model type="MeasureClass">
+            <attribute name="name">
+              <value>FilterSkupCKOld</value>
+            </attribute>
+            <attribute name="label">
+              <value>Filter Skup Old on CK level</value>
+            </attribute>
+          </data_model>
+        </data_model>
+        <data_model type="MeasureClass">
+          <attribute name="name">
+            <value>FilterProdNew</value>
+          </attribute>
+          <attribute name="label">
+            <value>Filter prod new</value>
+          </attribute>
+          <attribute name="baseint">
+            <value>skup_filt</value>
+          </attribute>
+        </data_model>
+        <data_model type="MeasureClass">
+          <attribute name="name">
+            <value>FilterSkupCK</value>
+          </attribute>
+          <attribute name="label">
+            <value>Артикул (уровень СК)</value>
+          </attribute>
+        </data_model>
+        <data_model type="MeasureClass">
+          <attribute name="name">
+            <value>FilterAssort</value>
+          </attribute>
+          <attribute name="label">
+            <value>Ассортимент</value>
+          </attribute>
+        </data_model>
+        <data_model type="MeasureClass">
+          <attribute name="name">
+            <value>FilterAssortClean</value>
+          </attribute>
+          <attribute name="label">
+            <value>Component0001</value>
+          </attribute>
+        </data_model>
+        <data_model type="MeasureClass">
+          <attribute name="name">
+            <value>FilterAssortFinal</value>
+          </attribute>
+          <attribute name="label">
+            <value>Component0002</value>
+          </attribute>
+        </data_model>
+        <data_model type="MeasureClass">
+          <attribute name="name">
+            <value>AMClean</value>
+          </attribute>
+          <attribute name="label">
+            <value>Component0003</value>
+          </attribute>
+        </data_model>
+        <data_model type="MeasureClass">
+          <attribute name="name">
+            <value>AMSynt</value>
+          </attribute>
+          <attribute name="label">
+            <value>Component0007</value>
+          </attribute>
+        </data_model>
+        <data_model type="MeasureClass">
+          <attribute name="name">
+            <value>AMDelta</value>
+          </attribute>
+          <attribute name="label">
+            <value>Component0008</value>
+          </attribute>
+        </data_model>
+        <data_model type="MeasureClass">
+          <attribute name="name">
+            <value>AMAll</value>
+          </attribute>
+          <attribute name="label">
+            <value>Component0009</value>
+          </attribute>
+        </data_model>
+        <data_model type="MeasureClass">
+          <attribute name="name">
+            <value>FilterAssortPP</value>
+          </attribute>
+          <attribute name="label">
+            <value>Component0001</value>
+          </attribute>
+        </data_model>
+        <data_model type="MeasureClass">
+          <attribute name="name">
+            <value>FilterQtyAsMx</value>
+          </attribute>
+          <attribute name="label">
+            <value>Component0000</value>
+          </attribute>
+        </data_model>
+        <data_model type="MeasureClass">
+          <attribute name="name">
+            <value>FilterProdAsMx</value>
+          </attribute>
+          <attribute name="label">
+            <value>Component0001</value>
+          </attribute>
+        </data_model>
+      </data_model>
+      <data_model type="MeasureClass">
+        <attribute name="name">
+          <value>PQ</value>
+        </attribute>
+        <attribute name="label">
+          <value>PQ</value>
+        </attribute>
+        <data_model type="MeasureClass">
+          <attribute name="name">
+            <value>PQProdS</value>
+          </attribute>
+          <attribute name="label">
+            <value>PQProd Str</value>
+          </attribute>
+          <attribute name="baseint">
+            <value>skup_str</value>
+          </attribute>
+        </data_model>
+        <data_model type="MeasureClass">
+          <attribute name="name">
+            <value>PQProdGrp3</value>
+          </attribute>
+          <attribute name="label">
+            <value>PQProd Grp3</value>
+          </attribute>
+          <attribute name="baseint">
+            <value>grp3_str</value>
+          </attribute>
+        </data_model>
+        <data_model type="MeasureClass">
+          <attribute name="name">
+            <value>PQGrp3Cntr</value>
+          </attribute>
+          <attribute name="label">
+            <value>PQ Grp3 Cntr</value>
+          </attribute>
+          <attribute name="baseint">
+            <value>grp3_cntr</value>
+          </attribute>
+        </data_model>
+        <data_model type="MeasureClass">
+          <attribute name="name">
+            <value>PQGrp3Cmp</value>
+          </attribute>
+          <attribute name="label">
+            <value>PQ Grp3 Cmp</value>
+          </attribute>
+          <attribute name="baseint">
+            <value>grp3_cmp</value>
+          </attribute>
+        </data_model>
+        <data_model type="MeasureClass">
+          <attribute name="name">
+            <value>PQGrp3Top</value>
+          </attribute>
+          <attribute name="label">
+            <value>PQ Grp3 Top</value>
+          </attribute>
+          <attribute name="baseint">
+            <value>grp3_top</value>
+          </attribute>
+        </data_model>
+        <data_model type="MeasureClass">
+          <attribute name="name">
+            <value>PQGrp3Clst</value>
+          </attribute>
+          <attribute name="label">
+            <value>PQ Grp3 Clst</value>
+          </attribute>
+          <attribute name="baseint">
+            <value>grp3_clst</value>
+          </attribute>
+        </data_model>
+        <data_model type="MeasureClass">
+          <attribute name="name">
+            <value>PQGrp3Type</value>
+          </attribute>
+          <attribute name="label">
+            <value>PQ Grp3 Type</value>
+          </attribute>
+          <attribute name="baseint">
+            <value>grp3_type</value>
+          </attribute>
+        </data_model>
+        <data_model type="MeasureClass">
+          <attribute name="name">
+            <value>PQProdCntr</value>
+          </attribute>
+          <attribute name="label">
+            <value>PQProdCntr</value>
+          </attribute>
+          <attribute name="baseint">
+            <value>skup_cntr</value>
+          </attribute>
+        </data_model>
+        <data_model type="MeasureClass">
+          <attribute name="name">
+            <value>PQProdCmp</value>
+          </attribute>
+          <attribute name="label">
+            <value>PQProdCmp</value>
+          </attribute>
+          <attribute name="baseint">
+            <value>skup_cmp</value>
+          </attribute>
+        </data_model>
+        <data_model type="MeasureClass">
+          <attribute name="name">
+            <value>PQProdTop</value>
+          </attribute>
+          <attribute name="label">
+            <value>PQProdTop</value>
+          </attribute>
+          <attribute name="baseint">
+            <value>skup_top</value>
+          </attribute>
+        </data_model>
+        <data_model type="MeasureClass">
+          <attribute name="name">
+            <value>PQProdClst</value>
+          </attribute>
+          <attribute name="label">
+            <value>PQProdClst</value>
+          </attribute>
+          <attribute name="baseint">
+            <value>skup_clst</value>
+          </attribute>
+        </data_model>
+        <data_model type="MeasureClass">
+          <attribute name="name">
+            <value>PQProdType</value>
+          </attribute>
+          <attribute name="label">
+            <value>PQProdType</value>
+          </attribute>
+          <attribute name="baseint">
+            <value>skup_type</value>
+          </attribute>
+        </data_model>
+        <data_model type="MeasureClass">
+          <attribute name="name">
+            <value>PQProdMnth</value>
+          </attribute>
+          <attribute name="label">
+            <value>PQProdMnth</value>
+          </attribute>
+          <attribute name="baseint">
+            <value>mnth_skup</value>
+          </attribute>
+        </data_model>
+        <data_model type="MeasureClass">
+          <attribute name="name">
+            <value>PQProdQtr</value>
+          </attribute>
+          <attribute name="label">
+            <value>PQProdQtr</value>
+          </attribute>
+          <attribute name="baseint">
+            <value>qtr_skup</value>
+          </attribute>
+        </data_model>
+        <data_model type="MeasureClass">
+          <attribute name="name">
+            <value>PQProdYear</value>
+          </attribute>
+          <attribute name="label">
+            <value>PQProdYear</value>
+          </attribute>
+          <attribute name="baseint">
+            <value>year_skup</value>
+          </attribute>
+        </data_model>
+        <data_model type="MeasureClass">
+          <attribute name="name">
+            <value>PQGrp3Mnth</value>
+          </attribute>
+          <attribute name="label">
+            <value>PQGrp3Mnth</value>
+          </attribute>
+          <attribute name="baseint">
+            <value>mnth_grp3</value>
+          </attribute>
+        </data_model>
+        <data_model type="MeasureClass">
+          <attribute name="name">
+            <value>PQGrp3Qtr</value>
+          </attribute>
+          <attribute name="label">
+            <value>PQGrp3Qtr</value>
+          </attribute>
+          <attribute name="baseint">
+            <value>qtr_grp3</value>
+          </attribute>
+        </data_model>
+        <data_model type="MeasureClass">
+          <attribute name="name">
+            <value>PQGrp3Year</value>
+          </attribute>
+          <attribute name="label">
+            <value>PQGrp3Year</value>
+          </attribute>
+          <attribute name="baseint">
+            <value>year_grp3</value>
+          </attribute>
+        </data_model>
+        <data_model type="MeasureClass">
+          <attribute name="name">
+            <value>PQProdAssort</value>
+          </attribute>
+          <attribute name="label">
+            <value>PQProdAssort</value>
+          </attribute>
+        </data_model>
+        <data_model type="MeasureClass">
+          <attribute name="name">
+            <value>PQSkupCK</value>
+          </attribute>
+          <attribute name="label">
+            <value>Component0000</value>
+          </attribute>
+        </data_model>
+        <data_model type="MeasureClass">
+          <attribute name="name">
+            <value>PQProdAssortPP</value>
+          </attribute>
+          <attribute name="label">
+            <value>Component0000</value>
+          </attribute>
+        </data_model>
+      </data_model>
+      <data_model type="MeasureClass">
+        <attribute name="name">
+          <value>FilterMsg</value>
+        </attribute>
+        <attribute name="label">
+          <value>FilterMsg</value>
+        </attribute>
+        <attribute name="type">
+          <value>string</value>
+        </attribute>
+      </data_model>
+      <data_model type="MeasureClass">
+        <attribute name="name">
+          <value>FilterFlag</value>
+        </attribute>
+        <attribute name="label">
+          <value>Filter Flag</value>
+        </attribute>
+        <data_model type="MeasureClass">
+          <attribute name="name">
+            <value>FilterApplied</value>
+          </attribute>
+          <attribute name="label">
+            <value>Filter Applied</value>
+          </attribute>
+        </data_model>
+        <data_model type="MeasureClass">
+          <attribute name="name">
+            <value>FilterChangedSKU</value>
+          </attribute>
+          <attribute name="label">
+            <value>Filter Changed SKU</value>
+          </attribute>
+        </data_model>
+      </data_model>
+    </data_model>
+    <data_model type="MeasureClass">
+      <attribute name="name">
+        <value>Attr</value>
+      </attribute>
+      <attribute name="label">
+        <value>Attributes</value>
+      </attribute>
+      <data_model type="MeasureClass">
+        <attribute name="name">
+          <value>CLND</value>
+        </attribute>
+        <attribute name="label">
+          <value>Calendar</value>
+        </attribute>
+        <data_model type="MeasureClass">
+          <attribute name="name">
+            <value>Month</value>
+          </attribute>
+          <attribute name="label">
+            <value>Month</value>
+          </attribute>
+          <attribute name="type">
+            <value>string</value>
+          </attribute>
+          <attribute name="baseint">
+            <value>mnth</value>
+          </attribute>
+          <attribute name="defagg">
+            <value>ambig</value>
+          </attribute>
+          <attribute name="db">
+            <value>data/clnd</value>
+          </attribute>
+        </data_model>
+        <data_model type="MeasureClass">
+          <attribute name="name">
+            <value>Year</value>
+          </attribute>
+          <attribute name="label">
+            <value>Year</value>
+          </attribute>
+          <attribute name="type">
+            <value>string</value>
+          </attribute>
+          <attribute name="baseint">
+            <value>mnth</value>
+          </attribute>
+          <attribute name="defagg">
+            <value>ambig</value>
+          </attribute>
+          <attribute name="db">
+            <value>data/clnd</value>
+          </attribute>
+        </data_model>
+        <data_model type="MeasureClass">
+          <attribute name="name">
+            <value>YearM</value>
+          </attribute>
+          <attribute name="label">
+            <value>YearM</value>
+          </attribute>
+          <attribute name="type">
+            <value>string</value>
+          </attribute>
+          <attribute name="baseint">
+            <value>mnth</value>
+          </attribute>
+          <attribute name="db">
+            <value>data/clnd</value>
+          </attribute>
+        </data_model>
+        <data_model type="MeasureClass">
+          <attribute name="name">
+            <value>UserAttrMonth</value>
+          </attribute>
+          <attribute name="label">
+            <value>User attribute month</value>
+          </attribute>
+          <attribute name="type">
+            <value>string</value>
+          </attribute>
+          <attribute name="baseint">
+            <value>mnth</value>
+          </attribute>
+          <attribute name="defagg">
+            <value>ambig</value>
+          </attribute>
+          <attribute name="defspread">
+            <value>repl</value>
+          </attribute>
+          <attribute name="basestate">
+            <value>write</value>
+          </attribute>
+          <attribute name="aggstate">
+            <value>write</value>
+          </attribute>
+        </data_model>
+      </data_model>
+    </data_model>
+    <data_model type="MeasureClass">
+      <attribute name="name">
+        <value>Alerts</value>
+      </attribute>
+      <attribute name="label">
+        <value>Alerts</value>
+      </attribute>
+      <data_model type="MeasureClass">
+        <attribute name="name">
+          <value>CheckNeg</value>
+        </attribute>
+        <attribute name="label">
+          <value>Negative</value>
+        </attribute>
+        <attribute name="type">
+          <value>#UNSPECIFIED#</value>
+        </attribute>
+        <attribute name="defagg">
+          <value>#UNSPECIFIED#</value>
+        </attribute>
+      </data_model>
+      <data_model type="MeasureClass">
+        <attribute name="name">
+          <value>Grp3Check</value>
+        </attribute>
+        <attribute name="label">
+          <value>Grp3 Check</value>
+        </attribute>
+      </data_model>
+      <data_model type="MeasureClass">
+        <attribute name="name">
+          <value>Check</value>
+        </attribute>
+        <attribute name="label">
+          <value>Check</value>
+        </attribute>
+      </data_model>
+      <data_model type="MeasureClass">
+        <attribute name="name">
+          <value>CheckAssort</value>
+        </attribute>
+        <attribute name="label">
+          <value>Check Assortment</value>
+        </attribute>
+      </data_model>
+    </data_model>
+    <data_model type="MeasureClass">
+      <attribute name="name">
+        <value>Security</value>
+      </attribute>
+      <attribute name="label">
+        <value>Security</value>
+      </attribute>
+      <data_model type="MeasureClass">
+        <attribute name="name">
+          <value>AllLoc</value>
+        </attribute>
+        <attribute name="label">
+          <value>All locations</value>
+        </attribute>
+      </data_model>
+      <data_model type="MeasureClass">
+        <attribute name="name">
+          <value>AllProd</value>
+        </attribute>
+        <attribute name="label">
+          <value>All products</value>
+        </attribute>
+      </data_model>
+      <data_model type="MeasureClass">
+        <attribute name="name">
+          <value>UserWb</value>
+        </attribute>
+        <attribute name="label">
+          <value>Workbook</value>
+        </attribute>
+      </data_model>
+      <data_model type="MeasureClass">
+        <attribute name="name">
+          <value>UserRole</value>
+        </attribute>
+        <attribute name="label">
+          <value>User role</value>
+        </attribute>
+      </data_model>
+      <data_model type="MeasureClass">
+        <attribute name="name">
+          <value>UserLoc</value>
+        </attribute>
+        <attribute name="label">
+          <value>User Location</value>
+        </attribute>
+      </data_model>
+      <data_model type="MeasureClass">
+        <attribute name="name">
+          <value>UserProd</value>
+        </attribute>
+        <attribute name="label">
+          <value>User products</value>
+        </attribute>
+      </data_model>
+      <data_model type="MeasureClass">
+        <attribute name="name">
+          <value>Zam</value>
+        </attribute>
+        <attribute name="label">
+          <value>Zamestitel</value>
+        </attribute>
+      </data_model>
+      <data_model type="MeasureClass">
+        <attribute name="name">
+          <value>ZamProd</value>
+        </attribute>
+        <attribute name="label">
+          <value>Zam po products</value>
+        </attribute>
+      </data_model>
+      <data_model type="MeasureClass">
+        <attribute name="name">
+          <value>ZamLoc</value>
+        </attribute>
+        <attribute name="label">
+          <value>Zam po loc</value>
+        </attribute>
+      </data_model>
+      <data_model type="MeasureClass">
+        <attribute name="name">
+          <value>ZamWb</value>
+        </attribute>
+        <attribute name="label">
+          <value>Zam workbook</value>
+        </attribute>
+      </data_model>
+      <data_model type="MeasureClass">
+        <attribute name="name">
+          <value>LocAvailable</value>
+        </attribute>
+        <attribute name="label">
+          <value>Location for all</value>
+        </attribute>
+      </data_model>
+      <data_model type="MeasureClass">
+        <attribute name="name">
+          <value>SetZam</value>
+        </attribute>
+        <attribute name="label">
+          <value>Set Zam</value>
+        </attribute>
+      </data_model>
+      <data_model type="MeasureClass">
+        <attribute name="name">
+          <value>UnsetZam</value>
+        </attribute>
+        <attribute name="label">
+          <value>Unset Zam</value>
+        </attribute>
+      </data_model>
+      <data_model type="MeasureClass">
+        <attribute name="name">
+          <value>CumProd</value>
+        </attribute>
+        <attribute name="label">
+          <value>Cumulative prod</value>
+        </attribute>
+      </data_model>
+      <data_model type="MeasureClass">
+        <attribute name="name">
+          <value>CumLoc</value>
+        </attribute>
+        <attribute name="label">
+          <value>Cumulative Location</value>
+        </attribute>
+      </data_model>
+      <data_model type="MeasureClass">
+        <attribute name="name">
+          <value>CumWb</value>
+        </attribute>
+        <attribute name="label">
+          <value>Cumulative Workbook</value>
+        </attribute>
+      </data_model>
+      <data_model type="MeasureClass">
+        <attribute name="name">
+          <value>MsgSec</value>
+        </attribute>
+        <attribute name="label">
+          <value>Component0000</value>
+        </attribute>
+      </data_model>
+    </data_model>
+    <data_model type="MeasureClass">
+      <attribute name="name">
+        <value>Testing</value>
+      </attribute>
+      <attribute name="label">
+        <value>Testing</value>
+      </attribute>
+      <data_model type="MeasureClass">
+        <attribute name="name">
+          <value>WbCreate</value>
+        </attribute>
+        <attribute name="label">
+          <value>Time for create</value>
+        </attribute>
+      </data_model>
+      <data_model type="MeasureClass">
+        <attribute name="name">
+          <value>DataLoad</value>
+        </attribute>
+        <attribute name="label">
+          <value>Component0013</value>
+        </attribute>
+      </data_model>
+      <data_model type="MeasureClass">
+        <attribute name="name">
+          <value>MsgTest</value>
+        </attribute>
+        <attribute name="label">
+          <value>Component0014</value>
+        </attribute>
+      </data_model>
+      <data_model type="MeasureClass">
+        <attribute name="name">
+          <value>WbCalc</value>
+        </attribute>
+        <attribute name="label">
+          <value>Calc</value>
+        </attribute>
+      </data_model>
+      <data_model type="MeasureClass">
+        <attribute name="name">
+          <value>WbCommit</value>
+        </attribute>
+        <attribute name="label">
+          <value>Component0000</value>
+        </attribute>
+      </data_model>
+      <data_model type="MeasureClass">
+        <attribute name="name">
+          <value>UserId</value>
+        </attribute>
+        <attribute name="label">
+          <value>Component0001</value>
+        </attribute>
+      </data_model>
+    </data_model>
+  </data_model>
+  <data_model type="MeasureClass">
+    <attribute name="name">
+      <value>UOM</value>
+    </attribute>
+    <attribute name="label">
+      <value>Units of Measure</value>
+    </attribute>
+    <attribute name="type">
+      <value>real</value>
+    </attribute>
+    <attribute name="defagg">
+      <value>total</value>
+    </attribute>
+    <attribute name="defspread">
+      <value>prop</value>
+    </attribute>
+    <attribute name="aggstate">
+      <value>write</value>
+    </attribute>
+    <data_model type="MeasureClass">
+      <attribute name="name">
+        <value>U</value>
+      </attribute>
+      <attribute name="label">
+        <value>Units</value>
+      </attribute>
+      <attribute name="naval">
+        <value>0</value>
+      </attribute>
+      <attribute name="defspread">
+        <value>prop</value>
+      </attribute>
+      <attribute name="style">
+        <value>Units</value>
+      </attribute>
+    </data_model>
+    <data_model type="MeasureClass">
+      <attribute name="name">
+        <value>R</value>
+      </attribute>
+      <attribute name="label">
+        <value>Roubles</value>
+      </attribute>
+      <attribute name="naval">
+        <value>0</value>
+      </attribute>
+      <attribute name="style">
+        <value>Roubles</value>
+      </attribute>
+    </data_model>
+    <data_model type="MeasureClass">
+      <attribute name="name">
+        <value>P</value>
+      </attribute>
+      <attribute name="label">
+        <value>%</value>
+      </attribute>
+      <attribute name="naval">
+        <value>0</value>
+      </attribute>
+      <attribute name="defagg">
+        <value>reclc</value>
+      </attribute>
+      <attribute name="defspread">
+        <value>#UNSPECIFIED#</value>
+      </attribute>
+      <attribute name="aggstate">
+        <value>read</value>
+      </attribute>
+      <attribute name="style">
+        <value>Percent</value>
+      </attribute>
+    </data_model>
+    <data_model type="MeasureClass">
+      <attribute name="name">
+        <value>T</value>
+      </attribute>
+      <attribute name="label">
+        <value>Text</value>
+      </attribute>
+      <attribute name="type">
+        <value>string</value>
+      </attribute>
+      <attribute name="naval">
+        <value>#UNSPECIFIED#</value>
+      </attribute>
+      <attribute name="defagg">
+        <value>ambig</value>
+      </attribute>
+      <attribute name="defspread">
+        <value>repl</value>
+      </attribute>
+    </data_model>
+    <data_model type="MeasureClass">
+      <attribute name="name">
+        <value>B</value>
+      </attribute>
+      <attribute name="label">
+        <value>Boolean</value>
+      </attribute>
+      <attribute name="type">
+        <value>boolean</value>
+      </attribute>
+      <attribute name="naval">
+        <value>false</value>
+      </attribute>
+      <attribute name="defagg">
+        <value>ambig</value>
+      </attribute>
+      <attribute name="defspread">
+        <value>repl</value>
+      </attribute>
+    </data_model>
+    <data_model type="MeasureClass">
+      <attribute name="name">
+        <value>C</value>
+      </attribute>
+      <attribute name="label">
+        <value>Cost</value>
+      </attribute>
+      <attribute name="naval">
+        <value>0</value>
+      </attribute>
+    </data_model>
+    <data_model type="MeasureClass">
+      <attribute name="name">
+        <value>D</value>
+      </attribute>
+      <attribute name="label">
+        <value>Date</value>
+      </attribute>
+      <attribute name="type">
+        <value>date</value>
+      </attribute>
+      <attribute name="naval">
+        <value>#UNSPECIFIED#</value>
+      </attribute>
+      <attribute name="defagg">
+        <value>ambig</value>
+      </attribute>
+      <attribute name="defspread">
+        <value>repl</value>
+      </attribute>
+      <attribute name="style">
+        <value>Date</value>
+      </attribute>
+    </data_model>
+    <data_model type="MeasureClass">
+      <attribute name="name">
+        <value>Pl</value>
+      </attribute>
+      <attribute name="label">
+        <value>Picklist</value>
+      </attribute>
+      <attribute name="type">
+        <value>int</value>
+      </attribute>
+      <attribute name="naval">
+        <value>#UNSPECIFIED#</value>
+      </attribute>
+      <attribute name="defagg">
+        <value>ambig</value>
+      </attribute>
+      <attribute name="viewtype">
+        <value>#UNSPECIFIED#</value>
+      </attribute>
+      <attribute name="uitype">
+        <value>picklist</value>
+      </attribute>
+    </data_model>
+    <data_model type="MeasureClass">
+      <attribute name="name">
+        <value>RL</value>
+      </attribute>
+      <attribute name="label">
+        <value>Price list</value>
+      </attribute>
+      <attribute name="naval">
+        <value>0</value>
+      </attribute>
+      <attribute name="style">
+        <value>Roubles</value>
+      </attribute>
+    </data_model>
+    <data_model type="MeasureClass">
+      <attribute name="name">
+        <value>M</value>
+      </attribute>
+      <attribute name="label">
+        <value>Months</value>
+      </attribute>
+      <attribute name="style">
+        <value>Units</value>
+      </attribute>
+    </data_model>
+    <data_model type="MeasureClass">
+      <attribute name="name">
+        <value>I</value>
+      </attribute>
+      <attribute name="label">
+        <value>Integer</value>
+      </attribute>
+      <attribute name="type">
+        <value>int</value>
+      </attribute>
+    </data_model>
+    <data_model type="MeasureClass">
+      <attribute name="name">
+        <value>F</value>
+      </attribute>
+      <attribute name="label">
+        <value>Float</value>
+      </attribute>
+      <attribute name="style">
+        <value>Real</value>
+      </attribute>
+    </data_model>
+  </data_model>
+  <data_model type="MeasureClass">
+    <attribute name="name">
+      <value>Attributes</value>
+    </attribute>
+    <attribute name="label">
+      <value>Attributes</value>
+    </attribute>
+    <data_model type="MeasureClass">
+      <attribute name="name">
+        <value>PROD</value>
+      </attribute>
+      <attribute name="label">
+        <value>Product</value>
+      </attribute>
+      <attribute name="baseint">
+        <value>tsku</value>
+      </attribute>
+      <attribute name="basestate">
+        <value>read</value>
+      </attribute>
+      <attribute name="aggstate">
+        <value>read</value>
+      </attribute>
+      <attribute name="db">
+        <value>data/prod_attr</value>
+      </attribute>
+      <attribute name="dimattrtype">
+        <value>true</value>
+      </attribute>
+      <data_model type="MeasureClass">
+        <attribute name="name">
+          <value>Manager</value>
+        </attribute>
+        <attribute name="label">
+          <value>Manager</value>
+        </attribute>
+        <attribute name="type">
+          <value>string</value>
+        </attribute>
+      </data_model>
+      <data_model type="MeasureClass">
+        <attribute name="name">
+          <value>Buyer</value>
+        </attribute>
+        <attribute name="label">
+          <value>Buyer</value>
+        </attribute>
+        <attribute name="type">
+          <value>string</value>
+        </attribute>
+      </data_model>
+      <data_model type="MeasureClass">
+        <attribute name="name">
+          <value>create_date</value>
+        </attribute>
+        <attribute name="label">
+          <value>create_date</value>
+        </attribute>
+        <attribute name="type">
+          <value>date</value>
+        </attribute>
+      </data_model>
+      <data_model type="MeasureClass">
+        <attribute name="name">
+          <value>first_date</value>
+        </attribute>
+        <attribute name="label">
+          <value>first_date</value>
+        </attribute>
+        <attribute name="type">
+          <value>date</value>
+        </attribute>
+      </data_model>
+      <data_model type="MeasureClass">
+        <attribute name="name">
+          <value>trademark_group</value>
+        </attribute>
+        <attribute name="label">
+          <value>trademark_group</value>
+        </attribute>
+        <attribute name="type">
+          <value>string</value>
+        </attribute>
+      </data_model>
+      <data_model type="MeasureClass">
+        <attribute name="name">
+          <value>big_pack</value>
+        </attribute>
+        <attribute name="label">
+          <value>big_pack</value>
+        </attribute>
+        <attribute name="type">
+          <value>int</value>
+        </attribute>
+      </data_model>
+      <data_model type="MeasureClass">
+        <attribute name="name">
+          <value>Weight</value>
+        </attribute>
+        <attribute name="label">
+          <value>Weight</value>
+        </attribute>
+        <attribute name="type">
+          <value>real</value>
+        </attribute>
+      </data_model>
+      <data_model type="MeasureClass">
+        <attribute name="name">
+          <value>Volume</value>
+        </attribute>
+        <attribute name="label">
+          <value>Volume</value>
+        </attribute>
+        <attribute name="type">
+          <value>real</value>
+        </attribute>
+      </data_model>
+      <data_model type="MeasureClass">
+        <attribute name="name">
+          <value>PriceProd</value>
+        </attribute>
+        <attribute name="label">
+          <value>Price</value>
+        </attribute>
+        <attribute name="type">
+          <value>real</value>
+        </attribute>
+      </data_model>
+      <data_model type="MeasureClass">
+        <attribute name="name">
+          <value>come_price</value>
+        </attribute>
+        <attribute name="label">
+          <value>come_price</value>
+        </attribute>
+        <attribute name="type">
+          <value>real</value>
+        </attribute>
+      </data_model>
+      <data_model type="MeasureClass">
+        <attribute name="name">
+          <value>come_pcost</value>
+        </attribute>
+        <attribute name="label">
+          <value>come_pcost</value>
+        </attribute>
+        <attribute name="type">
+          <value>real</value>
+        </attribute>
+      </data_model>
+      <data_model type="MeasureClass">
+        <attribute name="name">
+          <value>buy_price</value>
+        </attribute>
+        <attribute name="label">
+          <value>buy_price</value>
+        </attribute>
+        <attribute name="type">
+          <value>real</value>
+        </attribute>
+      </data_model>
+      <data_model type="MeasureClass">
+        <attribute name="name">
+          <value>buy_curr</value>
+        </attribute>
+        <attribute name="label">
+          <value>buy_curr</value>
+        </attribute>
+        <attribute name="type">
+          <value>string</value>
+        </attribute>
+      </data_model>
+      <data_model type="MeasureClass">
+        <attribute name="name">
+          <value>main_code</value>
+        </attribute>
+        <attribute name="label">
+          <value>main_code</value>
+        </attribute>
+        <attribute name="type">
+          <value>boolean</value>
+        </attribute>
+      </data_model>
+      <data_model type="MeasureClass">
+        <attribute name="name">
+          <value>analog_buy_attr</value>
+        </attribute>
+        <attribute name="label">
+          <value>analog_buy_attr</value>
+        </attribute>
+        <attribute name="type">
+          <value>string</value>
+        </attribute>
+      </data_model>
+      <data_model type="MeasureClass">
+        <attribute name="name">
+          <value>temporary_stop</value>
+        </attribute>
+        <attribute name="label">
+          <value>temporary_stop</value>
+        </attribute>
+        <attribute name="type">
+          <value>boolean</value>
+        </attribute>
+      </data_model>
+      <data_model type="MeasureClass">
+        <attribute name="name">
+          <value>stop_start_date</value>
+        </attribute>
+        <attribute name="label">
+          <value>stop_start_date</value>
+        </attribute>
+        <attribute name="type">
+          <value>date</value>
+        </attribute>
+      </data_model>
+      <data_model type="MeasureClass">
+        <attribute name="name">
+          <value>stop_final_date</value>
+        </attribute>
+        <attribute name="label">
+          <value>stop_final_date</value>
+        </attribute>
+        <attribute name="type">
+          <value>date</value>
+        </attribute>
+      </data_model>
+      <data_model type="MeasureClass">
+        <attribute name="name">
+          <value>Cluster</value>
+        </attribute>
+        <attribute name="label">
+          <value>Cluster</value>
+        </attribute>
+        <attribute name="type">
+          <value>string</value>
+        </attribute>
+      </data_model>
+      <data_model type="MeasureClass">
+        <attribute name="name">
+          <value>grp4</value>
+        </attribute>
+        <attribute name="label">
+          <value>Group 4</value>
+        </attribute>
+        <attribute name="type">
+          <value>string</value>
+        </attribute>
+      </data_model>
+      <data_model type="MeasureClass">
+        <attribute name="name">
+          <value>grp3</value>
+        </attribute>
+        <attribute name="label">
+          <value>Group 3</value>
+        </attribute>
+        <attribute name="type">
+          <value>string</value>
+        </attribute>
+      </data_model>
+      <data_model type="MeasureClass">
+        <attribute name="name">
+          <value>grp2</value>
+        </attribute>
+        <attribute name="label">
+          <value>Group 2</value>
+        </attribute>
+        <attribute name="type">
+          <value>string</value>
+        </attribute>
+      </data_model>
+      <data_model type="MeasureClass">
+        <attribute name="name">
+          <value>grp1</value>
+        </attribute>
+        <attribute name="label">
+          <value>Group 1</value>
+        </attribute>
+        <attribute name="type">
+          <value>string</value>
+        </attribute>
+        <attribute name="defagg">
+          <value>ambig</value>
+        </attribute>
+      </data_model>
+      <data_model type="MeasureClass">
+        <attribute name="name">
+          <value>status</value>
+        </attribute>
+        <attribute name="label">
+          <value>Status</value>
+        </attribute>
+        <attribute name="type">
+          <value>string</value>
+        </attribute>
+      </data_model>
+      <data_model type="MeasureClass">
+        <attribute name="name">
+          <value>vendorcompany</value>
+        </attribute>
+        <attribute name="label">
+          <value>Vendor company</value>
+        </attribute>
+        <attribute name="type">
+          <value>string</value>
+        </attribute>
+      </data_model>
+      <data_model type="MeasureClass">
+        <attribute name="name">
+          <value>SKU_CODE</value>
+        </attribute>
+        <attribute name="label">
+          <value>SKU Code</value>
+        </attribute>
+      </data_model>
+      <data_model type="MeasureClass">
+        <attribute name="name">
+          <value>grp3code_grp3</value>
+        </attribute>
+        <attribute name="label">
+          <value>Код группы 3</value>
+        </attribute>
+        <attribute name="type">
+          <value>string</value>
+        </attribute>
+        <attribute name="baseint">
+          <value>grp3</value>
+        </attribute>
+      </data_model>
+      <data_model type="MeasureClass">
+        <attribute name="name">
+          <value>grp3code_sku</value>
+        </attribute>
+        <attribute name="label">
+          <value>Код группы 3</value>
+        </attribute>
+        <attribute name="type">
+          <value>string</value>
+        </attribute>
+        <attribute name="baseint">
+          <value>skup</value>
+        </attribute>
+      </data_model>
+      <data_model type="MeasureClass">
+        <attribute name="name">
+          <value>tsku_code</value>
+        </attribute>
+        <attribute name="label">
+          <value>TSKU Code</value>
+        </attribute>
+      </data_model>
+      <data_model type="MeasureClass">
+        <attribute name="name">
+          <value>Cmpp</value>
+        </attribute>
+        <attribute name="label">
+          <value>Company</value>
+        </attribute>
+      </data_model>
+      <data_model type="MeasureClass">
+        <attribute name="name">
+          <value>grp3_label</value>
+        </attribute>
+        <attribute name="label">
+          <value>Группа 3</value>
+        </attribute>
+        <attribute name="type">
+          <value>string</value>
+        </attribute>
+        <attribute name="baseint">
+          <value>skup</value>
+        </attribute>
+        <attribute name="db">
+          <value>#UNSPECIFIED#</value>
+        </attribute>
+      </data_model>
+      <data_model type="MeasureClass">
+        <attribute name="name">
+          <value>grp2_label</value>
+        </attribute>
+        <attribute name="label">
+          <value>Группа 2</value>
+        </attribute>
+        <attribute name="type">
+          <value>string</value>
+        </attribute>
+        <attribute name="baseint">
+          <value>skup</value>
+        </attribute>
+        <attribute name="db">
+          <value>#UNSPECIFIED#</value>
+        </attribute>
+      </data_model>
+      <data_model type="MeasureClass">
+        <attribute name="name">
+          <value>grp1_label</value>
+        </attribute>
+        <attribute name="label">
+          <value>Группа 1</value>
+        </attribute>
+        <attribute name="type">
+          <value>string</value>
+        </attribute>
+        <attribute name="baseint">
+          <value>skup</value>
+        </attribute>
+        <attribute name="db">
+          <value>#UNSPECIFIED#</value>
+        </attribute>
+        <attribute name="dimattrname">
+          <value>#UNSPECIFIED#</value>
+        </attribute>
+      </data_model>
+      <data_model type="MeasureClass">
+        <attribute name="name">
+          <value>Cmpp_label</value>
+        </attribute>
+        <attribute name="label">
+          <value>Россия/Импорт</value>
+        </attribute>
+        <attribute name="type">
+          <value>string</value>
+        </attribute>
+        <attribute name="baseint">
+          <value>skup</value>
+        </attribute>
+        <attribute name="db">
+          <value>#UNSPECIFIED#</value>
+        </attribute>
+        <attribute name="dimattrname">
+          <value>#UNSPECIFIED#</value>
+        </attribute>
+      </data_model>
+      <data_model type="MeasureClass">
+        <attribute name="name">
+          <value>status_label</value>
+        </attribute>
+        <attribute name="label">
+          <value>Статус</value>
+        </attribute>
+        <attribute name="type">
+          <value>string</value>
+        </attribute>
+        <attribute name="baseint">
+          <value>skup</value>
+        </attribute>
+      </data_model>
+      <data_model type="MeasureClass">
+        <attribute name="name">
+          <value>trademark_group_tsku</value>
+        </attribute>
+        <attribute name="label">
+          <value>Группа торговых марок</value>
+        </attribute>
+        <attribute name="type">
+          <value>string</value>
+        </attribute>
+        <attribute name="baseint">
+          <value>skup</value>
+        </attribute>
+        <attribute name="dimattrtype">
+          <value>false</value>
+        </attribute>
+      </data_model>
+      <data_model type="MeasureClass">
+        <attribute name="name">
+          <value>vend_label</value>
+        </attribute>
+        <attribute name="label">
+          <value>Поставщик</value>
+        </attribute>
+        <attribute name="type">
+          <value>string</value>
+        </attribute>
+        <attribute name="baseint">
+          <value>skup</value>
+        </attribute>
+        <attribute name="defspread">
+          <value>repl</value>
+        </attribute>
+        <attribute name="db">
+          <value>#UNSPECIFIED#</value>
+        </attribute>
+      </data_model>
+      <data_model type="MeasureClass">
+        <attribute name="name">
+          <value>Manager_tsku</value>
+        </attribute>
+        <attribute name="label">
+          <value>Manager_tsku</value>
+        </attribute>
+        <attribute name="type">
+          <value>string</value>
+        </attribute>
+        <attribute name="dimattrtype">
+          <value>false</value>
+        </attribute>
+      </data_model>
+      <data_model type="MeasureClass">
+        <attribute name="name">
+          <value>Buyer_tsku</value>
+        </attribute>
+        <attribute name="label">
+          <value>Buyer_tsku</value>
+        </attribute>
+        <attribute name="type">
+          <value>string</value>
+        </attribute>
+        <attribute name="dimattrtype">
+          <value>false</value>
+        </attribute>
+      </data_model>
+      <data_model type="MeasureClass">
+        <attribute name="name">
+          <value>Cluster_tsku</value>
+        </attribute>
+        <attribute name="label">
+          <value>Cluster_tsku</value>
+        </attribute>
+        <attribute name="type">
+          <value>string</value>
+        </attribute>
+        <attribute name="dimattrtype">
+          <value>false</value>
+        </attribute>
+      </data_model>
+    </data_model>
+    <data_model type="MeasureClass">
+      <attribute name="name">
+        <value>USER</value>
+      </attribute>
+      <attribute name="label">
+        <value>USER</value>
+      </attribute>
+      <data_model type="MeasureClass">
+        <attribute name="name">
+          <value>EmailAddress</value>
+        </attribute>
+        <attribute name="label">
+          <value>EmailAddress</value>
+        </attribute>
+        <attribute name="baseint">
+          <value>day</value>
+        </attribute>
+      </data_model>
+    </data_model>
+  </data_model>
+  <data_model type="MeasureClass">
+    <attribute name="name">
+      <value>Var</value>
+    </attribute>
+    <attribute name="label">
+      <value>Variances</value>
+    </attribute>
+    <data_model type="MeasureClass">
+      <attribute name="name">
+        <value>VLy</value>
+      </attribute>
+      <attribute name="label">
+        <value>var Ly</value>
+      </attribute>
+    </data_model>
+    <data_model type="MeasureClass">
+      <attribute name="name">
+        <value>VL2</value>
+      </attribute>
+      <attribute name="label">
+        <value>var L2</value>
+      </attribute>
+    </data_model>
+    <data_model type="MeasureClass">
+      <attribute name="name">
+        <value>VL3</value>
+      </attribute>
+      <attribute name="label">
+        <value>var L3</value>
+      </attribute>
+    </data_model>
+    <data_model type="MeasureClass">
+      <attribute name="name">
+        <value>VTy</value>
+      </attribute>
+      <attribute name="label">
+        <value>var Ty</value>
+      </attribute>
+    </data_model>
+    <data_model type="MeasureClass">
+      <attribute name="name">
+        <value>VLyI</value>
+      </attribute>
+      <attribute name="label">
+        <value>var Ly Inc</value>
+      </attribute>
+    </data_model>
+    <data_model type="MeasureClass">
+      <attribute name="name">
+        <value>VL2I</value>
+      </attribute>
+      <attribute name="label">
+        <value>var L2 Inc</value>
+      </attribute>
+    </data_model>
+    <data_model type="MeasureClass">
+      <attribute name="name">
+        <value>VL3I</value>
+      </attribute>
+      <attribute name="label">
+        <value>var L3 Inc</value>
+      </attribute>
+    </data_model>
+    <data_model type="MeasureClass">
+      <attribute name="name">
+        <value>VTyI</value>
+      </attribute>
+      <attribute name="label">
+        <value>var Ty Inc</value>
+      </attribute>
+    </data_model>
+    <data_model type="MeasureClass">
+      <attribute name="name">
+        <value>VLM</value>
+      </attribute>
+      <attribute name="label">
+        <value>var LM</value>
+      </attribute>
+    </data_model>
+    <data_model type="MeasureClass">
+      <attribute name="name">
+        <value>VPD</value>
+      </attribute>
+      <attribute name="label">
+        <value>var PD</value>
+      </attribute>
+    </data_model>
+    <data_model type="MeasureClass">
+      <attribute name="name">
+        <value>VCp</value>
+      </attribute>
+      <attribute name="label">
+        <value>var CP</value>
+      </attribute>
+    </data_model>
+    <data_model type="MeasureClass">
+      <attribute name="name">
+        <value>VBg</value>
+      </attribute>
+      <attribute name="label">
+        <value>var BG</value>
+      </attribute>
+    </data_model>
+    <data_model type="MeasureClass">
+      <attribute name="name">
+        <value>VBgI</value>
+      </attribute>
+      <attribute name="label">
+        <value>var BG Inc</value>
+      </attribute>
+    </data_model>
+    <data_model type="MeasureClass">
+      <attribute name="name">
+        <value>VWa</value>
+      </attribute>
+      <attribute name="label">
+        <value>var Wa</value>
+      </attribute>
+    </data_model>
+    <data_model type="MeasureClass">
+      <attribute name="name">
+        <value>VAr</value>
+      </attribute>
+      <attribute name="label">
+        <value>var AR</value>
+      </attribute>
+    </data_model>
+    <data_model type="MeasureClass">
+      <attribute name="name">
+        <value>VPDI</value>
+      </attribute>
+      <attribute name="label">
+        <value>var PD Inc</value>
+      </attribute>
+    </data_model>
+    <data_model type="MeasureClass">
+      <attribute name="name">
+        <value>VUP</value>
+      </attribute>
+      <attribute name="label">
+        <value>var UP</value>
+      </attribute>
+    </data_model>
+    <data_model type="MeasureClass">
+      <attribute name="name">
+        <value>VUPI</value>
+      </attribute>
+      <attribute name="label">
+        <value>var UP Inc</value>
+      </attribute>
+    </data_model>
+    <data_model type="MeasureClass">
+      <attribute name="name">
+        <value>VOp</value>
+      </attribute>
+      <attribute name="label">
+        <value>var Published plan</value>
+      </attribute>
+    </data_model>
+    <data_model type="MeasureClass">
+      <attribute name="name">
+        <value>VFc</value>
+      </attribute>
+      <attribute name="label">
+        <value>var Fc</value>
+      </attribute>
+    </data_model>
+    <data_model type="MeasureClass">
+      <attribute name="name">
+        <value>VLg</value>
+      </attribute>
+      <attribute name="label">
+        <value>var Lag</value>
+      </attribute>
+    </data_model>
+    <data_model type="MeasureClass">
+      <attribute name="name">
+        <value>VRM</value>
+      </attribute>
+      <attribute name="label">
+        <value>var Ruk PM</value>
+      </attribute>
+    </data_model>
+    <data_model type="MeasureClass">
+      <attribute name="name">
+        <value>VAS</value>
+      </attribute>
+      <attribute name="label">
+        <value>var AS OP</value>
+      </attribute>
+    </data_model>
+    <data_model type="MeasureClass">
+      <attribute name="name">
+        <value>VPP</value>
+      </attribute>
+      <attribute name="label">
+        <value>var PP Ap</value>
+      </attribute>
+    </data_model>
+    <data_model type="MeasureClass">
+      <attribute name="name">
+        <value>VWp</value>
+      </attribute>
+      <attribute name="label">
+        <value>var WP</value>
+      </attribute>
+    </data_model>
+  </data_model>
+  <data_model type="MeasureClass">
+    <attribute name="name">
+      <value>VarUOM</value>
+    </attribute>
+    <attribute name="label">
+      <value>Variance UOM</value>
+    </attribute>
+    <data_model type="MeasureClass">
+      <attribute name="name">
+        <value>Rp</value>
+      </attribute>
+      <attribute name="label">
+        <value>R</value>
+      </attribute>
+      <attribute name="type">
+        <value>real</value>
+      </attribute>
+    </data_model>
+    <data_model type="MeasureClass">
+      <attribute name="name">
+        <value>Pp</value>
+      </attribute>
+      <attribute name="label">
+        <value>%</value>
+      </attribute>
+      <attribute name="type">
+        <value>real</value>
+      </attribute>
+      <attribute name="defagg">
+        <value>reclc</value>
+      </attribute>
+      <attribute name="style">
+        <value>Percent</value>
+      </attribute>
+    </data_model>
+    <data_model type="MeasureClass">
+      <attribute name="name">
+        <value>Up</value>
+      </attribute>
+      <attribute name="label">
+        <value>U</value>
+      </attribute>
+      <attribute name="type">
+        <value>real</value>
+      </attribute>
+    </data_model>
+  </data_model>
+  <data_model type="MeasureClass">
+    <attribute name="name">
+      <value>Postfix</value>
+    </attribute>
+    <attribute name="label">
+      <value>Postfix</value>
+    </attribute>
+    <data_model type="MeasureClass">
+      <attribute name="name">
+        <value>Bs</value>
+      </attribute>
+      <attribute name="label">
+        <value>Base</value>
+      </attribute>
+      <attribute name="basestate">
+        <value>read</value>
+      </attribute>
+      <attribute name="aggstate">
+        <value>read</value>
+      </attribute>
+    </data_model>
+    <data_model type="MeasureClass">
+      <attribute name="name">
+        <value>Db</value>
+      </attribute>
+      <attribute name="label">
+        <value>Database</value>
+      </attribute>
+    </data_model>
+    <data_model type="MeasureClass">
+      <attribute name="name">
+        <value>BsDb</value>
+      </attribute>
+      <attribute name="label">
+        <value>Base Db</value>
+      </attribute>
+    </data_model>
+    <data_model type="MeasureClass">
+      <attribute name="name">
+        <value>Tmp</value>
+      </attribute>
+      <attribute name="label">
+        <value>Tmp</value>
+      </attribute>
+    </data_model>
+    <data_model type="MeasureClass">
+      <attribute name="name">
+        <value>Invert</value>
+      </attribute>
+      <attribute name="label">
+        <value>Инверт</value>
+      </attribute>
+    </data_model>
+    <data_model type="MeasureClass">
+      <attribute name="name">
+        <value>Clean</value>
+      </attribute>
+      <attribute name="label">
+        <value>Clean</value>
+      </attribute>
+    </data_model>
+    <data_model type="MeasureClass">
+      <attribute name="name">
+        <value>Delta</value>
+      </attribute>
+      <attribute name="label">
+        <value>Component0010</value>
+      </attribute>
+    </data_model>
+    <data_model type="MeasureClass">
+      <attribute name="name">
+        <value>AllSkups</value>
+      </attribute>
+      <attribute name="label">
+        <value>Component0002</value>
+      </attribute>
+    </data_model>
+    <data_model type="MeasureClass">
+      <attribute name="name">
+        <value>ambig</value>
+      </attribute>
+      <attribute name="label">
+        <value>Component0000</value>
+      </attribute>
+    </data_model>
+    <data_model type="MeasureClass">
+      <attribute name="name">
+        <value>Exp</value>
+      </attribute>
+      <attribute name="label">
+        <value>Export</value>
+      </attribute>
+    </data_model>
+    <data_model type="MeasureClass">
+      <attribute name="name">
+        <value>Clnd</value>
+      </attribute>
+      <attribute name="label">
+        <value>Component0001</value>
+      </attribute>
+    </data_model>
+    <data_model type="MeasureClass">
+      <attribute name="name">
+        <value>ClndYear</value>
+      </attribute>
+      <attribute name="label">
+        <value>Component0000</value>
+      </attribute>
+    </data_model>
+  </data_model>
+  <data_model type="MeasureClass">
+    <attribute name="name">
+      <value>LoadShift</value>
+    </attribute>
+    <attribute name="label">
+      <value>LoadShift</value>
+    </attribute>
+    <data_model type="MeasureClass">
+      <attribute name="name">
+        <value>l0</value>
+      </attribute>
+      <attribute name="label">
+        <value>current</value>
+      </attribute>
+    </data_model>
+    <data_model type="MeasureClass">
+      <attribute name="name">
+        <value>l1</value>
+      </attribute>
+      <attribute name="label">
+        <value>next year</value>
+      </attribute>
+    </data_model>
+    <data_model type="MeasureClass">
+      <attribute name="name">
+        <value>ts</value>
+      </attribute>
+      <attribute name="label">
+        <value>timeshift</value>
+      </attribute>
+    </data_model>
+    <data_model type="MeasureClass">
+      <attribute name="name">
+        <value>lp</value>
+      </attribute>
+      <attribute name="label">
+        <value>previous year</value>
+      </attribute>
+    </data_model>
+    <data_model type="MeasureClass">
+      <attribute name="name">
+        <value>l2</value>
+      </attribute>
+      <attribute name="label">
+        <value>last year</value>
+      </attribute>
+    </data_model>
+    <data_model type="MeasureClass">
+      <attribute name="name">
+        <value>cur</value>
+      </attribute>
+      <attribute name="label">
+        <value>curr</value>
+      </attribute>
+      <attribute name="type">
+        <value>#UNSPECIFIED#</value>
+      </attribute>
+    </data_model>
+  </data_model>
+</data_set>

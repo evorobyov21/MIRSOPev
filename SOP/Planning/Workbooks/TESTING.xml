@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data_set type="Workbook">
+  <attribute name="name">
+    <value>TESTING</value>
+  </attribute>
+  <attribute name="Label">
+    <value>Нагрузочное тестирование</value>
+  </attribute>
+  <attribute name="WorkbookGroup">
+    <value>PlanningAdm</value>
+  </attribute>
+  <attribute name="WorkbookGroupLabel">
+    <value>Planning Administration</value>
+  </attribute>
+  <attribute name="WorkbookLib">
+    <value>Templates</value>
+  </attribute>
+  <attribute name="WorkbookType">
+    <value>DynamicTemplate</value>
+  </attribute>
+  <attribute name="IsWizardOnly">
+    <value>false</value>
+  </attribute>
+  <attribute name="IsImageEnabled">
+    <value>false</value>
+  </attribute>
+  <attribute name="RuleSet">
+    <value>TESTING</value>
+  </attribute>
+  <attribute name="LoadRules">
+    <value>TESTING_load</value>
+  </attribute>
+  <attribute name="CommitRules">
+    <value>TESTING_commit</value>
+  </attribute>
+  <attribute name="CalcRules">
+    <value>TESTING_calc</value>
+  </attribute>
+  <attribute name="RefreshRules">
+    <value>TESTING_refresh</value>
+  </attribute>
+  <attribute name="IsUseDefaults">
+    <value>true</value>
+  </attribute>
+  <attribute name="DpmDimensions">
+    <value></value>
+  </attribute>
+  <attribute name="IsCustomWizard">
+    <value>false</value>
+  </attribute>
+  <data_model type="AxisInfo">
+    <attribute name="name">
+      <value>AxisInfo</value>
+    </attribute>
+    <attribute name="MEASAxis">
+      <value>XAxis</value>
+    </attribute>
+    <attribute name="MEASOrder">
+      <value>0</value>
+    </attribute>
+  </data_model>
+  <data_model type="Wizards">
+    <attribute name="name">
+      <value>Wizards</value>
+    </attribute>
+  </data_model>
+  <data_model type="WorkbookTabs">
+    <attribute name="name">
+      <value>WorkbookTabs</value>
+    </attribute>
+    <data_model type="WorkbookTab">
+      <attribute name="name">
+        <value>TESTING</value>
+      </attribute>
+      <attribute name="Label">
+        <value>Нагрузочное тестирование</value>
+      </attribute>
+      <data_model type="Worksheets">
+        <attribute name="name">
+          <value>Worksheets</value>
+        </attribute>
+        <data_model type="Worksheet">
+          <attribute name="name">
+            <value>Worksheet56</value>
+          </attribute>
+          <attribute name="Label">
+            <value>Нагрузочное тестирование</value>
+          </attribute>
+          <attribute name="IsUseDefaultAxis">
+            <value>false</value>
+          </attribute>
+          <data_model type="Profiles">
+            <attribute name="name">
+              <value>Profiles</value>
+            </attribute>
+            <data_model type="Profile">
+              <attribute name="name">
+                <value>Viewable</value>
+              </attribute>
+              <attribute name="Label">
+                <value>Viewable</value>
+              </attribute>
+              <attribute name="Measures">
+                <value>INWpWbCalcB</value>
+                <value>INWpWbCommitB</value>
+                <value>INWpWbCreateB</value>
+                <value>INWpEmailT</value>
+              </attribute>
+              <attribute name="MeasureName">
+                <value>INWpWbCalcB</value>
+                <value>INWpWbCommitB</value>
+                <value>INWpWbCreateB</value>
+                <value>INWpEmailT</value>
+              </attribute>
+            </data_model>
+            <data_model type="Profile">
+              <attribute name="name">
+                <value>Default</value>
+              </attribute>
+              <attribute name="Label">
+                <value>Default</value>
+              </attribute>
+              <attribute name="Measures">
+                <value>INWpWbCreateB</value>
+                <value>INWpWbCalcB</value>
+                <value>INWpWbCommitB</value>
+                <value>INWpEmailT</value>
+              </attribute>
+              <attribute name="MeasureName">
+                <value>INWpWbCreateB</value>
+                <value>INWpWbCalcB</value>
+                <value>INWpWbCommitB</value>
+                <value>INWpEmailT</value>
+              </attribute>
+            </data_model>
+          </data_model>
+          <data_model type="AxisInfo">
+            <attribute name="name">
+              <value>AxisInfo</value>
+            </attribute>
+            <attribute name="MEASAxis">
+              <value>YAxis</value>
+            </attribute>
+            <attribute name="MEASOrder">
+              <value>0</value>
+            </attribute>
+          </data_model>
+          <data_model type="PositionQueries">
+            <attribute name="name">
+              <value>PositionQueries</value>
+            </attribute>
+          </data_model>
+          <data_model type="StyleORs">
+            <attribute name="name">
+              <value>StyleORs</value>
+            </attribute>
+          </data_model>
+        </data_model>
+      </data_model>
+    </data_model>
+  </data_model>
+  <data_model type="Menu">
+    <attribute name="name">
+      <value>Menu226</value>
+    </attribute>
+    <attribute name="Label">
+      <value>Тестирование</value>
+    </attribute>
+    <data_model type="MenuItems">
+      <attribute name="name">
+        <value>MenuItems</value>
+      </attribute>
+      <data_model type="MenuItem">
+        <attribute name="name">
+          <value>menuItem156</value>
+        </attribute>
+        <attribute name="Label">
+          <value>Запуск тестирования</value>
+        </attribute>
+        <attribute name="Function">
+          <value>RuleGroupProcessor</value>
+        </attribute>
+        <attribute name="Arguments">
+          <value>TEST_MENU,*perf_test.sh,TEST_Cmt,TESTING_refresh</value>
+        </attribute>
+        <attribute name="MenuItemId">
+          <value>156</value>
+        </attribute>
+        <attribute name="Condition">
+          <value></value>
+        </attribute>
+        <attribute name="Message">
+          <value>INWpMsgTestT</value>
+        </attribute>
+        <attribute name="CommitAsap">
+          <value>false</value>
+        </attribute>
+        <attribute name="IntradayConcurrent">
+          <value>false</value>
+        </attribute>
+      </data_model>
+    </data_model>
+  </data_model>
+  <data_model type="DynHiers">
+    <attribute name="name">
+      <value>DynHiers</value>
+    </attribute>
+  </data_model>
+  <data_model type="EditedMeasures">
+    <attribute name="name">
+      <value>EditedMeasures</value>
+    </attribute>
+  </data_model>
+  <data_model type="PercentToParents">
+    <attribute name="name">
+      <value>PercentToParents</value>
+    </attribute>
+  </data_model>
+</data_set>

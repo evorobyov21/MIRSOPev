@@ -1,0 +1,2607 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data_set type="Workbook">
+  <attribute name="name">
+    <value>UP</value>
+  </attribute>
+  <attribute name="Label">
+    <value>Director of DUPr</value>
+  </attribute>
+  <attribute name="WorkbookGroup">
+    <value>Planning</value>
+  </attribute>
+  <attribute name="WorkbookGroupLabel">
+    <value>Planning</value>
+  </attribute>
+  <attribute name="WorkbookLib">
+    <value>Templates</value>
+  </attribute>
+  <attribute name="WorkbookType">
+    <value>DynamicTemplate</value>
+  </attribute>
+  <attribute name="IsWizardOnly">
+    <value>false</value>
+  </attribute>
+  <attribute name="IsImageEnabled">
+    <value>false</value>
+  </attribute>
+  <attribute name="RuleSet">
+    <value>UP</value>
+  </attribute>
+  <attribute name="LoadRules">
+    <value>UP_load</value>
+  </attribute>
+  <attribute name="CommitRules">
+    <value>UP_commit</value>
+  </attribute>
+  <attribute name="CalcRules">
+    <value>UP_calc</value>
+  </attribute>
+  <attribute name="RefreshRules">
+    <value>UP_refresh</value>
+  </attribute>
+  <attribute name="IsUseDefaults">
+    <value>true</value>
+  </attribute>
+  <attribute name="DpmDimensions">
+    <value></value>
+  </attribute>
+  <attribute name="prerangemask">
+    <value>CSWpPlanPeriodB</value>
+  </attribute>
+  <attribute name="IsCustomWizard">
+    <value>false</value>
+  </attribute>
+  <data_model type="AxisInfo">
+    <attribute name="name">
+      <value>AxisInfo</value>
+    </attribute>
+    <attribute name="CLNDAxis">
+      <value>XAxis</value>
+    </attribute>
+    <attribute name="CLNDOrder">
+      <value>0</value>
+    </attribute>
+    <attribute name="MEASAxis">
+      <value>YAxis</value>
+    </attribute>
+    <attribute name="MEASOrder">
+      <value>0</value>
+    </attribute>
+    <attribute name="LOCAxis">
+      <value>ZAxis</value>
+    </attribute>
+    <attribute name="LOCOrder">
+      <value>0</value>
+    </attribute>
+  </data_model>
+  <data_model type="Wizards">
+    <attribute name="name">
+      <value>Wizards</value>
+    </attribute>
+  </data_model>
+  <data_model type="WorkbookTabs">
+    <attribute name="name">
+      <value>WorkbookTabs</value>
+    </attribute>
+    <data_model type="WorkbookTab">
+      <attribute name="name">
+        <value>UPPubTab</value>
+      </attribute>
+      <attribute name="Label">
+        <value>Публикация плана</value>
+      </attribute>
+      <data_model type="Worksheets">
+        <attribute name="name">
+          <value>Worksheets</value>
+        </attribute>
+        <data_model type="Worksheet">
+          <attribute name="name">
+            <value>Worksheet2</value>
+          </attribute>
+          <attribute name="Label">
+            <value>Публикация плана ДУПР</value>
+          </attribute>
+          <attribute name="WorksheetIntersection">
+            <value>mnth_str</value>
+          </attribute>
+          <attribute name="IsUseDefaultAxis">
+            <value>false</value>
+          </attribute>
+          <data_model type="Profiles">
+            <attribute name="name">
+              <value>Profiles</value>
+            </attribute>
+            <data_model type="Profile">
+              <attribute name="name">
+                <value>Viewable</value>
+              </attribute>
+              <attribute name="Label">
+                <value>Viewable</value>
+              </attribute>
+              <attribute name="Measures">
+                <value>GLCpPubB</value>
+                <value>GLCpPubByT</value>
+                <value>GLCpPubD</value>
+                <value>GLCpPubT</value>
+                <value>GLCpSlsR</value>
+                <value>GLCpSlsRVTyIRp</value>
+                <value>GLCpSlsRVTyPp</value>
+                <value>GLCpSlsRVTyRp</value>
+                <value>KDOpPubB</value>
+                <value>KDOpPubByT</value>
+                <value>KDOpPubD</value>
+                <value>KDOpPubT</value>
+                <value>KDOpSlsR</value>
+                <value>KDOpSlsRVUPPp</value>
+                <value>KDOpSlsRVUPRp</value>
+                <value>UPWpCheckNegB</value>
+                <value>LDL2PresentP</value>
+                <value>LDL2SlsRL</value>
+                <value>LDL2SlsRLVL3Pp</value>
+                <value>LDL2SlsRLVL3Rp</value>
+                <value>LDL2SlsRVL3Pp</value>
+                <value>LDL2SlsRVL3Rp</value>
+                <value>LDL3PresentP</value>
+                <value>LDL3SlsRL</value>
+                <value>LDLyPresentP</value>
+                <value>LDLySlsRL</value>
+                <value>LDLySlsRLVL2Pp</value>
+                <value>LDLySlsRLVL2Rp</value>
+                <value>LDLySlsRVL2Pp</value>
+                <value>LDLySlsRVL2Rp</value>
+                <value>LDTyPresentP</value>
+                <value>LDTySlsRL</value>
+                <value>LDTySlsRLVLyPp</value>
+                <value>LDTySlsRLVLyRp</value>
+                <value>LDTySlsRVLyPp</value>
+                <value>LDTySlsRVLyRp</value>
+                <value>UPApAppB</value>
+                <value>UPApAppByT</value>
+                <value>UPApAppD</value>
+                <value>UPApAppT</value>
+                <value>UPApSlsR</value>
+                <value>UPBgSlsR</value>
+                <value>UPOpPubB</value>
+                <value>UPOpPubByT</value>
+                <value>UPOpPubD</value>
+                <value>UPOpPubT</value>
+                <value>UPOpSlsR</value>
+                <value>UPWpApproveB</value>
+                <value>UPWpApproveT</value>
+                <value>UPWpPublishB</value>
+                <value>UPWpPublishT</value>
+                <value>UPWpSlsRBs</value>
+                <value>UPWpSlsRVBgIRp</value>
+                <value>UPWpSlsRVBgPp</value>
+                <value>UPWpSlsRVBgRp</value>
+                <value>UPWpSlsRVCpPp</value>
+                <value>UPWpSlsRVCpRp</value>
+                <value>UPWpSlsRVLyPp</value>
+                <value>UPWpSlsRVLyRp</value>
+                <value>Blank1</value>
+                <value>Blank10</value>
+                <value>Blank2</value>
+                <value>Blank3</value>
+                <value>Blank4</value>
+                <value>Blank5</value>
+                <value>Blank6</value>
+                <value>Blank7</value>
+                <value>Blank8</value>
+                <value>Blank9</value>
+                <value>UPBgSlsRL</value>
+                <value>LDL2SlsR</value>
+                <value>LDL3SlsR</value>
+                <value>LDLySlsR</value>
+                <value>LDLySlsRVLgPp</value>
+                <value>LDLySlsRVLgRp</value>
+                <value>LDTySlsR</value>
+                <value>LDTySlsRVLgPp</value>
+                <value>UPWpMkdR</value>
+                <value>LDTySlsRVLgRp</value>
+                <value>UPWpMkdP</value>
+                <value>UPApSlsRL</value>
+                <value>LDL2MkdP</value>
+                <value>LDL3MkdP</value>
+                <value>LDLyMkdP</value>
+                <value>LDTyMkdP</value>
+                <value>UPWpSlsR</value>
+                <value>UPWpSlsRL</value>
+              </attribute>
+              <attribute name="MeasureName">
+                <value>GLCpPubB</value>
+                <value>GLCpPubByT</value>
+                <value>GLCpPubD</value>
+                <value>GLCpPubT</value>
+                <value>GLCpSlsR</value>
+                <value>GLCpSlsRVTyIRp</value>
+                <value>GLCpSlsRVTyPp</value>
+                <value>GLCpSlsRVTyRp</value>
+                <value>KDOpPubB</value>
+                <value>KDOpPubByT</value>
+                <value>KDOpPubD</value>
+                <value>KDOpPubT</value>
+                <value>KDOpSlsR</value>
+                <value>KDOpSlsRVUPPp</value>
+                <value>KDOpSlsRVUPRp</value>
+                <value>UPWpCheckNegB</value>
+                <value>LDL2PresentP</value>
+                <value>LDL2SlsRL</value>
+                <value>LDL2SlsRLVL3Pp</value>
+                <value>LDL2SlsRLVL3Rp</value>
+                <value>LDL2SlsRVL3Pp</value>
+                <value>LDL2SlsRVL3Rp</value>
+                <value>LDL3PresentP</value>
+                <value>LDL3SlsRL</value>
+                <value>LDLyPresentP</value>
+                <value>LDLySlsRL</value>
+                <value>LDLySlsRLVL2Pp</value>
+                <value>LDLySlsRLVL2Rp</value>
+                <value>LDLySlsRVL2Pp</value>
+                <value>LDLySlsRVL2Rp</value>
+                <value>LDTyPresentP</value>
+                <value>LDTySlsRL</value>
+                <value>LDTySlsRLVLyPp</value>
+                <value>LDTySlsRLVLyRp</value>
+                <value>LDTySlsRVLyPp</value>
+                <value>LDTySlsRVLyRp</value>
+                <value>UPApAppB</value>
+                <value>UPApAppByT</value>
+                <value>UPApAppD</value>
+                <value>UPApAppT</value>
+                <value>UPApSlsR</value>
+                <value>UPBgSlsR</value>
+                <value>UPOpPubB</value>
+                <value>UPOpPubByT</value>
+                <value>UPOpPubD</value>
+                <value>UPOpPubT</value>
+                <value>UPOpSlsR</value>
+                <value>UPWpApproveB</value>
+                <value>UPWpApproveT</value>
+                <value>UPWpPublishB</value>
+                <value>UPWpPublishT</value>
+                <value>UPWpSlsRBs</value>
+                <value>UPWpSlsRVBgIRp</value>
+                <value>UPWpSlsRVBgPp</value>
+                <value>UPWpSlsRVBgRp</value>
+                <value>UPWpSlsRVCpPp</value>
+                <value>UPWpSlsRVCpRp</value>
+                <value>UPWpSlsRVLyPp</value>
+                <value>UPWpSlsRVLyRp</value>
+                <value>Blank1</value>
+                <value>Blank10</value>
+                <value>Blank2</value>
+                <value>Blank3</value>
+                <value>Blank4</value>
+                <value>Blank5</value>
+                <value>Blank6</value>
+                <value>Blank7</value>
+                <value>Blank8</value>
+                <value>Blank9</value>
+                <value>UPBgSlsRL</value>
+                <value>LDL2SlsR</value>
+                <value>LDL3SlsR</value>
+                <value>LDLySlsR</value>
+                <value>LDLySlsRVLgPp</value>
+                <value>LDLySlsRVLgRp</value>
+                <value>LDTySlsR</value>
+                <value>LDTySlsRVLgPp</value>
+                <value>UPWpMkdR</value>
+                <value>LDTySlsRVLgRp</value>
+                <value>UPWpMkdP</value>
+                <value>UPApSlsRL</value>
+                <value>LDL2MkdP</value>
+                <value>LDL3MkdP</value>
+                <value>LDLyMkdP</value>
+                <value>LDTyMkdP</value>
+                <value>UPWpSlsR</value>
+                <value>UPWpSlsRL</value>
+              </attribute>
+            </data_model>
+            <data_model type="Profile">
+              <attribute name="name">
+                <value>Default</value>
+              </attribute>
+              <attribute name="Label">
+                <value>Default</value>
+              </attribute>
+              <attribute name="Measures">
+                <value>GLCpSlsR</value>
+                <value>UPBgSlsR</value>
+                <value>UPBgSlsRL</value>
+                <value>UPWpSlsR</value>
+                <value>UPWpPublishB</value>
+                <value>UPWpPublishT</value>
+                <value>UPOpPubB</value>
+                <value>UPOpPubByT</value>
+                <value>UPOpPubD</value>
+                <value>UPOpPubT</value>
+                <value>UPOpSlsR</value>
+              </attribute>
+              <attribute name="MeasureName">
+                <value>GLCpSlsR</value>
+                <value>UPBgSlsR</value>
+                <value>UPBgSlsRL</value>
+                <value>UPWpSlsR</value>
+                <value>UPWpPublishB</value>
+                <value>UPWpPublishT</value>
+                <value>UPOpPubB</value>
+                <value>UPOpPubByT</value>
+                <value>UPOpPubD</value>
+                <value>UPOpPubT</value>
+                <value>UPOpSlsR</value>
+              </attribute>
+            </data_model>
+            <data_model type="Profile">
+              <attribute name="name">
+                <value>Profile0</value>
+              </attribute>
+              <attribute name="Label">
+                <value>Price list</value>
+              </attribute>
+            </data_model>
+          </data_model>
+          <data_model type="AxisInfo">
+            <attribute name="name">
+              <value>AxisInfo</value>
+            </attribute>
+            <attribute name="CLNDAxis">
+              <value>XAxis</value>
+            </attribute>
+            <attribute name="CLNDOrder">
+              <value>0</value>
+            </attribute>
+            <attribute name="MEASAxis">
+              <value>YAxis</value>
+            </attribute>
+            <attribute name="MEASOrder">
+              <value>0</value>
+            </attribute>
+            <attribute name="LOCAxis">
+              <value>ZAxis</value>
+            </attribute>
+            <attribute name="LOCOrder">
+              <value>0</value>
+            </attribute>
+          </data_model>
+          <data_model type="PositionQueries">
+            <attribute name="name">
+              <value>PositionQueries</value>
+            </attribute>
+          </data_model>
+          <data_model type="StyleORs">
+            <attribute name="name">
+              <value>StyleORs</value>
+            </attribute>
+            <data_model type="STYLEOR">
+              <attribute name="name">
+                <value>UPWpSlsR</value>
+              </attribute>
+              <attribute name="Label">
+                <value>label</value>
+              </attribute>
+              <attribute name="Style">
+                <value>Roubles</value>
+              </attribute>
+            </data_model>
+            <data_model type="STYLEOR">
+              <attribute name="name">
+                <value>LDLySlsR</value>
+              </attribute>
+              <attribute name="Label">
+                <value>label</value>
+              </attribute>
+              <attribute name="Style">
+                <value>Roubles</value>
+              </attribute>
+            </data_model>
+            <data_model type="STYLEOR">
+              <attribute name="name">
+                <value>LDLyPresentP</value>
+              </attribute>
+              <attribute name="Label">
+                <value>label</value>
+              </attribute>
+              <attribute name="Style">
+                <value>Percent</value>
+              </attribute>
+            </data_model>
+            <data_model type="STYLEOR">
+              <attribute name="name">
+                <value>LDTySlsR</value>
+              </attribute>
+              <attribute name="Label">
+                <value>label</value>
+              </attribute>
+              <attribute name="Style">
+                <value>Roubles</value>
+              </attribute>
+            </data_model>
+            <data_model type="STYLEOR">
+              <attribute name="name">
+                <value>UPBgSlsR</value>
+              </attribute>
+              <attribute name="Label">
+                <value>label</value>
+              </attribute>
+              <attribute name="Style">
+                <value>Roubles</value>
+              </attribute>
+            </data_model>
+            <data_model type="STYLEOR">
+              <attribute name="name">
+                <value>LDL2SlsR</value>
+              </attribute>
+              <attribute name="Label">
+                <value>label</value>
+              </attribute>
+              <attribute name="Style">
+                <value>Roubles</value>
+              </attribute>
+            </data_model>
+            <data_model type="STYLEOR">
+              <attribute name="name">
+                <value>LDL3SlsR</value>
+              </attribute>
+              <attribute name="Label">
+                <value>label</value>
+              </attribute>
+              <attribute name="Style">
+                <value>Roubles</value>
+              </attribute>
+            </data_model>
+            <data_model type="STYLEOR">
+              <attribute name="name">
+                <value>LDLySlsRVL2Rp</value>
+              </attribute>
+              <attribute name="Label">
+                <value>label</value>
+              </attribute>
+              <attribute name="Style">
+                <value>Roubles</value>
+              </attribute>
+            </data_model>
+            <data_model type="STYLEOR">
+              <attribute name="name">
+                <value>LDLySlsRVL2Pp</value>
+              </attribute>
+              <attribute name="Label">
+                <value>label</value>
+              </attribute>
+              <attribute name="Style">
+                <value>Percent</value>
+              </attribute>
+            </data_model>
+            <data_model type="STYLEOR">
+              <attribute name="name">
+                <value>LDL2SlsRVL3Pp</value>
+              </attribute>
+              <attribute name="Label">
+                <value>label</value>
+              </attribute>
+              <attribute name="Style">
+                <value>Percent</value>
+              </attribute>
+            </data_model>
+            <data_model type="STYLEOR">
+              <attribute name="name">
+                <value>LDL2SlsRVL3Rp</value>
+              </attribute>
+              <attribute name="Label">
+                <value>label</value>
+              </attribute>
+              <attribute name="Style">
+                <value>Roubles</value>
+              </attribute>
+            </data_model>
+            <data_model type="STYLEOR">
+              <attribute name="name">
+                <value>LDL2PresentP</value>
+              </attribute>
+              <attribute name="Label">
+                <value>label</value>
+              </attribute>
+              <attribute name="Style">
+                <value>Percent</value>
+              </attribute>
+            </data_model>
+            <data_model type="STYLEOR">
+              <attribute name="name">
+                <value>LDL3PresentP</value>
+              </attribute>
+              <attribute name="Label">
+                <value>label</value>
+              </attribute>
+              <attribute name="Style">
+                <value>Percent</value>
+              </attribute>
+            </data_model>
+            <data_model type="STYLEOR">
+              <attribute name="name">
+                <value>UPWpSlsRBs</value>
+              </attribute>
+              <attribute name="Label">
+                <value>label</value>
+              </attribute>
+              <attribute name="Style">
+                <value>Roubles</value>
+              </attribute>
+            </data_model>
+            <data_model type="STYLEOR">
+              <attribute name="name">
+                <value>UPWpSlsRVLyPp</value>
+              </attribute>
+              <attribute name="Label">
+                <value>label</value>
+              </attribute>
+              <attribute name="Style">
+                <value>Percent</value>
+              </attribute>
+            </data_model>
+            <data_model type="STYLEOR">
+              <attribute name="name">
+                <value>UPWpSlsRVLyRp</value>
+              </attribute>
+              <attribute name="Label">
+                <value>label</value>
+              </attribute>
+              <attribute name="Style">
+                <value>Roubles</value>
+              </attribute>
+            </data_model>
+            <data_model type="STYLEOR">
+              <attribute name="name">
+                <value>UPCpSlsRVTyIRp</value>
+              </attribute>
+              <attribute name="Label">
+                <value>label</value>
+              </attribute>
+              <attribute name="Style">
+                <value>Roubles</value>
+              </attribute>
+            </data_model>
+            <data_model type="STYLEOR">
+              <attribute name="name">
+                <value>UPWpSlsRVCpRp</value>
+              </attribute>
+              <attribute name="Label">
+                <value>label</value>
+              </attribute>
+              <attribute name="Style">
+                <value>Roubles</value>
+              </attribute>
+            </data_model>
+            <data_model type="STYLEOR">
+              <attribute name="name">
+                <value>UPWpSlsRVCpPp</value>
+              </attribute>
+              <attribute name="Label">
+                <value>label</value>
+              </attribute>
+              <attribute name="Style">
+                <value>Percent</value>
+              </attribute>
+            </data_model>
+            <data_model type="STYLEOR">
+              <attribute name="name">
+                <value>UPWpSlsRVBgRp</value>
+              </attribute>
+              <attribute name="Label">
+                <value>label</value>
+              </attribute>
+              <attribute name="Style">
+                <value>Roubles</value>
+              </attribute>
+            </data_model>
+            <data_model type="STYLEOR">
+              <attribute name="name">
+                <value>UPWpSlsRVBgPp</value>
+              </attribute>
+              <attribute name="Label">
+                <value>label</value>
+              </attribute>
+              <attribute name="Style">
+                <value>Percent</value>
+              </attribute>
+            </data_model>
+            <data_model type="STYLEOR">
+              <attribute name="name">
+                <value>UPWpSlsRVBgIRp</value>
+              </attribute>
+              <attribute name="Label">
+                <value>label</value>
+              </attribute>
+              <attribute name="Style">
+                <value>Roubles</value>
+              </attribute>
+            </data_model>
+            <data_model type="STYLEOR">
+              <attribute name="name">
+                <value>LDL2SlsRL</value>
+              </attribute>
+              <attribute name="Label">
+                <value>label</value>
+              </attribute>
+              <attribute name="Style">
+                <value>Roubles</value>
+              </attribute>
+            </data_model>
+            <data_model type="STYLEOR">
+              <attribute name="name">
+                <value>LDL2SlsRLVL3Pp</value>
+              </attribute>
+              <attribute name="Label">
+                <value>label</value>
+              </attribute>
+              <attribute name="Style">
+                <value>Percent</value>
+              </attribute>
+            </data_model>
+            <data_model type="STYLEOR">
+              <attribute name="name">
+                <value>LDL2SlsRLVL3Rp</value>
+              </attribute>
+              <attribute name="Label">
+                <value>label</value>
+              </attribute>
+              <attribute name="Style">
+                <value>Roubles</value>
+              </attribute>
+            </data_model>
+            <data_model type="STYLEOR">
+              <attribute name="name">
+                <value>LDL3SlsRL</value>
+              </attribute>
+              <attribute name="Label">
+                <value>label</value>
+              </attribute>
+              <attribute name="Style">
+                <value>Roubles</value>
+              </attribute>
+            </data_model>
+            <data_model type="STYLEOR">
+              <attribute name="name">
+                <value>LDLySlsRL</value>
+              </attribute>
+              <attribute name="Label">
+                <value>label</value>
+              </attribute>
+              <attribute name="Style">
+                <value>Roubles</value>
+              </attribute>
+            </data_model>
+            <data_model type="STYLEOR">
+              <attribute name="name">
+                <value>LDLySlsRLVL2Pp</value>
+              </attribute>
+              <attribute name="Label">
+                <value>label</value>
+              </attribute>
+              <attribute name="Style">
+                <value>Percent</value>
+              </attribute>
+            </data_model>
+            <data_model type="STYLEOR">
+              <attribute name="name">
+                <value>LDLySlsRLVL2Rp</value>
+              </attribute>
+              <attribute name="Label">
+                <value>label</value>
+              </attribute>
+              <attribute name="Style">
+                <value>Roubles</value>
+              </attribute>
+            </data_model>
+            <data_model type="STYLEOR">
+              <attribute name="name">
+                <value>LDTySlsRL</value>
+              </attribute>
+              <attribute name="Label">
+                <value>label</value>
+              </attribute>
+              <attribute name="Style">
+                <value>Roubles</value>
+              </attribute>
+            </data_model>
+            <data_model type="STYLEOR">
+              <attribute name="name">
+                <value>LDTySlsRLVLyPp</value>
+              </attribute>
+              <attribute name="Label">
+                <value>label</value>
+              </attribute>
+              <attribute name="Style">
+                <value>Percent</value>
+              </attribute>
+            </data_model>
+            <data_model type="STYLEOR">
+              <attribute name="name">
+                <value>LDTySlsRLVLyRp</value>
+              </attribute>
+              <attribute name="Label">
+                <value>label</value>
+              </attribute>
+              <attribute name="Style">
+                <value>Roubles</value>
+              </attribute>
+            </data_model>
+            <data_model type="STYLEOR">
+              <attribute name="name">
+                <value>LDTyPresentP</value>
+              </attribute>
+              <attribute name="Label">
+                <value>label</value>
+              </attribute>
+              <attribute name="Style">
+                <value>Percent</value>
+              </attribute>
+            </data_model>
+            <data_model type="STYLEOR">
+              <attribute name="name">
+                <value>LDTySlsRVLyRp</value>
+              </attribute>
+              <attribute name="Label">
+                <value>label</value>
+              </attribute>
+              <attribute name="Style">
+                <value>Roubles</value>
+              </attribute>
+            </data_model>
+            <data_model type="STYLEOR">
+              <attribute name="name">
+                <value>LDTySlsRVLyPp</value>
+              </attribute>
+              <attribute name="Label">
+                <value>label</value>
+              </attribute>
+              <attribute name="Style">
+                <value>Percent</value>
+              </attribute>
+            </data_model>
+            <data_model type="STYLEOR">
+              <attribute name="name">
+                <value>CSBgSlsR</value>
+              </attribute>
+              <attribute name="Label">
+                <value>label</value>
+              </attribute>
+              <attribute name="Style">
+                <value>Roubles</value>
+              </attribute>
+            </data_model>
+            <data_model type="STYLEOR">
+              <attribute name="name">
+                <value>GLCpSlsR</value>
+              </attribute>
+              <attribute name="Label">
+                <value>label</value>
+              </attribute>
+              <attribute name="Style">
+                <value>Roubles</value>
+              </attribute>
+            </data_model>
+            <data_model type="STYLEOR">
+              <attribute name="name">
+                <value>GLCpSlsRVTyIRp</value>
+              </attribute>
+              <attribute name="Label">
+                <value>label</value>
+              </attribute>
+              <attribute name="Style">
+                <value>Roubles</value>
+              </attribute>
+            </data_model>
+            <data_model type="STYLEOR">
+              <attribute name="name">
+                <value>GLCpSlsRVTyPp</value>
+              </attribute>
+              <attribute name="Label">
+                <value>label</value>
+              </attribute>
+              <attribute name="Style">
+                <value>Percent</value>
+              </attribute>
+            </data_model>
+            <data_model type="STYLEOR">
+              <attribute name="name">
+                <value>GLCpSlsRVTyRp</value>
+              </attribute>
+              <attribute name="Label">
+                <value>label</value>
+              </attribute>
+              <attribute name="Style">
+                <value>Roubles</value>
+              </attribute>
+            </data_model>
+            <data_model type="STYLEOR">
+              <attribute name="name">
+                <value>KDOpSlsR</value>
+              </attribute>
+              <attribute name="Label">
+                <value>label</value>
+              </attribute>
+              <attribute name="Style">
+                <value>Roubles</value>
+              </attribute>
+            </data_model>
+            <data_model type="STYLEOR">
+              <attribute name="name">
+                <value>KDOpSlsRVUPPp</value>
+              </attribute>
+              <attribute name="Label">
+                <value>label</value>
+              </attribute>
+              <attribute name="Style">
+                <value>Percent</value>
+              </attribute>
+            </data_model>
+            <data_model type="STYLEOR">
+              <attribute name="name">
+                <value>KDOpSlsRVUPRp</value>
+              </attribute>
+              <attribute name="Label">
+                <value>label</value>
+              </attribute>
+              <attribute name="Style">
+                <value>Roubles</value>
+              </attribute>
+            </data_model>
+            <data_model type="STYLEOR">
+              <attribute name="name">
+                <value>UPApSlsR</value>
+              </attribute>
+              <attribute name="Label">
+                <value>label</value>
+              </attribute>
+              <attribute name="Style">
+                <value>Roubles</value>
+              </attribute>
+            </data_model>
+            <data_model type="STYLEOR">
+              <attribute name="name">
+                <value>UPOpSlsR</value>
+              </attribute>
+              <attribute name="Label">
+                <value>label</value>
+              </attribute>
+              <attribute name="Style">
+                <value>Roubles</value>
+              </attribute>
+            </data_model>
+          </data_model>
+        </data_model>
+      </data_model>
+    </data_model>
+    <data_model type="WorkbookTab">
+      <attribute name="name">
+        <value>UPAppKDTab</value>
+      </attribute>
+      <attribute name="Label">
+        <value>Утверждение плана</value>
+      </attribute>
+      <data_model type="Worksheets">
+        <attribute name="name">
+          <value>Worksheets</value>
+        </attribute>
+        <data_model type="Worksheet">
+          <attribute name="name">
+            <value>Worksheet4</value>
+          </attribute>
+          <attribute name="Label">
+            <value>Утверждение плана ДУПР</value>
+          </attribute>
+          <attribute name="WorksheetIntersection">
+            <value>mnth_str</value>
+          </attribute>
+          <attribute name="IsUseDefaultAxis">
+            <value>false</value>
+          </attribute>
+          <data_model type="Profiles">
+            <attribute name="name">
+              <value>Profiles</value>
+            </attribute>
+            <data_model type="Profile">
+              <attribute name="name">
+                <value>Viewable</value>
+              </attribute>
+              <attribute name="Label">
+                <value>Viewable</value>
+              </attribute>
+              <attribute name="Measures">
+                <value>GLCpPubB</value>
+                <value>GLCpPubByT</value>
+                <value>GLCpPubD</value>
+                <value>GLCpPubT</value>
+                <value>GLCpSlsR</value>
+                <value>GLCpSlsRVTyIRp</value>
+                <value>GLCpSlsRVTyPp</value>
+                <value>GLCpSlsRVTyRp</value>
+                <value>KDOpPubB</value>
+                <value>KDOpPubByT</value>
+                <value>KDOpPubD</value>
+                <value>KDOpPubT</value>
+                <value>KDOpSlsR</value>
+                <value>UPWpMkdP</value>
+                <value>KDOpSlsRVUPPp</value>
+                <value>UPWpCheckNegB</value>
+                <value>KDOpSlsRVUPRp</value>
+                <value>LDL2PresentP</value>
+                <value>LDL2SlsRL</value>
+                <value>UPWpMkdR</value>
+                <value>LDL2SlsRLVL3Pp</value>
+                <value>LDL2SlsRLVL3Rp</value>
+                <value>LDL2SlsRVL3Pp</value>
+                <value>LDL2SlsRVL3Rp</value>
+                <value>LDL3PresentP</value>
+                <value>LDL3SlsRL</value>
+                <value>LDLyPresentP</value>
+                <value>LDLySlsRL</value>
+                <value>LDLySlsRLVL2Pp</value>
+                <value>LDLySlsRLVL2Rp</value>
+                <value>LDLySlsRVL2Pp</value>
+                <value>LDLySlsRVL2Rp</value>
+                <value>LDTyPresentP</value>
+                <value>LDTySlsRL</value>
+                <value>LDTySlsRLVLyPp</value>
+                <value>LDTySlsRLVLyRp</value>
+                <value>LDTySlsRVLyPp</value>
+                <value>LDTySlsRVLyRp</value>
+                <value>UPApAppB</value>
+                <value>UPApAppByT</value>
+                <value>UPApAppD</value>
+                <value>UPApAppT</value>
+                <value>UPApSlsR</value>
+                <value>UPBgSlsR</value>
+                <value>UPOpPubB</value>
+                <value>UPOpPubByT</value>
+                <value>UPOpPubD</value>
+                <value>UPOpPubT</value>
+                <value>UPOpSlsR</value>
+                <value>UPWpApproveB</value>
+                <value>UPWpApproveT</value>
+                <value>UPWpPublishB</value>
+                <value>UPWpPublishT</value>
+                <value>UPWpSlsRBs</value>
+                <value>UPWpSlsRVBgIRp</value>
+                <value>UPWpSlsRVBgPp</value>
+                <value>UPWpSlsRVBgRp</value>
+                <value>UPWpSlsRVCpPp</value>
+                <value>UPWpSlsRVCpRp</value>
+                <value>UPWpSlsRVLyPp</value>
+                <value>UPWpSlsRVLyRp</value>
+                <value>Blank1</value>
+                <value>Blank10</value>
+                <value>Blank2</value>
+                <value>Blank3</value>
+                <value>Blank4</value>
+                <value>Blank5</value>
+                <value>Blank6</value>
+                <value>Blank7</value>
+                <value>Blank8</value>
+                <value>Blank9</value>
+                <value>UPBgSlsRL</value>
+                <value>LDL2SlsR</value>
+                <value>LDL3SlsR</value>
+                <value>LDLySlsR</value>
+                <value>LDLySlsRVLgPp</value>
+                <value>LDLySlsRVLgRp</value>
+                <value>LDTySlsR</value>
+                <value>LDTySlsRVLgPp</value>
+                <value>LDTySlsRVLgRp</value>
+                <value>UPApSlsRL</value>
+                <value>LDL2MkdP</value>
+                <value>LDL3MkdP</value>
+                <value>LDLyMkdP</value>
+                <value>LDTyMkdP</value>
+                <value>UPWpSlsR</value>
+                <value>UPWpSlsRL</value>
+              </attribute>
+              <attribute name="MeasureName">
+                <value>GLCpPubB</value>
+                <value>GLCpPubByT</value>
+                <value>GLCpPubD</value>
+                <value>GLCpPubT</value>
+                <value>GLCpSlsR</value>
+                <value>GLCpSlsRVTyIRp</value>
+                <value>GLCpSlsRVTyPp</value>
+                <value>GLCpSlsRVTyRp</value>
+                <value>KDOpPubB</value>
+                <value>KDOpPubByT</value>
+                <value>KDOpPubD</value>
+                <value>KDOpPubT</value>
+                <value>KDOpSlsR</value>
+                <value>UPWpMkdP</value>
+                <value>KDOpSlsRVUPPp</value>
+                <value>UPWpCheckNegB</value>
+                <value>KDOpSlsRVUPRp</value>
+                <value>LDL2PresentP</value>
+                <value>LDL2SlsRL</value>
+                <value>UPWpMkdR</value>
+                <value>LDL2SlsRLVL3Pp</value>
+                <value>LDL2SlsRLVL3Rp</value>
+                <value>LDL2SlsRVL3Pp</value>
+                <value>LDL2SlsRVL3Rp</value>
+                <value>LDL3PresentP</value>
+                <value>LDL3SlsRL</value>
+                <value>LDLyPresentP</value>
+                <value>LDLySlsRL</value>
+                <value>LDLySlsRLVL2Pp</value>
+                <value>LDLySlsRLVL2Rp</value>
+                <value>LDLySlsRVL2Pp</value>
+                <value>LDLySlsRVL2Rp</value>
+                <value>LDTyPresentP</value>
+                <value>LDTySlsRL</value>
+                <value>LDTySlsRLVLyPp</value>
+                <value>LDTySlsRLVLyRp</value>
+                <value>LDTySlsRVLyPp</value>
+                <value>LDTySlsRVLyRp</value>
+                <value>UPApAppB</value>
+                <value>UPApAppByT</value>
+                <value>UPApAppD</value>
+                <value>UPApAppT</value>
+                <value>UPApSlsR</value>
+                <value>UPBgSlsR</value>
+                <value>UPOpPubB</value>
+                <value>UPOpPubByT</value>
+                <value>UPOpPubD</value>
+                <value>UPOpPubT</value>
+                <value>UPOpSlsR</value>
+                <value>UPWpApproveB</value>
+                <value>UPWpApproveT</value>
+                <value>UPWpPublishB</value>
+                <value>UPWpPublishT</value>
+                <value>UPWpSlsRBs</value>
+                <value>UPWpSlsRVBgIRp</value>
+                <value>UPWpSlsRVBgPp</value>
+                <value>UPWpSlsRVBgRp</value>
+                <value>UPWpSlsRVCpPp</value>
+                <value>UPWpSlsRVCpRp</value>
+                <value>UPWpSlsRVLyPp</value>
+                <value>UPWpSlsRVLyRp</value>
+                <value>Blank1</value>
+                <value>Blank10</value>
+                <value>Blank2</value>
+                <value>Blank3</value>
+                <value>Blank4</value>
+                <value>Blank5</value>
+                <value>Blank6</value>
+                <value>Blank7</value>
+                <value>Blank8</value>
+                <value>Blank9</value>
+                <value>UPBgSlsRL</value>
+                <value>LDL2SlsR</value>
+                <value>LDL3SlsR</value>
+                <value>LDLySlsR</value>
+                <value>LDLySlsRVLgPp</value>
+                <value>LDLySlsRVLgRp</value>
+                <value>LDTySlsR</value>
+                <value>LDTySlsRVLgPp</value>
+                <value>LDTySlsRVLgRp</value>
+                <value>UPApSlsRL</value>
+                <value>LDL2MkdP</value>
+                <value>LDL3MkdP</value>
+                <value>LDLyMkdP</value>
+                <value>LDTyMkdP</value>
+                <value>UPWpSlsR</value>
+                <value>UPWpSlsRL</value>
+              </attribute>
+            </data_model>
+            <data_model type="Profile">
+              <attribute name="name">
+                <value>Default</value>
+              </attribute>
+              <attribute name="Label">
+                <value>Default</value>
+              </attribute>
+              <attribute name="Measures">
+                <value>GLCpSlsR</value>
+                <value>UPBgSlsR</value>
+                <value>UPBgSlsRL</value>
+                <value>KDOpSlsR</value>
+                <value>KDOpPubB</value>
+                <value>UPWpSlsR</value>
+                <value>UPWpApproveB</value>
+                <value>UPWpApproveT</value>
+                <value>UPApAppB</value>
+                <value>UPApAppByT</value>
+                <value>UPApAppD</value>
+                <value>UPApAppT</value>
+                <value>UPApSlsR</value>
+              </attribute>
+              <attribute name="MeasureName">
+                <value>GLCpSlsR</value>
+                <value>UPBgSlsR</value>
+                <value>UPBgSlsRL</value>
+                <value>KDOpSlsR</value>
+                <value>KDOpPubB</value>
+                <value>UPWpSlsR</value>
+                <value>UPWpApproveB</value>
+                <value>UPWpApproveT</value>
+                <value>UPApAppB</value>
+                <value>UPApAppByT</value>
+                <value>UPApAppD</value>
+                <value>UPApAppT</value>
+                <value>UPApSlsR</value>
+              </attribute>
+            </data_model>
+            <data_model type="Profile">
+              <attribute name="name">
+                <value>Profile0</value>
+              </attribute>
+              <attribute name="Label">
+                <value>Price list</value>
+              </attribute>
+            </data_model>
+          </data_model>
+          <data_model type="AxisInfo">
+            <attribute name="name">
+              <value>AxisInfo</value>
+            </attribute>
+            <attribute name="CLNDAxis">
+              <value>XAxis</value>
+            </attribute>
+            <attribute name="CLNDOrder">
+              <value>0</value>
+            </attribute>
+            <attribute name="MEASAxis">
+              <value>YAxis</value>
+            </attribute>
+            <attribute name="MEASOrder">
+              <value>0</value>
+            </attribute>
+            <attribute name="LOCAxis">
+              <value>ZAxis</value>
+            </attribute>
+            <attribute name="LOCOrder">
+              <value>0</value>
+            </attribute>
+          </data_model>
+          <data_model type="PositionQueries">
+            <attribute name="name">
+              <value>PositionQueries</value>
+            </attribute>
+          </data_model>
+          <data_model type="StyleORs">
+            <attribute name="name">
+              <value>StyleORs</value>
+            </attribute>
+            <data_model type="STYLEOR">
+              <attribute name="name">
+                <value>UPWpSlsR</value>
+              </attribute>
+              <attribute name="Label">
+                <value>label</value>
+              </attribute>
+              <attribute name="Style">
+                <value>Roubles</value>
+              </attribute>
+            </data_model>
+            <data_model type="STYLEOR">
+              <attribute name="name">
+                <value>LDLySlsR</value>
+              </attribute>
+              <attribute name="Label">
+                <value>label</value>
+              </attribute>
+              <attribute name="Style">
+                <value>Roubles</value>
+              </attribute>
+            </data_model>
+            <data_model type="STYLEOR">
+              <attribute name="name">
+                <value>LDLyPresentP</value>
+              </attribute>
+              <attribute name="Label">
+                <value>label</value>
+              </attribute>
+              <attribute name="Style">
+                <value>Percent</value>
+              </attribute>
+            </data_model>
+            <data_model type="STYLEOR">
+              <attribute name="name">
+                <value>LDTySlsR</value>
+              </attribute>
+              <attribute name="Label">
+                <value>label</value>
+              </attribute>
+              <attribute name="Style">
+                <value>Roubles</value>
+              </attribute>
+            </data_model>
+            <data_model type="STYLEOR">
+              <attribute name="name">
+                <value>UPBgSlsR</value>
+              </attribute>
+              <attribute name="Label">
+                <value>label</value>
+              </attribute>
+              <attribute name="Style">
+                <value>Roubles</value>
+              </attribute>
+            </data_model>
+            <data_model type="STYLEOR">
+              <attribute name="name">
+                <value>LDL2SlsR</value>
+              </attribute>
+              <attribute name="Label">
+                <value>label</value>
+              </attribute>
+              <attribute name="Style">
+                <value>Roubles</value>
+              </attribute>
+            </data_model>
+            <data_model type="STYLEOR">
+              <attribute name="name">
+                <value>LDL3SlsR</value>
+              </attribute>
+              <attribute name="Label">
+                <value>label</value>
+              </attribute>
+              <attribute name="Style">
+                <value>Roubles</value>
+              </attribute>
+            </data_model>
+            <data_model type="STYLEOR">
+              <attribute name="name">
+                <value>LDLySlsRVL2Rp</value>
+              </attribute>
+              <attribute name="Label">
+                <value>label</value>
+              </attribute>
+              <attribute name="Style">
+                <value>Roubles</value>
+              </attribute>
+            </data_model>
+            <data_model type="STYLEOR">
+              <attribute name="name">
+                <value>LDLySlsRVL2Pp</value>
+              </attribute>
+              <attribute name="Label">
+                <value>label</value>
+              </attribute>
+              <attribute name="Style">
+                <value>Percent</value>
+              </attribute>
+            </data_model>
+            <data_model type="STYLEOR">
+              <attribute name="name">
+                <value>LDL2SlsRVL3Pp</value>
+              </attribute>
+              <attribute name="Label">
+                <value>label</value>
+              </attribute>
+              <attribute name="Style">
+                <value>Percent</value>
+              </attribute>
+            </data_model>
+            <data_model type="STYLEOR">
+              <attribute name="name">
+                <value>LDL2SlsRVL3Rp</value>
+              </attribute>
+              <attribute name="Label">
+                <value>label</value>
+              </attribute>
+              <attribute name="Style">
+                <value>Roubles</value>
+              </attribute>
+            </data_model>
+            <data_model type="STYLEOR">
+              <attribute name="name">
+                <value>LDL2PresentP</value>
+              </attribute>
+              <attribute name="Label">
+                <value>label</value>
+              </attribute>
+              <attribute name="Style">
+                <value>Percent</value>
+              </attribute>
+            </data_model>
+            <data_model type="STYLEOR">
+              <attribute name="name">
+                <value>LDL3PresentP</value>
+              </attribute>
+              <attribute name="Label">
+                <value>label</value>
+              </attribute>
+              <attribute name="Style">
+                <value>Percent</value>
+              </attribute>
+            </data_model>
+            <data_model type="STYLEOR">
+              <attribute name="name">
+                <value>UPWpSlsRBs</value>
+              </attribute>
+              <attribute name="Label">
+                <value>label</value>
+              </attribute>
+              <attribute name="Style">
+                <value>Roubles</value>
+              </attribute>
+            </data_model>
+            <data_model type="STYLEOR">
+              <attribute name="name">
+                <value>UPWpSlsRVLyPp</value>
+              </attribute>
+              <attribute name="Label">
+                <value>label</value>
+              </attribute>
+              <attribute name="Style">
+                <value>Percent</value>
+              </attribute>
+            </data_model>
+            <data_model type="STYLEOR">
+              <attribute name="name">
+                <value>UPWpSlsRVLyRp</value>
+              </attribute>
+              <attribute name="Label">
+                <value>label</value>
+              </attribute>
+              <attribute name="Style">
+                <value>Roubles</value>
+              </attribute>
+            </data_model>
+            <data_model type="STYLEOR">
+              <attribute name="name">
+                <value>UPCpSlsRVTyIRp</value>
+              </attribute>
+              <attribute name="Label">
+                <value>label</value>
+              </attribute>
+              <attribute name="Style">
+                <value>Roubles</value>
+              </attribute>
+            </data_model>
+            <data_model type="STYLEOR">
+              <attribute name="name">
+                <value>UPWpSlsRVCpRp</value>
+              </attribute>
+              <attribute name="Label">
+                <value>label</value>
+              </attribute>
+              <attribute name="Style">
+                <value>Roubles</value>
+              </attribute>
+            </data_model>
+            <data_model type="STYLEOR">
+              <attribute name="name">
+                <value>UPWpSlsRVCpPp</value>
+              </attribute>
+              <attribute name="Label">
+                <value>label</value>
+              </attribute>
+              <attribute name="Style">
+                <value>Percent</value>
+              </attribute>
+            </data_model>
+            <data_model type="STYLEOR">
+              <attribute name="name">
+                <value>UPWpSlsRVBgRp</value>
+              </attribute>
+              <attribute name="Label">
+                <value>label</value>
+              </attribute>
+              <attribute name="Style">
+                <value>Roubles</value>
+              </attribute>
+            </data_model>
+            <data_model type="STYLEOR">
+              <attribute name="name">
+                <value>UPWpSlsRVBgPp</value>
+              </attribute>
+              <attribute name="Label">
+                <value>label</value>
+              </attribute>
+              <attribute name="Style">
+                <value>Percent</value>
+              </attribute>
+            </data_model>
+            <data_model type="STYLEOR">
+              <attribute name="name">
+                <value>UPWpSlsRVBgIRp</value>
+              </attribute>
+              <attribute name="Label">
+                <value>label</value>
+              </attribute>
+              <attribute name="Style">
+                <value>Roubles</value>
+              </attribute>
+            </data_model>
+            <data_model type="STYLEOR">
+              <attribute name="name">
+                <value>LDL2SlsRL</value>
+              </attribute>
+              <attribute name="Label">
+                <value>label</value>
+              </attribute>
+              <attribute name="Style">
+                <value>Roubles</value>
+              </attribute>
+            </data_model>
+            <data_model type="STYLEOR">
+              <attribute name="name">
+                <value>LDL2SlsRLVL3Pp</value>
+              </attribute>
+              <attribute name="Label">
+                <value>label</value>
+              </attribute>
+              <attribute name="Style">
+                <value>Percent</value>
+              </attribute>
+            </data_model>
+            <data_model type="STYLEOR">
+              <attribute name="name">
+                <value>LDL2SlsRLVL3Rp</value>
+              </attribute>
+              <attribute name="Label">
+                <value>label</value>
+              </attribute>
+              <attribute name="Style">
+                <value>Roubles</value>
+              </attribute>
+            </data_model>
+            <data_model type="STYLEOR">
+              <attribute name="name">
+                <value>LDL3SlsRL</value>
+              </attribute>
+              <attribute name="Label">
+                <value>label</value>
+              </attribute>
+              <attribute name="Style">
+                <value>Roubles</value>
+              </attribute>
+            </data_model>
+            <data_model type="STYLEOR">
+              <attribute name="name">
+                <value>LDLySlsRL</value>
+              </attribute>
+              <attribute name="Label">
+                <value>label</value>
+              </attribute>
+              <attribute name="Style">
+                <value>Roubles</value>
+              </attribute>
+            </data_model>
+            <data_model type="STYLEOR">
+              <attribute name="name">
+                <value>LDLySlsRLVL2Pp</value>
+              </attribute>
+              <attribute name="Label">
+                <value>label</value>
+              </attribute>
+              <attribute name="Style">
+                <value>Percent</value>
+              </attribute>
+            </data_model>
+            <data_model type="STYLEOR">
+              <attribute name="name">
+                <value>LDLySlsRLVL2Rp</value>
+              </attribute>
+              <attribute name="Label">
+                <value>label</value>
+              </attribute>
+              <attribute name="Style">
+                <value>Roubles</value>
+              </attribute>
+            </data_model>
+            <data_model type="STYLEOR">
+              <attribute name="name">
+                <value>LDTySlsRL</value>
+              </attribute>
+              <attribute name="Label">
+                <value>label</value>
+              </attribute>
+              <attribute name="Style">
+                <value>Roubles</value>
+              </attribute>
+            </data_model>
+            <data_model type="STYLEOR">
+              <attribute name="name">
+                <value>LDTySlsRLVLyPp</value>
+              </attribute>
+              <attribute name="Label">
+                <value>label</value>
+              </attribute>
+              <attribute name="Style">
+                <value>Percent</value>
+              </attribute>
+            </data_model>
+            <data_model type="STYLEOR">
+              <attribute name="name">
+                <value>LDTySlsRLVLyRp</value>
+              </attribute>
+              <attribute name="Label">
+                <value>label</value>
+              </attribute>
+              <attribute name="Style">
+                <value>Roubles</value>
+              </attribute>
+            </data_model>
+            <data_model type="STYLEOR">
+              <attribute name="name">
+                <value>LDTyPresentP</value>
+              </attribute>
+              <attribute name="Label">
+                <value>label</value>
+              </attribute>
+              <attribute name="Style">
+                <value>Percent</value>
+              </attribute>
+            </data_model>
+            <data_model type="STYLEOR">
+              <attribute name="name">
+                <value>LDTySlsRVLyRp</value>
+              </attribute>
+              <attribute name="Label">
+                <value>label</value>
+              </attribute>
+              <attribute name="Style">
+                <value>Roubles</value>
+              </attribute>
+            </data_model>
+            <data_model type="STYLEOR">
+              <attribute name="name">
+                <value>LDTySlsRVLyPp</value>
+              </attribute>
+              <attribute name="Label">
+                <value>label</value>
+              </attribute>
+              <attribute name="Style">
+                <value>Percent</value>
+              </attribute>
+            </data_model>
+            <data_model type="STYLEOR">
+              <attribute name="name">
+                <value>CSBgSlsR</value>
+              </attribute>
+              <attribute name="Label">
+                <value>label</value>
+              </attribute>
+              <attribute name="Style">
+                <value>Roubles</value>
+              </attribute>
+            </data_model>
+            <data_model type="STYLEOR">
+              <attribute name="name">
+                <value>GLCpSlsR</value>
+              </attribute>
+              <attribute name="Label">
+                <value>label</value>
+              </attribute>
+              <attribute name="Style">
+                <value>Roubles</value>
+              </attribute>
+            </data_model>
+            <data_model type="STYLEOR">
+              <attribute name="name">
+                <value>GLCpSlsRVTyIRp</value>
+              </attribute>
+              <attribute name="Label">
+                <value>label</value>
+              </attribute>
+              <attribute name="Style">
+                <value>Roubles</value>
+              </attribute>
+            </data_model>
+            <data_model type="STYLEOR">
+              <attribute name="name">
+                <value>GLCpSlsRVTyPp</value>
+              </attribute>
+              <attribute name="Label">
+                <value>label</value>
+              </attribute>
+              <attribute name="Style">
+                <value>Percent</value>
+              </attribute>
+            </data_model>
+            <data_model type="STYLEOR">
+              <attribute name="name">
+                <value>GLCpSlsRVTyRp</value>
+              </attribute>
+              <attribute name="Label">
+                <value>label</value>
+              </attribute>
+              <attribute name="Style">
+                <value>Roubles</value>
+              </attribute>
+            </data_model>
+            <data_model type="STYLEOR">
+              <attribute name="name">
+                <value>KDOpSlsR</value>
+              </attribute>
+              <attribute name="Label">
+                <value>label</value>
+              </attribute>
+              <attribute name="Style">
+                <value>Roubles</value>
+              </attribute>
+            </data_model>
+            <data_model type="STYLEOR">
+              <attribute name="name">
+                <value>KDOpSlsRVUPPp</value>
+              </attribute>
+              <attribute name="Label">
+                <value>label</value>
+              </attribute>
+              <attribute name="Style">
+                <value>Percent</value>
+              </attribute>
+            </data_model>
+            <data_model type="STYLEOR">
+              <attribute name="name">
+                <value>KDOpSlsRVUPRp</value>
+              </attribute>
+              <attribute name="Label">
+                <value>label</value>
+              </attribute>
+              <attribute name="Style">
+                <value>Roubles</value>
+              </attribute>
+            </data_model>
+            <data_model type="STYLEOR">
+              <attribute name="name">
+                <value>UPApSlsR</value>
+              </attribute>
+              <attribute name="Label">
+                <value>label</value>
+              </attribute>
+              <attribute name="Style">
+                <value>Roubles</value>
+              </attribute>
+            </data_model>
+            <data_model type="STYLEOR">
+              <attribute name="name">
+                <value>UPOpSlsR</value>
+              </attribute>
+              <attribute name="Label">
+                <value>label</value>
+              </attribute>
+              <attribute name="Style">
+                <value>Roubles</value>
+              </attribute>
+            </data_model>
+          </data_model>
+        </data_model>
+      </data_model>
+    </data_model>
+    <data_model type="WorkbookTab">
+      <attribute name="name">
+        <value>WorkbookTab2</value>
+      </attribute>
+      <attribute name="Label">
+        <value>Все меры</value>
+      </attribute>
+      <data_model type="Worksheets">
+        <attribute name="name">
+          <value>Worksheets</value>
+        </attribute>
+        <data_model type="Worksheet">
+          <attribute name="name">
+            <value>UPAllMeasSheet</value>
+          </attribute>
+          <attribute name="Label">
+            <value>Все меры</value>
+          </attribute>
+          <attribute name="WorksheetIntersection">
+            <value>mnth_str</value>
+          </attribute>
+          <attribute name="IsUseDefaultAxis">
+            <value>false</value>
+          </attribute>
+          <data_model type="Profiles">
+            <attribute name="name">
+              <value>Profiles</value>
+            </attribute>
+            <data_model type="Profile">
+              <attribute name="name">
+                <value>Viewable</value>
+              </attribute>
+              <attribute name="Label">
+                <value>Viewable</value>
+              </attribute>
+              <attribute name="Measures">
+                <value>GLCpPubB</value>
+                <value>GLCpPubByT</value>
+                <value>GLCpPubD</value>
+                <value>GLCpPubT</value>
+                <value>GLCpSlsR</value>
+                <value>GLCpSlsRVTyIRp</value>
+                <value>GLCpSlsRVTyPp</value>
+                <value>GLCpSlsRVTyRp</value>
+                <value>KDOpPubB</value>
+                <value>KDOpPubByT</value>
+                <value>KDOpPubD</value>
+                <value>KDOpPubT</value>
+                <value>KDOpSlsR</value>
+                <value>KDOpSlsRVUPPp</value>
+                <value>KDOpSlsRVUPRp</value>
+                <value>LDL2PresentP</value>
+                <value>UPWpMkdR</value>
+                <value>UPWpMkdP</value>
+                <value>LDL2SlsR</value>
+                <value>LDL2SlsRL</value>
+                <value>LDL2SlsRLVL3Pp</value>
+                <value>LDL2SlsRLVL3Rp</value>
+                <value>LDL2SlsRVL3Pp</value>
+                <value>LDL2SlsRVL3Rp</value>
+                <value>LDL3PresentP</value>
+                <value>LDL3SlsR</value>
+                <value>LDL3SlsRL</value>
+                <value>LDLyPresentP</value>
+                <value>LDLySlsR</value>
+                <value>LDLySlsRL</value>
+                <value>LDLySlsRLVL2Pp</value>
+                <value>LDLySlsRLVL2Rp</value>
+                <value>LDLySlsRVL2Pp</value>
+                <value>LDLySlsRVL2Rp</value>
+                <value>LDTyPresentP</value>
+                <value>LDTySlsR</value>
+                <value>LDTySlsRL</value>
+                <value>LDTySlsRLVLyPp</value>
+                <value>LDTySlsRLVLyRp</value>
+                <value>LDTySlsRVLyPp</value>
+                <value>LDTySlsRVLyRp</value>
+                <value>UPApAppB</value>
+                <value>UPApAppByT</value>
+                <value>UPApAppD</value>
+                <value>UPApAppT</value>
+                <value>UPApSlsR</value>
+                <value>UPBgSlsR</value>
+                <value>UPOpPubB</value>
+                <value>UPOpPubByT</value>
+                <value>UPOpPubD</value>
+                <value>UPOpPubT</value>
+                <value>UPOpSlsR</value>
+                <value>UPWpApproveB</value>
+                <value>UPWpApproveT</value>
+                <value>UPWpPublishB</value>
+                <value>UPWpPublishT</value>
+                <value>UPWpSlsR</value>
+                <value>UPWpSlsRBs</value>
+                <value>UPWpSlsRVBgIRp</value>
+                <value>UPWpSlsRVBgPp</value>
+                <value>UPWpSlsRVBgRp</value>
+                <value>UPWpSlsRVCpPp</value>
+                <value>UPWpSlsRVCpRp</value>
+                <value>UPWpSlsRVLyPp</value>
+                <value>UPWpSlsRVLyRp</value>
+                <value>Blank1</value>
+                <value>Blank10</value>
+                <value>Blank2</value>
+                <value>Blank3</value>
+                <value>Blank4</value>
+                <value>Blank5</value>
+                <value>Blank6</value>
+                <value>Blank7</value>
+                <value>Blank8</value>
+                <value>Blank9</value>
+                <value>UPBgSlsRL</value>
+                <value>LDLySlsRVLgPp</value>
+                <value>LDLySlsRVLgRp</value>
+                <value>LDTySlsRVLgPp</value>
+                <value>LDTySlsRVLgRp</value>
+                <value>UPWpCheckNegB</value>
+                <value>UPApSlsRL</value>
+                <value>LDL2MkdP</value>
+                <value>LDL3MkdP</value>
+                <value>LDLyMkdP</value>
+                <value>LDTyMkdP</value>
+                <value>GLCpPlanPeriodB</value>
+                <value>GLCpPlanPeriodBts</value>
+                <value>GLCpSlsRts</value>
+                <value>UPWpSlsRts</value>
+                <value>GLLySlsRLts</value>
+                <value>UPWpSlsRL</value>
+                <value>GLCpSlsRL</value>
+              </attribute>
+              <attribute name="MeasureName">
+                <value>GLCpPubB</value>
+                <value>GLCpPubByT</value>
+                <value>GLCpPubD</value>
+                <value>GLCpPubT</value>
+                <value>GLCpSlsR</value>
+                <value>GLCpSlsRVTyIRp</value>
+                <value>GLCpSlsRVTyPp</value>
+                <value>GLCpSlsRVTyRp</value>
+                <value>KDOpPubB</value>
+                <value>KDOpPubByT</value>
+                <value>KDOpPubD</value>
+                <value>KDOpPubT</value>
+                <value>KDOpSlsR</value>
+                <value>KDOpSlsRVUPPp</value>
+                <value>KDOpSlsRVUPRp</value>
+                <value>LDL2PresentP</value>
+                <value>UPWpMkdR</value>
+                <value>UPWpMkdP</value>
+                <value>LDL2SlsR</value>
+                <value>LDL2SlsRL</value>
+                <value>LDL2SlsRLVL3Pp</value>
+                <value>LDL2SlsRLVL3Rp</value>
+                <value>LDL2SlsRVL3Pp</value>
+                <value>LDL2SlsRVL3Rp</value>
+                <value>LDL3PresentP</value>
+                <value>LDL3SlsR</value>
+                <value>LDL3SlsRL</value>
+                <value>LDLyPresentP</value>
+                <value>LDLySlsR</value>
+                <value>LDLySlsRL</value>
+                <value>LDLySlsRLVL2Pp</value>
+                <value>LDLySlsRLVL2Rp</value>
+                <value>LDLySlsRVL2Pp</value>
+                <value>LDLySlsRVL2Rp</value>
+                <value>LDTyPresentP</value>
+                <value>LDTySlsR</value>
+                <value>LDTySlsRL</value>
+                <value>LDTySlsRLVLyPp</value>
+                <value>LDTySlsRLVLyRp</value>
+                <value>LDTySlsRVLyPp</value>
+                <value>LDTySlsRVLyRp</value>
+                <value>UPApAppB</value>
+                <value>UPApAppByT</value>
+                <value>UPApAppD</value>
+                <value>UPApAppT</value>
+                <value>UPApSlsR</value>
+                <value>UPBgSlsR</value>
+                <value>UPOpPubB</value>
+                <value>UPOpPubByT</value>
+                <value>UPOpPubD</value>
+                <value>UPOpPubT</value>
+                <value>UPOpSlsR</value>
+                <value>UPWpApproveB</value>
+                <value>UPWpApproveT</value>
+                <value>UPWpPublishB</value>
+                <value>UPWpPublishT</value>
+                <value>UPWpSlsR</value>
+                <value>UPWpSlsRBs</value>
+                <value>UPWpSlsRVBgIRp</value>
+                <value>UPWpSlsRVBgPp</value>
+                <value>UPWpSlsRVBgRp</value>
+                <value>UPWpSlsRVCpPp</value>
+                <value>UPWpSlsRVCpRp</value>
+                <value>UPWpSlsRVLyPp</value>
+                <value>UPWpSlsRVLyRp</value>
+                <value>Blank1</value>
+                <value>Blank10</value>
+                <value>Blank2</value>
+                <value>Blank3</value>
+                <value>Blank4</value>
+                <value>Blank5</value>
+                <value>Blank6</value>
+                <value>Blank7</value>
+                <value>Blank8</value>
+                <value>Blank9</value>
+                <value>UPBgSlsRL</value>
+                <value>LDLySlsRVLgPp</value>
+                <value>LDLySlsRVLgRp</value>
+                <value>LDTySlsRVLgPp</value>
+                <value>LDTySlsRVLgRp</value>
+                <value>UPWpCheckNegB</value>
+                <value>UPApSlsRL</value>
+                <value>LDL2MkdP</value>
+                <value>LDL3MkdP</value>
+                <value>LDLyMkdP</value>
+                <value>LDTyMkdP</value>
+                <value>GLCpPlanPeriodB</value>
+                <value>GLCpPlanPeriodBts</value>
+                <value>GLCpSlsRts</value>
+                <value>UPWpSlsRts</value>
+                <value>GLLySlsRLts</value>
+                <value>UPWpSlsRL</value>
+                <value>GLCpSlsRL</value>
+              </attribute>
+            </data_model>
+            <data_model type="Profile">
+              <attribute name="name">
+                <value>Default</value>
+              </attribute>
+              <attribute name="Label">
+                <value>Default</value>
+              </attribute>
+              <attribute name="Measures">
+                <value>GLCpPubB</value>
+                <value>GLCpPubByT</value>
+                <value>GLCpPubD</value>
+                <value>GLCpPubT</value>
+                <value>GLCpSlsRVTyIRp</value>
+                <value>GLCpSlsRVTyPp</value>
+                <value>GLCpSlsRVTyRp</value>
+                <value>KDOpPubB</value>
+                <value>KDOpPubByT</value>
+                <value>KDOpPubD</value>
+                <value>KDOpPubT</value>
+                <value>KDOpSlsR</value>
+                <value>KDOpSlsRVUPPp</value>
+                <value>KDOpSlsRVUPRp</value>
+                <value>LDL2PresentP</value>
+                <value>GLCpSlsRL</value>
+                <value>UPWpCheckNegB</value>
+                <value>LDL2SlsRL</value>
+                <value>LDL2SlsRLVL3Pp</value>
+                <value>LDL2SlsRLVL3Rp</value>
+                <value>LDL2SlsRVL3Pp</value>
+                <value>LDL2SlsRVL3Rp</value>
+                <value>LDL3PresentP</value>
+                <value>LDL3SlsRL</value>
+                <value>LDLyPresentP</value>
+                <value>LDLySlsRL</value>
+                <value>LDLySlsRLVL2Pp</value>
+                <value>LDLySlsRLVL2Rp</value>
+                <value>LDLySlsRVL2Pp</value>
+                <value>LDLySlsRVL2Rp</value>
+                <value>LDTyPresentP</value>
+                <value>LDTySlsRL</value>
+                <value>LDTySlsRLVLyPp</value>
+                <value>LDTySlsRLVLyRp</value>
+                <value>LDTySlsRVLyPp</value>
+                <value>LDTySlsRVLyRp</value>
+                <value>UPApAppB</value>
+                <value>UPApAppByT</value>
+                <value>UPApAppD</value>
+                <value>UPApAppT</value>
+                <value>UPApSlsR</value>
+                <value>UPBgSlsR</value>
+                <value>UPOpPubB</value>
+                <value>UPOpPubByT</value>
+                <value>UPOpPubD</value>
+                <value>UPOpPubT</value>
+                <value>UPOpSlsR</value>
+                <value>UPWpApproveB</value>
+                <value>UPWpApproveT</value>
+                <value>UPWpMkdP</value>
+                <value>UPWpMkdR</value>
+                <value>UPWpPublishB</value>
+                <value>UPWpPublishT</value>
+                <value>UPWpSlsRBs</value>
+                <value>UPWpSlsRVBgIRp</value>
+                <value>UPWpSlsRVBgPp</value>
+                <value>UPWpSlsRVBgRp</value>
+                <value>UPWpSlsRVCpPp</value>
+                <value>UPWpSlsRVCpRp</value>
+                <value>UPWpSlsRVLyPp</value>
+                <value>UPWpSlsRVLyRp</value>
+                <value>Blank1</value>
+                <value>Blank10</value>
+                <value>Blank2</value>
+                <value>Blank3</value>
+                <value>Blank4</value>
+                <value>Blank5</value>
+                <value>Blank6</value>
+                <value>Blank7</value>
+                <value>Blank8</value>
+                <value>Blank9</value>
+                <value>UPBgSlsRL</value>
+                <value>LDL2SlsR</value>
+                <value>LDL3SlsR</value>
+                <value>LDLySlsR</value>
+                <value>LDLySlsRVLgPp</value>
+                <value>LDLySlsRVLgRp</value>
+                <value>LDTySlsR</value>
+                <value>LDTySlsRVLgPp</value>
+                <value>LDTySlsRVLgRp</value>
+                <value>UPApSlsRL</value>
+                <value>LDL2MkdP</value>
+                <value>LDL3MkdP</value>
+                <value>LDLyMkdP</value>
+                <value>LDTyMkdP</value>
+                <value>GLCpPlanPeriodB</value>
+                <value>GLCpPlanPeriodBts</value>
+                <value>GLCpSlsR</value>
+                <value>GLCpSlsRts</value>
+                <value>UPWpSlsR</value>
+                <value>UPWpSlsRts</value>
+                <value>GLLySlsRLts</value>
+                <value>UPWpSlsRL</value>
+              </attribute>
+              <attribute name="MeasureName">
+                <value>GLCpPubB</value>
+                <value>GLCpPubByT</value>
+                <value>GLCpPubD</value>
+                <value>GLCpPubT</value>
+                <value>GLCpSlsRVTyIRp</value>
+                <value>GLCpSlsRVTyPp</value>
+                <value>GLCpSlsRVTyRp</value>
+                <value>KDOpPubB</value>
+                <value>KDOpPubByT</value>
+                <value>KDOpPubD</value>
+                <value>KDOpPubT</value>
+                <value>KDOpSlsR</value>
+                <value>KDOpSlsRVUPPp</value>
+                <value>KDOpSlsRVUPRp</value>
+                <value>LDL2PresentP</value>
+                <value>GLCpSlsRL</value>
+                <value>UPWpCheckNegB</value>
+                <value>LDL2SlsRL</value>
+                <value>LDL2SlsRLVL3Pp</value>
+                <value>LDL2SlsRLVL3Rp</value>
+                <value>LDL2SlsRVL3Pp</value>
+                <value>LDL2SlsRVL3Rp</value>
+                <value>LDL3PresentP</value>
+                <value>LDL3SlsRL</value>
+                <value>LDLyPresentP</value>
+                <value>LDLySlsRL</value>
+                <value>LDLySlsRLVL2Pp</value>
+                <value>LDLySlsRLVL2Rp</value>
+                <value>LDLySlsRVL2Pp</value>
+                <value>LDLySlsRVL2Rp</value>
+                <value>LDTyPresentP</value>
+                <value>LDTySlsRL</value>
+                <value>LDTySlsRLVLyPp</value>
+                <value>LDTySlsRLVLyRp</value>
+                <value>LDTySlsRVLyPp</value>
+                <value>LDTySlsRVLyRp</value>
+                <value>UPApAppB</value>
+                <value>UPApAppByT</value>
+                <value>UPApAppD</value>
+                <value>UPApAppT</value>
+                <value>UPApSlsR</value>
+                <value>UPBgSlsR</value>
+                <value>UPOpPubB</value>
+                <value>UPOpPubByT</value>
+                <value>UPOpPubD</value>
+                <value>UPOpPubT</value>
+                <value>UPOpSlsR</value>
+                <value>UPWpApproveB</value>
+                <value>UPWpApproveT</value>
+                <value>UPWpMkdP</value>
+                <value>UPWpMkdR</value>
+                <value>UPWpPublishB</value>
+                <value>UPWpPublishT</value>
+                <value>UPWpSlsRBs</value>
+                <value>UPWpSlsRVBgIRp</value>
+                <value>UPWpSlsRVBgPp</value>
+                <value>UPWpSlsRVBgRp</value>
+                <value>UPWpSlsRVCpPp</value>
+                <value>UPWpSlsRVCpRp</value>
+                <value>UPWpSlsRVLyPp</value>
+                <value>UPWpSlsRVLyRp</value>
+                <value>Blank1</value>
+                <value>Blank10</value>
+                <value>Blank2</value>
+                <value>Blank3</value>
+                <value>Blank4</value>
+                <value>Blank5</value>
+                <value>Blank6</value>
+                <value>Blank7</value>
+                <value>Blank8</value>
+                <value>Blank9</value>
+                <value>UPBgSlsRL</value>
+                <value>LDL2SlsR</value>
+                <value>LDL3SlsR</value>
+                <value>LDLySlsR</value>
+                <value>LDLySlsRVLgPp</value>
+                <value>LDLySlsRVLgRp</value>
+                <value>LDTySlsR</value>
+                <value>LDTySlsRVLgPp</value>
+                <value>LDTySlsRVLgRp</value>
+                <value>UPApSlsRL</value>
+                <value>LDL2MkdP</value>
+                <value>LDL3MkdP</value>
+                <value>LDLyMkdP</value>
+                <value>LDTyMkdP</value>
+                <value>GLCpPlanPeriodB</value>
+                <value>GLCpPlanPeriodBts</value>
+                <value>GLCpSlsR</value>
+                <value>GLCpSlsRts</value>
+                <value>UPWpSlsR</value>
+                <value>UPWpSlsRts</value>
+                <value>GLLySlsRLts</value>
+                <value>UPWpSlsRL</value>
+              </attribute>
+            </data_model>
+            <data_model type="Profile">
+              <attribute name="name">
+                <value>Profile0</value>
+              </attribute>
+              <attribute name="Label">
+                <value>Price list</value>
+              </attribute>
+            </data_model>
+          </data_model>
+          <data_model type="AxisInfo">
+            <attribute name="name">
+              <value>AxisInfo</value>
+            </attribute>
+            <attribute name="CLNDAxis">
+              <value>XAxis</value>
+            </attribute>
+            <attribute name="CLNDOrder">
+              <value>0</value>
+            </attribute>
+            <attribute name="MEASAxis">
+              <value>YAxis</value>
+            </attribute>
+            <attribute name="MEASOrder">
+              <value>0</value>
+            </attribute>
+            <attribute name="LOCAxis">
+              <value>ZAxis</value>
+            </attribute>
+            <attribute name="LOCOrder">
+              <value>0</value>
+            </attribute>
+          </data_model>
+          <data_model type="PositionQueries">
+            <attribute name="name">
+              <value>PositionQueries</value>
+            </attribute>
+          </data_model>
+          <data_model type="StyleORs">
+            <attribute name="name">
+              <value>StyleORs</value>
+            </attribute>
+            <data_model type="STYLEOR">
+              <attribute name="name">
+                <value>UPWpSlsR</value>
+              </attribute>
+              <attribute name="Label">
+                <value>label</value>
+              </attribute>
+              <attribute name="Style">
+                <value>Roubles</value>
+              </attribute>
+            </data_model>
+            <data_model type="STYLEOR">
+              <attribute name="name">
+                <value>LDLySlsR</value>
+              </attribute>
+              <attribute name="Label">
+                <value>label</value>
+              </attribute>
+              <attribute name="Style">
+                <value>Roubles</value>
+              </attribute>
+            </data_model>
+            <data_model type="STYLEOR">
+              <attribute name="name">
+                <value>LDLyPresentP</value>
+              </attribute>
+              <attribute name="Label">
+                <value>label</value>
+              </attribute>
+              <attribute name="Style">
+                <value>Percent</value>
+              </attribute>
+            </data_model>
+            <data_model type="STYLEOR">
+              <attribute name="name">
+                <value>LDTySlsR</value>
+              </attribute>
+              <attribute name="Label">
+                <value>label</value>
+              </attribute>
+              <attribute name="Style">
+                <value>Roubles</value>
+              </attribute>
+            </data_model>
+            <data_model type="STYLEOR">
+              <attribute name="name">
+                <value>UPBgSlsR</value>
+              </attribute>
+              <attribute name="Label">
+                <value>label</value>
+              </attribute>
+              <attribute name="Style">
+                <value>Roubles</value>
+              </attribute>
+            </data_model>
+            <data_model type="STYLEOR">
+              <attribute name="name">
+                <value>LDL2SlsR</value>
+              </attribute>
+              <attribute name="Label">
+                <value>label</value>
+              </attribute>
+              <attribute name="Style">
+                <value>Roubles</value>
+              </attribute>
+            </data_model>
+            <data_model type="STYLEOR">
+              <attribute name="name">
+                <value>LDL3SlsR</value>
+              </attribute>
+              <attribute name="Label">
+                <value>label</value>
+              </attribute>
+              <attribute name="Style">
+                <value>Roubles</value>
+              </attribute>
+            </data_model>
+            <data_model type="STYLEOR">
+              <attribute name="name">
+                <value>LDLySlsRVL2Rp</value>
+              </attribute>
+              <attribute name="Label">
+                <value>label</value>
+              </attribute>
+              <attribute name="Style">
+                <value>Roubles</value>
+              </attribute>
+            </data_model>
+            <data_model type="STYLEOR">
+              <attribute name="name">
+                <value>LDLySlsRVL2Pp</value>
+              </attribute>
+              <attribute name="Label">
+                <value>label</value>
+              </attribute>
+              <attribute name="Style">
+                <value>Percent</value>
+              </attribute>
+            </data_model>
+            <data_model type="STYLEOR">
+              <attribute name="name">
+                <value>LDL2SlsRVL3Pp</value>
+              </attribute>
+              <attribute name="Label">
+                <value>label</value>
+              </attribute>
+              <attribute name="Style">
+                <value>Percent</value>
+              </attribute>
+            </data_model>
+            <data_model type="STYLEOR">
+              <attribute name="name">
+                <value>LDL2SlsRVL3Rp</value>
+              </attribute>
+              <attribute name="Label">
+                <value>label</value>
+              </attribute>
+              <attribute name="Style">
+                <value>Roubles</value>
+              </attribute>
+            </data_model>
+            <data_model type="STYLEOR">
+              <attribute name="name">
+                <value>LDL2PresentP</value>
+              </attribute>
+              <attribute name="Label">
+                <value>label</value>
+              </attribute>
+              <attribute name="Style">
+                <value>Percent</value>
+              </attribute>
+            </data_model>
+            <data_model type="STYLEOR">
+              <attribute name="name">
+                <value>LDL3PresentP</value>
+              </attribute>
+              <attribute name="Label">
+                <value>label</value>
+              </attribute>
+              <attribute name="Style">
+                <value>Percent</value>
+              </attribute>
+            </data_model>
+            <data_model type="STYLEOR">
+              <attribute name="name">
+                <value>UPWpSlsRBs</value>
+              </attribute>
+              <attribute name="Label">
+                <value>label</value>
+              </attribute>
+              <attribute name="Style">
+                <value>Roubles</value>
+              </attribute>
+            </data_model>
+            <data_model type="STYLEOR">
+              <attribute name="name">
+                <value>UPWpSlsRVLyPp</value>
+              </attribute>
+              <attribute name="Label">
+                <value>label</value>
+              </attribute>
+              <attribute name="Style">
+                <value>Percent</value>
+              </attribute>
+            </data_model>
+            <data_model type="STYLEOR">
+              <attribute name="name">
+                <value>UPWpSlsRVLyRp</value>
+              </attribute>
+              <attribute name="Label">
+                <value>label</value>
+              </attribute>
+              <attribute name="Style">
+                <value>Roubles</value>
+              </attribute>
+            </data_model>
+            <data_model type="STYLEOR">
+              <attribute name="name">
+                <value>UPCpSlsRVTyIRp</value>
+              </attribute>
+              <attribute name="Label">
+                <value>label</value>
+              </attribute>
+              <attribute name="Style">
+                <value>Roubles</value>
+              </attribute>
+            </data_model>
+            <data_model type="STYLEOR">
+              <attribute name="name">
+                <value>UPWpSlsRVCpRp</value>
+              </attribute>
+              <attribute name="Label">
+                <value>label</value>
+              </attribute>
+              <attribute name="Style">
+                <value>Roubles</value>
+              </attribute>
+            </data_model>
+            <data_model type="STYLEOR">
+              <attribute name="name">
+                <value>UPWpSlsRVCpPp</value>
+              </attribute>
+              <attribute name="Label">
+                <value>label</value>
+              </attribute>
+              <attribute name="Style">
+                <value>Percent</value>
+              </attribute>
+            </data_model>
+            <data_model type="STYLEOR">
+              <attribute name="name">
+                <value>UPWpSlsRVBgRp</value>
+              </attribute>
+              <attribute name="Label">
+                <value>label</value>
+              </attribute>
+              <attribute name="Style">
+                <value>Roubles</value>
+              </attribute>
+            </data_model>
+            <data_model type="STYLEOR">
+              <attribute name="name">
+                <value>UPWpSlsRVBgPp</value>
+              </attribute>
+              <attribute name="Label">
+                <value>label</value>
+              </attribute>
+              <attribute name="Style">
+                <value>Percent</value>
+              </attribute>
+            </data_model>
+            <data_model type="STYLEOR">
+              <attribute name="name">
+                <value>UPWpSlsRVBgIRp</value>
+              </attribute>
+              <attribute name="Label">
+                <value>label</value>
+              </attribute>
+              <attribute name="Style">
+                <value>Roubles</value>
+              </attribute>
+            </data_model>
+            <data_model type="STYLEOR">
+              <attribute name="name">
+                <value>LDL2SlsRL</value>
+              </attribute>
+              <attribute name="Label">
+                <value>label</value>
+              </attribute>
+              <attribute name="Style">
+                <value>Roubles</value>
+              </attribute>
+            </data_model>
+            <data_model type="STYLEOR">
+              <attribute name="name">
+                <value>LDL2SlsRLVL3Pp</value>
+              </attribute>
+              <attribute name="Label">
+                <value>label</value>
+              </attribute>
+              <attribute name="Style">
+                <value>Percent</value>
+              </attribute>
+            </data_model>
+            <data_model type="STYLEOR">
+              <attribute name="name">
+                <value>LDL2SlsRLVL3Rp</value>
+              </attribute>
+              <attribute name="Label">
+                <value>label</value>
+              </attribute>
+              <attribute name="Style">
+                <value>Roubles</value>
+              </attribute>
+            </data_model>
+            <data_model type="STYLEOR">
+              <attribute name="name">
+                <value>LDL3SlsRL</value>
+              </attribute>
+              <attribute name="Label">
+                <value>label</value>
+              </attribute>
+              <attribute name="Style">
+                <value>Roubles</value>
+              </attribute>
+            </data_model>
+            <data_model type="STYLEOR">
+              <attribute name="name">
+                <value>LDLySlsRL</value>
+              </attribute>
+              <attribute name="Label">
+                <value>label</value>
+              </attribute>
+              <attribute name="Style">
+                <value>Roubles</value>
+              </attribute>
+            </data_model>
+            <data_model type="STYLEOR">
+              <attribute name="name">
+                <value>LDLySlsRLVL2Pp</value>
+              </attribute>
+              <attribute name="Label">
+                <value>label</value>
+              </attribute>
+              <attribute name="Style">
+                <value>Percent</value>
+              </attribute>
+            </data_model>
+            <data_model type="STYLEOR">
+              <attribute name="name">
+                <value>LDLySlsRLVL2Rp</value>
+              </attribute>
+              <attribute name="Label">
+                <value>label</value>
+              </attribute>
+              <attribute name="Style">
+                <value>Roubles</value>
+              </attribute>
+            </data_model>
+            <data_model type="STYLEOR">
+              <attribute name="name">
+                <value>LDTySlsRL</value>
+              </attribute>
+              <attribute name="Label">
+                <value>label</value>
+              </attribute>
+              <attribute name="Style">
+                <value>Roubles</value>
+              </attribute>
+            </data_model>
+            <data_model type="STYLEOR">
+              <attribute name="name">
+                <value>LDTySlsRLVLyPp</value>
+              </attribute>
+              <attribute name="Label">
+                <value>label</value>
+              </attribute>
+              <attribute name="Style">
+                <value>Percent</value>
+              </attribute>
+            </data_model>
+            <data_model type="STYLEOR">
+              <attribute name="name">
+                <value>LDTySlsRLVLyRp</value>
+              </attribute>
+              <attribute name="Label">
+                <value>label</value>
+              </attribute>
+              <attribute name="Style">
+                <value>Roubles</value>
+              </attribute>
+            </data_model>
+            <data_model type="STYLEOR">
+              <attribute name="name">
+                <value>LDTyPresentP</value>
+              </attribute>
+              <attribute name="Label">
+                <value>label</value>
+              </attribute>
+              <attribute name="Style">
+                <value>Percent</value>
+              </attribute>
+            </data_model>
+            <data_model type="STYLEOR">
+              <attribute name="name">
+                <value>LDTySlsRVLyRp</value>
+              </attribute>
+              <attribute name="Label">
+                <value>label</value>
+              </attribute>
+              <attribute name="Style">
+                <value>Roubles</value>
+              </attribute>
+            </data_model>
+            <data_model type="STYLEOR">
+              <attribute name="name">
+                <value>LDTySlsRVLyPp</value>
+              </attribute>
+              <attribute name="Label">
+                <value>label</value>
+              </attribute>
+              <attribute name="Style">
+                <value>Percent</value>
+              </attribute>
+            </data_model>
+          </data_model>
+        </data_model>
+      </data_model>
+    </data_model>
+  </data_model>
+  <data_model type="Menu">
+    <attribute name="name">
+      <value>Menu103</value>
+    </attribute>
+    <attribute name="Label">
+      <value>Планирование</value>
+    </attribute>
+    <data_model type="MenuItems">
+      <attribute name="name">
+        <value>MenuItems</value>
+      </attribute>
+      <data_model type="MenuItem">
+        <attribute name="name">
+          <value>menuItem192</value>
+        </attribute>
+        <attribute name="Label">
+          <value>Опубликовать ДУПР ОП</value>
+        </attribute>
+        <attribute name="Function">
+          <value>RuleGroupProcessor</value>
+        </attribute>
+        <attribute name="Arguments">
+          <value>UPPub,UPPubCmt,UPPubClean,*send_mail.sh,UPEmailClean</value>
+        </attribute>
+        <attribute name="MenuItemId">
+          <value>192</value>
+        </attribute>
+        <attribute name="Condition">
+          <value></value>
+        </attribute>
+        <attribute name="Message">
+          <value>UPWpMsgPubT</value>
+        </attribute>
+        <attribute name="CommitAsap">
+          <value>false</value>
+        </attribute>
+        <attribute name="IntradayConcurrent">
+          <value>false</value>
+        </attribute>
+      </data_model>
+      <data_model type="MenuItem">
+        <attribute name="name">
+          <value>menuItem193</value>
+        </attribute>
+        <attribute name="Label">
+          <value>Утвердить ДУПР УТВ</value>
+        </attribute>
+        <attribute name="Function">
+          <value>RuleGroupProcessor</value>
+        </attribute>
+        <attribute name="Arguments">
+          <value>UPApp,UPAppCmt,UPAppClean,*send_mail.sh,UPEmailClean</value>
+        </attribute>
+        <attribute name="MenuItemId">
+          <value>193</value>
+        </attribute>
+        <attribute name="Condition">
+          <value></value>
+        </attribute>
+        <attribute name="Message">
+          <value>UPWpMsgAppT</value>
+        </attribute>
+        <attribute name="CommitAsap">
+          <value>false</value>
+        </attribute>
+        <attribute name="IntradayConcurrent">
+          <value>false</value>
+        </attribute>
+      </data_model>
+    </data_model>
+  </data_model>
+  <data_model type="DynHiers">
+    <attribute name="name">
+      <value>DynHiers</value>
+    </attribute>
+  </data_model>
+  <data_model type="EditedMeasures">
+    <attribute name="name">
+      <value>EditedMeasures</value>
+    </attribute>
+  </data_model>
+  <data_model type="PercentToParents">
+    <attribute name="name">
+      <value>PercentToParents</value>
+    </attribute>
+  </data_model>
+</data_set>

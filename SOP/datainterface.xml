@@ -1,0 +1,390 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data_set type="com.retek.ride.datainterface.model.DataInterfaceSpecification">
+  <attribute name="name">
+    <value>dispec</value>
+  </attribute>
+  <data_model type="com.retek.ride.datainterface.model.MeasDISpecification">
+    <attribute name="name">
+      <value>AssortD</value>
+    </attribute>
+    <attribute name="appname">
+      <value>Planning</value>
+    </attribute>
+  </data_model>
+  <data_model type="com.retek.ride.datainterface.model.MeasDISpecification">
+    <attribute name="name">
+      <value>LDTyNonDeliveryPDb</value>
+    </attribute>
+    <attribute name="appname">
+      <value>Planning</value>
+    </attribute>
+  </data_model>
+  <data_model type="com.retek.ride.datainterface.model.MeasDISpecification">
+    <attribute name="name">
+      <value>LDCuSupplierT</value>
+    </attribute>
+    <attribute name="appname">
+      <value>Planning</value>
+    </attribute>
+  </data_model>
+  <data_model type="com.retek.ride.datainterface.model.MeasDISpecification">
+    <attribute name="name">
+      <value>LDCuDlvrTypeI</value>
+    </attribute>
+    <attribute name="appname">
+      <value>Planning</value>
+    </attribute>
+  </data_model>
+  <data_model type="com.retek.ride.datainterface.model.MeasDISpecification">
+    <attribute name="name">
+      <value>LDCuDlvrTimeI</value>
+    </attribute>
+    <attribute name="appname">
+      <value>Planning</value>
+    </attribute>
+  </data_model>
+  <data_model type="com.retek.ride.datainterface.model.MeasDISpecification">
+    <attribute name="name">
+      <value>DRTySlsU</value>
+    </attribute>
+    <attribute name="appname">
+      <value>Planning</value>
+    </attribute>
+  </data_model>
+  <data_model type="com.retek.ride.datainterface.model.MeasDISpecification">
+    <attribute name="name">
+      <value>DRTySlsRL</value>
+    </attribute>
+    <attribute name="appname">
+      <value>Planning</value>
+    </attribute>
+  </data_model>
+  <data_model type="com.retek.ride.datainterface.model.MeasDISpecification">
+    <attribute name="name">
+      <value>DRTySlsR</value>
+    </attribute>
+    <attribute name="appname">
+      <value>Planning</value>
+    </attribute>
+  </data_model>
+  <data_model type="com.retek.ride.datainterface.model.MeasDISpecification">
+    <attribute name="name">
+      <value>DRTyStCostR</value>
+    </attribute>
+    <attribute name="appname">
+      <value>Planning</value>
+    </attribute>
+  </data_model>
+  <data_model type="com.retek.ride.datainterface.model.MeasDISpecification">
+    <attribute name="name">
+      <value>DRCuMkdP</value>
+    </attribute>
+    <attribute name="appname">
+      <value>Planning</value>
+    </attribute>
+  </data_model>
+  <data_model type="com.retek.ride.datainterface.model.MeasDISpecification">
+    <attribute name="name">
+      <value>DRCuERcptU</value>
+    </attribute>
+    <attribute name="appname">
+      <value>Planning</value>
+    </attribute>
+  </data_model>
+  <data_model type="com.retek.ride.datainterface.model.MeasDISpecification">
+    <attribute name="name">
+      <value>DRCuERcptRCU</value>
+    </attribute>
+    <attribute name="appname">
+      <value>Planning</value>
+    </attribute>
+  </data_model>
+  <data_model type="com.retek.ride.datainterface.model.MeasDISpecification">
+    <attribute name="name">
+      <value>DRTyDaysPerU</value>
+    </attribute>
+    <attribute name="appname">
+      <value>Planning</value>
+    </attribute>
+  </data_model>
+  <data_model type="com.retek.ride.datainterface.model.MeasDISpecification">
+    <attribute name="name">
+      <value>DRTyDaysGdU</value>
+    </attribute>
+    <attribute name="appname">
+      <value>Planning</value>
+    </attribute>
+  </data_model>
+  <data_model type="com.retek.ride.datainterface.model.MeasDISpecification">
+    <attribute name="name">
+      <value>DRCuOSU</value>
+    </attribute>
+    <attribute name="appname">
+      <value>Planning</value>
+    </attribute>
+  </data_model>
+  <data_model type="com.retek.ride.datainterface.model.MeasDISpecification">
+    <attribute name="name">
+      <value>DRCuOSRCU</value>
+    </attribute>
+    <attribute name="appname">
+      <value>Planning</value>
+    </attribute>
+  </data_model>
+  <data_model type="com.retek.ride.datainterface.model.MeasDISpecification">
+    <attribute name="name">
+      <value>DRFcDmdU</value>
+    </attribute>
+    <attribute name="appname">
+      <value>Planning</value>
+    </attribute>
+  </data_model>
+  <data_model type="com.retek.ride.datainterface.model.MeasDISpecification">
+    <attribute name="name">
+      <value>DRCuPriceR</value>
+    </attribute>
+    <attribute name="appname">
+      <value>Planning</value>
+    </attribute>
+  </data_model>
+  <data_model type="com.retek.ride.datainterface.model.MeasDISpecification">
+    <attribute name="name">
+      <value>DRCuERcptRL</value>
+    </attribute>
+    <attribute name="appname">
+      <value>Planning</value>
+    </attribute>
+  </data_model>
+  <data_model type="com.retek.ride.datainterface.model.MeasDISpecification">
+    <attribute name="name">
+      <value>DRCuERcptRCRL</value>
+    </attribute>
+    <attribute name="appname">
+      <value>Planning</value>
+    </attribute>
+  </data_model>
+  <data_model type="com.retek.ride.datainterface.model.MeasDISpecification">
+    <attribute name="name">
+      <value>DRCuAssortB</value>
+    </attribute>
+    <attribute name="appname">
+      <value>Planning</value>
+    </attribute>
+  </data_model>
+  <data_model type="com.retek.ride.datainterface.model.MeasDISpecification">
+    <attribute name="name">
+      <value>DRCuAssortT</value>
+    </attribute>
+    <attribute name="appname">
+      <value>Planning</value>
+    </attribute>
+  </data_model>
+  <data_model type="com.retek.ride.datainterface.model.MeasDISpecification">
+    <attribute name="name">
+      <value>DRTyReceiptU</value>
+    </attribute>
+    <attribute name="appname">
+      <value>Planning</value>
+    </attribute>
+  </data_model>
+  <data_model type="com.retek.ride.datainterface.model.MeasDISpecification">
+    <attribute name="name">
+      <value>DRTyReceiptRL</value>
+    </attribute>
+    <attribute name="appname">
+      <value>Planning</value>
+    </attribute>
+  </data_model>
+  <data_model type="com.retek.ride.datainterface.model.MeasDISpecification">
+    <attribute name="name">
+      <value>GLCpSlsU</value>
+    </attribute>
+    <attribute name="appname">
+      <value>Planning</value>
+    </attribute>
+  </data_model>
+  <data_model type="com.retek.ride.datainterface.model.MeasDISpecification">
+    <attribute name="name">
+      <value>GLCpSlsRL</value>
+    </attribute>
+    <attribute name="appname">
+      <value>Planning</value>
+    </attribute>
+  </data_model>
+  <data_model type="com.retek.ride.datainterface.model.MeasDISpecification">
+    <attribute name="name">
+      <value>DRTyworkdayI</value>
+    </attribute>
+    <attribute name="appname">
+      <value>Planning</value>
+    </attribute>
+  </data_model>
+  <data_model type="com.retek.ride.datainterface.model.MeasDISpecification">
+    <attribute name="name">
+      <value>DRManager</value>
+    </attribute>
+    <attribute name="appname">
+      <value>Planning</value>
+    </attribute>
+  </data_model>
+  <data_model type="com.retek.ride.datainterface.model.MeasDISpecification">
+    <attribute name="name">
+      <value>DRBuyer</value>
+    </attribute>
+    <attribute name="appname">
+      <value>Planning</value>
+    </attribute>
+  </data_model>
+  <data_model type="com.retek.ride.datainterface.model.MeasDISpecification">
+    <attribute name="name">
+      <value>DRcreate_date</value>
+    </attribute>
+    <attribute name="appname">
+      <value>Planning</value>
+    </attribute>
+  </data_model>
+  <data_model type="com.retek.ride.datainterface.model.MeasDISpecification">
+    <attribute name="name">
+      <value>DRfirst_date</value>
+    </attribute>
+    <attribute name="appname">
+      <value>Planning</value>
+    </attribute>
+  </data_model>
+  <data_model type="com.retek.ride.datainterface.model.MeasDISpecification">
+    <attribute name="name">
+      <value>DRtrademark_group</value>
+    </attribute>
+    <attribute name="appname">
+      <value>Planning</value>
+    </attribute>
+  </data_model>
+  <data_model type="com.retek.ride.datainterface.model.MeasDISpecification">
+    <attribute name="name">
+      <value>DRbig_pack</value>
+    </attribute>
+    <attribute name="appname">
+      <value>Planning</value>
+    </attribute>
+  </data_model>
+  <data_model type="com.retek.ride.datainterface.model.MeasDISpecification">
+    <attribute name="name">
+      <value>DRWeight</value>
+    </attribute>
+    <attribute name="appname">
+      <value>Planning</value>
+    </attribute>
+  </data_model>
+  <data_model type="com.retek.ride.datainterface.model.MeasDISpecification">
+    <attribute name="name">
+      <value>DRVolume</value>
+    </attribute>
+    <attribute name="appname">
+      <value>Planning</value>
+    </attribute>
+  </data_model>
+  <data_model type="com.retek.ride.datainterface.model.MeasDISpecification">
+    <attribute name="name">
+      <value>DRPriceProd</value>
+    </attribute>
+    <attribute name="appname">
+      <value>Planning</value>
+    </attribute>
+  </data_model>
+  <data_model type="com.retek.ride.datainterface.model.MeasDISpecification">
+    <attribute name="name">
+      <value>DRcome_price</value>
+    </attribute>
+    <attribute name="appname">
+      <value>Planning</value>
+    </attribute>
+  </data_model>
+  <data_model type="com.retek.ride.datainterface.model.MeasDISpecification">
+    <attribute name="name">
+      <value>DRcome_pcost</value>
+    </attribute>
+    <attribute name="appname">
+      <value>Planning</value>
+    </attribute>
+  </data_model>
+  <data_model type="com.retek.ride.datainterface.model.MeasDISpecification">
+    <attribute name="name">
+      <value>DRbuy_curr</value>
+    </attribute>
+    <attribute name="appname">
+      <value>Planning</value>
+    </attribute>
+  </data_model>
+  <data_model type="com.retek.ride.datainterface.model.MeasDISpecification">
+    <attribute name="name">
+      <value>DRbuy_price</value>
+    </attribute>
+    <attribute name="appname">
+      <value>Planning</value>
+    </attribute>
+  </data_model>
+  <data_model type="com.retek.ride.datainterface.model.MeasDISpecification">
+    <attribute name="name">
+      <value>DRmain_code</value>
+    </attribute>
+    <attribute name="appname">
+      <value>Planning</value>
+    </attribute>
+  </data_model>
+  <data_model type="com.retek.ride.datainterface.model.MeasDISpecification">
+    <attribute name="name">
+      <value>DRtemporary_stop</value>
+    </attribute>
+    <attribute name="appname">
+      <value>Planning</value>
+    </attribute>
+  </data_model>
+  <data_model type="com.retek.ride.datainterface.model.MeasDISpecification">
+    <attribute name="name">
+      <value>DRstop_start_date</value>
+    </attribute>
+    <attribute name="appname">
+      <value>Planning</value>
+    </attribute>
+  </data_model>
+  <data_model type="com.retek.ride.datainterface.model.MeasDISpecification">
+    <attribute name="name">
+      <value>DRstop_final_date</value>
+    </attribute>
+    <attribute name="appname">
+      <value>Planning</value>
+    </attribute>
+  </data_model>
+  <data_model type="com.retek.ride.datainterface.model.MeasDISpecification">
+    <attribute name="name">
+      <value>DRCluster</value>
+    </attribute>
+    <attribute name="appname">
+      <value>Planning</value>
+    </attribute>
+  </data_model>
+  <data_model type="com.retek.ride.datainterface.model.MeasDISpecification">
+    <attribute name="name">
+      <value>DRCuAssortBClean</value>
+    </attribute>
+    <attribute name="appname">
+      <value>Planning</value>
+    </attribute>
+  </data_model>
+  <data_model type="com.retek.ride.datainterface.model.MeasDISpecification">
+    <attribute name="name">
+      <value>DRCuAssortTClean</value>
+    </attribute>
+    <attribute name="appname">
+      <value>Planning</value>
+    </attribute>
+  </data_model>
+  <data_model type="com.retek.ride.datainterface.model.MeasDISpecification">
+    <attribute name="name">
+      <value>IdCpSlsR</value>
+    </attribute>
+    <attribute name="appname">
+      <value>Planning</value>
+    </attribute>
+  </data_model>
+</data_set>

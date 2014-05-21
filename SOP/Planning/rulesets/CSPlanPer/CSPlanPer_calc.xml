@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data_set type="com.retek.ride.rule.newmodel.RuleGroup">
+  <attribute name="name">
+    <value>CSPlanPer_calc</value>
+  </attribute>
+  <attribute name="description">
+    <value>a rule group</value>
+  </attribute>
+  <attribute name="role">
+    <value>calc</value>
+  </attribute>
+  <data_model type="com.retek.ride.rule.newmodel.Rule">
+    <attribute name="name">
+      <value>CSSet_PMWpDmdUl0</value>
+    </attribute>
+    <attribute name="description">
+      <value>a rule</value>
+    </attribute>
+    <attribute name="creator">
+      <value>user</value>
+    </attribute>
+    <data_model type="java.lang.String">
+      <attribute name="name">
+        <value>E0</value>
+      </attribute>
+      <attribute name="formula">
+        <value>PMWpDmdUl0=if(CSWpPlanPeriodBts&amp;&amp;PMWpDmdUts.level([prod].top+[loc].top)==0,min(1.1*lag(PMWpDmdUts),if(tssum(RMTyDmdU,current-13,current-13)==0,abs(2*lag(PMWpDmdUts)-tssum(PMWpDmdUts,current-2,current-2)),tssum(RMTyDmdU,current-12,current-12)/tssum(RMTyDmdU,current-13,current-13)*lag(PMWpDmdUts))),0)</value>
+      </attribute>
+    </data_model>
+  </data_model>
+  <data_model type="com.retek.ride.rule.newmodel.Rule">
+    <attribute name="name">
+      <value>CSSet_PMWpDmdU</value>
+    </attribute>
+    <attribute name="description">
+      <value>a rule</value>
+    </attribute>
+    <attribute name="creator">
+      <value>user</value>
+    </attribute>
+    <data_model type="java.lang.String">
+      <attribute name="name">
+        <value>E0</value>
+      </attribute>
+      <attribute name="formula">
+        <value>PMWpDmdU=if(CSWpPlanPeriodBts,if(!CSWpNewMonthB,PMWpDmdUts,tssum(PMWpDmdUts,current-12,current-12)),0)</value>
+      </attribute>
+    </data_model>
+  </data_model>
+  <data_model type="com.retek.ride.rule.newmodel.Rule">
+    <attribute name="name">
+      <value>CSSet_CSWpPlanPeriodBts</value>
+    </attribute>
+    <attribute name="description">
+      <value>a rule</value>
+    </attribute>
+    <attribute name="creator">
+      <value>user</value>
+    </attribute>
+    <data_model type="java.lang.String">
+      <attribute name="name">
+        <value>E0</value>
+      </attribute>
+      <attribute name="formula">
+        <value>CSWpPlanPeriodBts=if(current&gt;=index([clnd].[mnth],CSWpPlanStartT)&amp;&amp;current&lt;index([clnd].[mnth],CSWpPlanStartT)+12,true,false)</value>
+      </attribute>
+    </data_model>
+  </data_model>
+  <data_model type="com.retek.ride.rule.newmodel.Rule">
+    <attribute name="name">
+      <value>CSCmt_CSWpOldMonthB</value>
+    </attribute>
+    <attribute name="description">
+      <value>a rule</value>
+    </attribute>
+    <attribute name="creator">
+      <value>user</value>
+    </attribute>
+    <data_model type="java.lang.String">
+      <attribute name="name">
+        <value>E0</value>
+      </attribute>
+      <attribute name="formula">
+        <value>CSWpOldMonthB=if(current&gt;=index([clnd].[mnth],CSWpPlanStartTBs)&amp;&amp;current&lt;index([clnd].[mnth],CSWpPlanStartT),true,false)</value>
+      </attribute>
+    </data_model>
+  </data_model>
+  <data_model type="com.retek.ride.rule.newmodel.Rule">
+    <attribute name="name">
+      <value>CSCmt_PMTyDmdU_1</value>
+    </attribute>
+    <attribute name="description">
+      <value>a rule</value>
+    </attribute>
+    <data_model type="java.lang.String">
+      <attribute name="name">
+        <value>E0</value>
+      </attribute>
+      <attribute name="formula">
+        <value>PMTyDmdU=if(CSWpOldMonthB,PMOpDmdUts,ignore)</value>
+      </attribute>
+    </data_model>
+  </data_model>
+  <data_model type="com.retek.ride.rule.newmodel.Rule">
+    <attribute name="name">
+      <value>CSSet_CSWpNewMonthB</value>
+    </attribute>
+    <attribute name="description">
+      <value>a rule</value>
+    </attribute>
+    <attribute name="creator">
+      <value>user</value>
+    </attribute>
+    <data_model type="java.lang.String">
+      <attribute name="name">
+        <value>E0</value>
+      </attribute>
+      <attribute name="formula">
+        <value>CSWpNewMonthB=if(current&gt;=index([clnd].[mnth],CSWpPlanStartTBs)+12&amp;&amp;current&lt;index([clnd].[mnth],CSWpPlanStartT)+12,true,false)</value>
+      </attribute>
+    </data_model>
+  </data_model>
+  <data_model type="com.retek.ride.rule.newmodel.Rule">
+    <attribute name="name">
+      <value>PPApp_StatusProd</value>
+    </attribute>
+    <attribute name="description">
+      <value>a rule</value>
+    </attribute>
+    <attribute name="creator">
+      <value>user</value>
+    </attribute>
+    <data_model type="java.lang.String">
+      <attribute name="name">
+        <value>E0</value>
+      </attribute>
+      <attribute name="formula">
+        <value>StatusProd.level([prod].[stap])=attribute("label",[prod].[stap])</value>
+      </attribute>
+    </data_model>
+  </data_model>
+  <data_model type="com.retek.ride.rule.newmodel.Rule">
+    <attribute name="name">
+      <value>CSSet_AAWpSlsU</value>
+    </attribute>
+    <attribute name="description">
+      <value>a rule</value>
+    </attribute>
+    <attribute name="creator">
+      <value>user</value>
+    </attribute>
+    <data_model type="java.lang.String">
+      <attribute name="name">
+        <value>E0</value>
+      </attribute>
+      <attribute name="formula">
+        <value>AAWpSlsU=if(CSWpPlanPeriodBts,if(StatusProd=="Новинка",PMWpDmdU*GLCpPartOfSKP,if(CSWpNewMonthB,tssum(AAWpSlsUts,current-12,current-12)*1.1,AAWpSlsUts)),0)</value>
+      </attribute>
+    </data_model>
+  </data_model>
+  <data_model type="com.retek.ride.rule.newmodel.Rule">
+    <attribute name="name">
+      <value>CCSet_GLCpPartOfSKP</value>
+    </attribute>
+    <attribute name="description">
+      <value>a rule</value>
+    </attribute>
+    <attribute name="creator">
+      <value>user</value>
+    </attribute>
+    <data_model type="java.lang.String">
+      <attribute name="name">
+        <value>E0</value>
+      </attribute>
+      <attribute name="formula">
+        <value>GLCpPartOfSKP=if(CSWpPlanPeriodBts,if(CSWpNewMonthB||GLCpSlsU.level([prod].top+[loc].top)==0,tssum(GLCpSlsU,current-12,current-12)/tssum(GLCpSlsU.level([loc].top),current-12,current-12),GLCpSlsU/GLCpSlsU.level([loc].top)),0)</value>
+      </attribute>
+    </data_model>
+  </data_model>
+</data_set>
